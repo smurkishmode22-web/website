@@ -1,8 +1,8 @@
 {
-  "version": "2.2.5",
-  "title": "Planet Tweaks V2.2.5 ULTRA — Autonomous AI Co-Pilot & Kernel Scancode Remapper",
-  "releaseDate": "2026-09-29",
-  "releaseNotes": "V2.2.5 Ultra Release: Upgraded Autonomous Gemini 3.8 Flash AI Engine with native function calling and smart taskbar pinning, Kernel Scancode Map Remapping with PowerToys-style Remap Keys window, FilterKeys Pro Live Latency Sandbox, Elevator 90s W/S Glide 1-click toggle, Mocha Brown & PowerToys Blue themes, and fail-closed Safety Architecture.",
+  "version": "2.2.6",
+  "title": "Planet Tweaks V2.2.6 ULTRA — Competitive Macro Logic & UI Polish",
+  "releaseDate": "2026-10-01",
+  "releaseNotes": "V2.2.6 Ultra Release: Zero pre-delay 1-Key Reset, corrected Double Edit tile select sequence, enhanced Fast Pickup and wheel-trigger protections, and classic 29-category navigation layout.",
   "downloadUrl": "downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
