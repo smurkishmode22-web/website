@@ -3,6 +3,6 @@
   "title": "Planet Tweaks V2.2.6 ULTRA — Competitive Macro Logic & UI Polish",
   "releaseDate": "2026-10-01",
   "releaseNotes": "V2.2.6 Ultra Release: Zero pre-delay 1-Key Reset, corrected Double Edit tile select sequence, enhanced Fast Pickup and wheel-trigger protections, and classic 29-category navigation layout.",
-  "downloadUrl": "downloads/planet-tweaks-setup.exe",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
