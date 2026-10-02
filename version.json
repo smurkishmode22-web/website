@@ -1,8 +1,8 @@
 {
-  "version": "2.2.8",
-  "title": "Planet Tweaks V2.2.8 ULTRA — Profile Management & UI Polish",
+  "version": "2.2.9",
+  "title": "Planet Tweaks V2.2.9 ULTRA — In-App Auto-Update & Process Launcher Fix",
   "releaseDate": "2026-10-01",
-  "releaseNotes": "V2.2.8 Release: Fixed auto-regeneration of deleted profiles, removed forced default hardware templates, added clean empty state for custom profiles, and perfected universal kernel keyboard remapping.",
+  "releaseNotes": "V2.2.9 Release: Fixed fileStream file locking during in-app auto-update, added UAC elevation flag, removed ghost default profiles auto-seeding, and perfected universal kernel keyboard remapping.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
