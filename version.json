@@ -1,8 +1,8 @@
-{
-  "version": "2.3.0",
-  "title": "Planet Tweaks V2.3.0 ULTRA — Elevator 90s Physics Overhaul & Auto-Update Engine",
-  "releaseDate": "2026-10-01",
-  "releaseNotes": "V2.3.0 Milestone: Overhauled Fortnite Elevator 90s with continuous Turbo Build priming, calculated 40ms jump-lift clearance to eliminate stair hitting, tuned W/S movement glide, and fixed stream locking in auto-updater.",
+﻿{
+  "version": "2.3.1",
+  "title": "Planet Tweaks V2.3.1 ULTRA — Real-Speed Elevator 90s & Double Wall Phasing",
+  "releaseDate": "2026-10-02",
+  "releaseNotes": "V2.3.1 Milestone: Overhauled Fortnite Elevator 90s with Floor-first placement, Double Wall corner closure, continuous W forward pin with rhythmic S counter-tap, and unconstrained jump-lift timing.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
