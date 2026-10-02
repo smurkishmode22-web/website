@@ -1,8 +1,8 @@
 {
-  "version": "2.2.7",
-  "title": "Planet Tweaks V2.2.7 ULTRA — PowerToys Keyboard Manager & Universal Kernel Remap",
+  "version": "2.2.8",
+  "title": "Planet Tweaks V2.2.8 ULTRA — Profile Management & UI Polish",
   "releaseDate": "2026-10-01",
-  "releaseNotes": "V2.2.7 Ultra Release: Universal kernel scancode remapping for any key combination, PowerToys Keyboard Manager UI redesign, Kernel + Hook coexistence fix, and Undo support.",
+  "releaseNotes": "V2.2.8 Release: Fixed auto-regeneration of deleted profiles, removed forced default hardware templates, added clean empty state for custom profiles, and perfected universal kernel keyboard remapping.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
