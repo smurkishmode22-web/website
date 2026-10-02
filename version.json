@@ -1,8 +1,8 @@
 {
-  "version": "2.2.6",
-  "title": "Planet Tweaks V2.2.6 ULTRA — Competitive Macro Logic & UI Polish",
+  "version": "2.2.7",
+  "title": "Planet Tweaks V2.2.7 ULTRA — PowerToys Keyboard Manager & Universal Kernel Remap",
   "releaseDate": "2026-10-01",
-  "releaseNotes": "V2.2.6 Ultra Release: Zero pre-delay 1-Key Reset, corrected Double Edit tile select sequence, enhanced Fast Pickup and wheel-trigger protections, and classic 29-category navigation layout.",
+  "releaseNotes": "V2.2.7 Ultra Release: Universal kernel scancode remapping for any key combination, PowerToys Keyboard Manager UI redesign, Kernel + Hook coexistence fix, and Undo support.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
