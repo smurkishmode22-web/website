@@ -1,8 +1,8 @@
 {
-  "version": "2.2.9",
-  "title": "Planet Tweaks V2.2.9 ULTRA — In-App Auto-Update & Process Launcher Fix",
+  "version": "2.3.0",
+  "title": "Planet Tweaks V2.3.0 ULTRA — Elevator 90s Physics Overhaul & Auto-Update Engine",
   "releaseDate": "2026-10-01",
-  "releaseNotes": "V2.2.9 Release: Fixed fileStream file locking during in-app auto-update, added UAC elevation flag, removed ghost default profiles auto-seeding, and perfected universal kernel keyboard remapping.",
+  "releaseNotes": "V2.3.0 Milestone: Overhauled Fortnite Elevator 90s with continuous Turbo Build priming, calculated 40ms jump-lift clearance to eliminate stair hitting, tuned W/S movement glide, and fixed stream locking in auto-updater.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
