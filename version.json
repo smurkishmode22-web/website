@@ -1,8 +1,8 @@
 {
   "version": "2.3.2",
-  "title": "Planet Tweaks V2.3.2 ULTRA — Clean Master Hubs UI & Shortcut Remapper",
-  "releaseDate": "2026-10-03",
-  "releaseNotes": "V2.3.2 Milestone: Major UI Overhaul consolidated into 12 Clean Esports Master Hubs with top horizontal quick-pills navigation, modernized esports tweak cards with active glow badges, keyboard shortcut paste remapper for R-key dilemma, and cloud tweak audit.",
+  "title": "Planet Tweaks V2.3.2 ULTRA — PowerToys Keyboard Manager & Customize Mode",
+  "releaseDate": "2026-10-04",
+  "releaseNotes": "V2.3.2 ULTRA Release: PowerToys Keyboard Manager redesign with compact keycap pills and zero ugly KPI boxes; Fullscreen/Maximize window support with title bar button and taskbar docking; Fixed minimize-to-taskbar & auto-tray bugs; Interactive Customize Mode with Left/Right sidebar switcher; 0ms Instant Build & Drag Edit macro sub-tick latency; Category load crash protection.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
