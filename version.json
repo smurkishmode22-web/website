@@ -1,8 +1,8 @@
-﻿{
-  "version": "2.3.1",
-  "title": "Planet Tweaks V2.3.1 ULTRA — Real-Speed Elevator 90s & Double Wall Phasing",
-  "releaseDate": "2026-10-02",
-  "releaseNotes": "V2.3.1 Milestone: Overhauled Fortnite Elevator 90s with Floor-first placement, Double Wall corner closure, continuous W forward pin with rhythmic S counter-tap, and unconstrained jump-lift timing.",
+{
+  "version": "2.3.2",
+  "title": "Planet Tweaks V2.3.2 ULTRA — Clean Master Hubs UI & Shortcut Remapper",
+  "releaseDate": "2026-10-03",
+  "releaseNotes": "V2.3.2 Milestone: Major UI Overhaul consolidated into 12 Clean Esports Master Hubs with top horizontal quick-pills navigation, modernized esports tweak cards with active glow badges, keyboard shortcut paste remapper for R-key dilemma, and cloud tweak audit.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
