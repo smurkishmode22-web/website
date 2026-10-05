@@ -1,8 +1,8 @@
 {
-  "version": "2.3.8",
-  "title": "Planet Tweaks V2.3.8 ULTRA — Dedicated Tab Reorder Organizer & Customize Mode",
+  "version": "2.3.9",
+  "title": "Planet Tweaks V2.3.9 ULTRA — PowerToys Input & Crosshair UI + Global Workspace Builder",
   "releaseDate": "2026-10-05",
-  "releaseNotes": "Dedicated Customize Mode & Tab Organizer: Added glowing '📐 Customize' button at the top of the sidebar, in Settings Section 2, and in Deleted Tabs to easily move tabs ▲ Up and ▼ Down to reorder your sidebar hierarchy. Interactive Tab Management: Instantly reorder, hide, or restore any tab with realtime position badges (#1, #2, #3...) and one-click Reset Default Order. Expandable Patch Notes: Added dedicated dropdown viewer in Settings and top banner to easily read full release details without crowding. Double Right-Click Quick Hide: Fast power-user shortcut to hide tabs into the Deleted Tabs Vault. Auto-Relaunch on Update: Planet Tweaks automatically relaunches in the foreground when updates complete.",
+  "releaseNotes": "PowerToys Input & Crosshair UI: Completely transformed Keyboard Manager into clean, individual PowerToys-style cards with instant 'Remap a key' and 'Remap a shortcut' windows; integrated Custom Esports Crosshair with F10 hotkey. Global Workspace Tab Ordering: Reorder any tab anywhere in the entire app, moving Macros or any mode to the absolute top or bottom across all categories. Dual-Engine Scancode Remapping: Instant 0ms RAM hook alongside permanent ring-0 Windows Kernel Scancode Map (HKLM) for 100% anti-cheat immunity. Macro Calibration: Optimized Elevator 90s with calibrated 18ms real-speed pacing, refined Double Edit and Infinite Edit reset loops, and sub-tick burst modes.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
