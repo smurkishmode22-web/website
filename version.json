@@ -1,8 +1,8 @@
 {
-  "version": "2.3.4",
-  "title": "Planet Tweaks V2.3.4 ULTRA — 0-Lag Instant Build & Free Building Optimization",
-  "releaseDate": "2026-10-04",
-  "releaseNotes": "Instant Build: removed input-hook stall, fixed FPS drops and missed edits while free building",
+  "version": "2.3.5",
+  "title": "Planet Tweaks V2.3.5 ULTRA — Competitive Macro Engine Overhaul & Multi-Key Remapper",
+  "releaseDate": "2026-10-05",
+  "releaseNotes": "Restored calibrated Drag Edit timing (10ms stroke / 16ms mesh sync); Zone Wars 100m Zen Mantle (pure Space + streamed Wall); Atomic Double Edit sequence; 3x faster Human Pickup; Multi-action Keyboard Remapper; Custom Macro Behavior Modes (Hold, Spam, Burst, Toggle).",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
