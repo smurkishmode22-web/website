@@ -1,8 +1,8 @@
 {
-  "version": "2.3.5",
-  "title": "Planet Tweaks V2.3.5 ULTRA — Competitive Macro Engine Overhaul & Multi-Key Remapper",
+  "version": "2.3.6",
+  "title": "Planet Tweaks V2.3.6 ULTRA — Zero-Overhead Settings Architecture & True Feature Disabling",
   "releaseDate": "2026-10-05",
-  "releaseNotes": "Restored calibrated Drag Edit timing (10ms stroke / 16ms mesh sync); Zone Wars 100m Zen Mantle (pure Space + streamed Wall); Atomic Double Edit sequence; 3x faster Human Pickup; Multi-action Keyboard Remapper; Custom Macro Behavior Modes (Hold, Spam, Burst, Toggle).",
+  "releaseNotes": "Zero-Overhead Settings Architecture: Complete unhooking and destruction of disabled features. Crosshair overlay fully destroys window, unhooks F10 hotkey, and halts composition until re-enabled; Windows Startup persistence bug resolved; AI Assistant, Macro Engine, and Hardware Poller now completely deactivate with 0% CPU/GPU overhead.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
