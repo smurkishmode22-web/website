@@ -1,8 +1,8 @@
 {
-  "version": "2.4.1",
-  "title": "Planet Tweaks V2.4.1 ULTRA — Gemini 3.8 Flash & Autonomous System Management Tools",
+  "version": "2.4.2",
+  "title": "Planet Tweaks V2.4.2 ULTRA — Seamless Background Auto-Updater & Full Engine Lock Clearing",
   "releaseDate": "2026-10-05",
-  "releaseNotes": "Gemini 3.8 Flash Integration: Dynamic AI model switching defaulting to gemini-3.8-flash with intelligent failover. 25-Second HTTP Timeout: Upgraded timeout architecture preventing early dropouts on complex multi-tool queries and vision processing. Autonomous System Management Tools: Safe driver updating via winget, safe application uninstallation with ProtectedApps guard, bloatware process termination with ProtectedProcesses shield, and automated memory working-set boost. Resizable Studio Drawer: Drawer starts tall (480px) and features smooth mouse drag-resizing with customize mode toggle.",
+  "releaseNotes": "Zero-Interruption Auto-Update Engine: Built-in kernel process lock clearing directly in the elevated installer guarantees clean background updates without locked DLL conflicts. Gemini 3.8 Flash Dynamic Architecture: AI system management tools with live failover, 35s HTTP timeouts, and autonomous system health tooling. Resizable Studio Drawer: Smooth mouse drag-resizing with customize mode toggle and instant preset loading.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
