@@ -1,8 +1,8 @@
 {
-  "version": "2.3.3",
-  "title": "Planet Tweaks V2.3.3 ULTRA — PowerToys Keyboard Manager, Customize Mode & Planet AI Restored",
+  "version": "2.3.4",
+  "title": "Planet Tweaks V2.3.4 ULTRA — 0-Lag Instant Build & Free Building Optimization",
   "releaseDate": "2026-10-04",
-  "releaseNotes": "V2.3.3 ULTRA Release: Restored Planet AI Assistant under Dashboard in Esports & Pro Modes; PowerToys Keyboard Manager redesign with compact keycap pills and zero ugly KPI boxes; Fullscreen/Maximize window support with title bar button and taskbar docking; Fixed minimize-to-taskbar & auto-tray bugs; Interactive Customize Mode with Left/Right sidebar switcher; 0ms Instant Build & Drag Edit macro sub-tick latency; Category load crash protection.",
+  "releaseNotes": "Instant Build: removed input-hook stall, fixed FPS drops and missed edits while free building",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
