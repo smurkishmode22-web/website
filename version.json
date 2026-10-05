@@ -1,8 +1,8 @@
 {
-  "version": "2.3.6",
-  "title": "Planet Tweaks V2.3.6 ULTRA — Zero-Overhead Settings Architecture & True Feature Disabling",
+  "version": "2.3.7",
+  "title": "Planet Tweaks V2.3.7 ULTRA — Expandable Patch Notes, Deleted Tabs Vault & Auto-Relaunch Updater",
   "releaseDate": "2026-10-05",
-  "releaseNotes": "Zero-Overhead Settings Architecture: Complete unhooking and destruction of disabled features. Crosshair overlay fully destroys window, unhooks F10 hotkey, and halts composition until re-enabled; Windows Startup persistence bug resolved; AI Assistant, Macro Engine, and Hardware Poller now completely deactivate with 0% CPU/GPU overhead.",
+  "releaseNotes": "Expandable Patch Notes: Added dedicated dropdown viewer in Settings and top banner to easily read full release details without crowding. Double Right-Click to Delete Sidebar Tabs: Clean up navigation by double right-clicking tabs into the new '🗑️ Deleted Tabs Vault'. Direct Vault Access: Launch hidden tabs directly from Deleted Tabs without restoring them to the sidebar. One-Click Restore: Instant restore and Restore All functionality for hidden tabs. Auto-Relaunch on Update: Planet Tweaks automatically relaunches in the foreground when updates complete. Sub-Millisecond Input Precision: Native hardware timestamp spin-loops and zero sleep quantization.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
