@@ -1,6 +1,6 @@
 {
-  "version": "2.3.9",
-  "title": "Planet Tweaks V2.3.9 ULTRA — UEFN Studio Drawer, Custom Color Mixer & Universal Workspace Builder",
+  "version": "2.4.0",
+  "title": "Planet Tweaks V2.4.0 ULTRA — UEFN Studio Drawer, Custom Color Mixer & Universal Workspace Builder",
   "releaseDate": "2026-10-05",
   "releaseNotes": "UEFN-Style Studio Drawer: Bottom slide-up dock bar and Ctrl+Space drawer featuring folder-style navigation, building mode, and hidden tabs vault. Custom Accent Color Mixer: Full RGB sliders (0-255), Hex code input, and live interactive preview with 0-restart instant app-wide accent skinning. Universal Workspace Builder: All 6 sidebar category headers permanently preserved with 1-click category switching pills and cross-category tab movement. Pop-Out Studio Window: Dedicated standalone obsidian window for multi-monitor workspace building and live color tuning. PowerToys Input & Crosshair UI: Clean individual PowerToys-style cards with instant key/shortcut remapping and custom esports crosshair with F10 hotkey.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
