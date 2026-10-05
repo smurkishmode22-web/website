@@ -1,8 +1,8 @@
 {
-  "version": "2.3.7",
-  "title": "Planet Tweaks V2.3.7 ULTRA — Expandable Patch Notes, Deleted Tabs Vault & Auto-Relaunch Updater",
+  "version": "2.3.8",
+  "title": "Planet Tweaks V2.3.8 ULTRA — Dedicated Tab Reorder Organizer & Customize Mode",
   "releaseDate": "2026-10-05",
-  "releaseNotes": "Expandable Patch Notes: Added dedicated dropdown viewer in Settings and top banner to easily read full release details without crowding. Double Right-Click to Delete Sidebar Tabs: Clean up navigation by double right-clicking tabs into the new '🗑️ Deleted Tabs Vault'. Direct Vault Access: Launch hidden tabs directly from Deleted Tabs without restoring them to the sidebar. One-Click Restore: Instant restore and Restore All functionality for hidden tabs. Auto-Relaunch on Update: Planet Tweaks automatically relaunches in the foreground when updates complete. Sub-Millisecond Input Precision: Native hardware timestamp spin-loops and zero sleep quantization.",
+  "releaseNotes": "Dedicated Customize Mode & Tab Organizer: Added glowing '📐 Customize' button at the top of the sidebar, in Settings Section 2, and in Deleted Tabs to easily move tabs ▲ Up and ▼ Down to reorder your sidebar hierarchy. Interactive Tab Management: Instantly reorder, hide, or restore any tab with realtime position badges (#1, #2, #3...) and one-click Reset Default Order. Expandable Patch Notes: Added dedicated dropdown viewer in Settings and top banner to easily read full release details without crowding. Double Right-Click Quick Hide: Fast power-user shortcut to hide tabs into the Deleted Tabs Vault. Auto-Relaunch on Update: Planet Tweaks automatically relaunches in the foreground when updates complete.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
