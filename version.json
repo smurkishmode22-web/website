@@ -1,8 +1,8 @@
 {
-  "version": "2.4.3",
-  "title": "Planet Tweaks V2.4.3 ULTRA — Bitsum Highest Performance, USB Zero-Delay & Unsupported Tweaks Vault",
+  "version": "2.4.4",
+  "title": "Planet Tweaks V2.4.4 ULTRA — Zero-Delay Macro Engine, Driver Parameter Purge & Sub-Millisecond Input Overhaul",
   "releaseDate": "2026-10-05",
-  "releaseNotes": "Bitsum Highest Performance Power Plan: Replaced Ultimate Performance with verified Process Lasso Bitsum scheme (100% Core Unparking, 0% CPU Throttling, Max EPP). Zero-Delay USB Sleep Shutoff: Permanently disables selective suspend and D3 sleep on USB hubs and controllers. Unsupported Tweaks Vault: 1-click clean for unsupported hardware tweaks with vault isolation in Deleted Tabs.",
+  "releaseNotes": "Zero-Delay Macro Engine Overhaul: Zen Mantle ledge catching from 100m fall damage with zero floor tap cancel, Pro-calibrated undetectable auto-loot pickup with server-tick jitter, 0ms Instant Build continuous turbo building with 25ms finger swap debounce. Driver Parameter Auto-Purge: Automatically purges invalid kbdclass/mouclass ThreadPriority and USB Enum power states on boot. 3 New Esports Tweaks: TcpDelAckTicks 0, MMCSS NoLazyMode, and AlwaysUnloadDLL.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
