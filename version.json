@@ -1,8 +1,8 @@
 {
-  "version": "2.4.4",
-  "title": "Planet Tweaks V2.4.4 ULTRA — Zero-Delay Macro Engine, Driver Parameter Purge & Sub-Millisecond Input Overhaul",
-  "releaseDate": "2026-10-05",
-  "releaseNotes": "Zero-Delay Macro Engine Overhaul: Zen Mantle ledge catching from 100m fall damage with zero floor tap cancel, Pro-calibrated undetectable auto-loot pickup with server-tick jitter, 0ms Instant Build continuous turbo building with 25ms finger swap debounce. Driver Parameter Auto-Purge: Automatically purges invalid kbdclass/mouclass ThreadPriority and USB Enum power states on boot. 3 New Esports Tweaks: TcpDelAckTicks 0, MMCSS NoLazyMode, and AlwaysUnloadDLL.",
+  "version": "2.4.5",
+  "title": "Planet Tweaks V2.4.5 ULTRA — Zen Mantle Reversion, AI Tab Under Construction & Zero-Delay Input Sync",
+  "releaseDate": "2026-10-06",
+  "releaseNotes": "Zen Mantle Battle-Tested Reversion: Restored 100% of original Zone Wars wall & floor streaming with continuous Space/Turbo Build asserting. Planet AI Tab Under Construction: Replaced tab with obsidian cyber maintenance HUD while next-gen neural & vision models calibrate. Hone Optimizer Launch Diagnostics: Integrated 1-click auto-repair launcher to resolve asar integrity mismatch. Zero-Delay Macro Engine: Fully synchronized and optimized for competitive play.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
