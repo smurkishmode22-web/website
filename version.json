@@ -1,8 +1,8 @@
 {
-  "version": "2.4.2",
-  "title": "Planet Tweaks V2.4.2 ULTRA — Seamless Background Auto-Updater & Full Engine Lock Clearing",
+  "version": "2.4.3",
+  "title": "Planet Tweaks V2.4.3 ULTRA — Bitsum Highest Performance, USB Zero-Delay & Unsupported Tweaks Vault",
   "releaseDate": "2026-10-05",
-  "releaseNotes": "Zero-Interruption Auto-Update Engine: Built-in kernel process lock clearing directly in the elevated installer guarantees clean background updates without locked DLL conflicts. Gemini 3.8 Flash Dynamic Architecture: AI system management tools with live failover, 35s HTTP timeouts, and autonomous system health tooling. Resizable Studio Drawer: Smooth mouse drag-resizing with customize mode toggle and instant preset loading.",
+  "releaseNotes": "Bitsum Highest Performance Power Plan: Replaced Ultimate Performance with verified Process Lasso Bitsum scheme (100% Core Unparking, 0% CPU Throttling, Max EPP). Zero-Delay USB Sleep Shutoff: Permanently disables selective suspend and D3 sleep on USB hubs and controllers. Unsupported Tweaks Vault: 1-click clean for unsupported hardware tweaks with vault isolation in Deleted Tabs.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
