@@ -1,8 +1,8 @@
 {
-  "version": "2.4.8",
-  "title": "Planet Tweaks V2.4.8 ULTRA — Next-Gen Esports Crosshair Studio, Mouse Color Canvas & Mongraal 0-Ping Overhaul",
+  "version": "2.4.9",
+  "title": "Planet Tweaks V2.4.9 ULTRA — OmniMend-Style Autonomous PC Doctor, Crash Log & Driver Inspector, 1-Click Auto-Repair",
   "releaseDate": "2026-10-07",
-  "releaseNotes": "Next-Gen Esports Crosshair Designer Studio: Interactive mouse color spectrum canvas with click & drag tracking, custom HEX input codes, fine-tuned RGB sliders, and esports favorite palettes. Conditional Outline Engine: Dynamically locks outline color picker and thickness controls when high-contrast outlines are toggled off. Custom Loadout Persistence: Name your custom reticles, save them permanently to disk, and switch between pro presets (Peterbot Micro Dot, Mongraal Classic Cross, TenZ Cyan Precision, Clix Shotgun Circle, ScreaM T-Shape, Void Diamond, etc.) with 1-click loading. 12 Pro Reticle Shapes: Full support for Cross, Dot, T-Shape, Circle, Circle Dot, Diamond, Box, Chevron, X-Cross, Sniper, Triangle, and 8-Point Star with 0°–360° free rotation. Mongraal 0-Ping Pack: Upgraded esports network engine eliminating Nagle delay, forcing 1:1 instantaneous TCP ACK frequency, and unlocking CTCP congestion provider.",
+  "releaseNotes": "OmniMend-Grade Autonomous System Doctor: Deep inspection of Windows Minidump kernel crash records, %LOCALAPPDATA%\\CrashDumps, Event Viewer application crashes (Event ID 1000/1001), and GPU driver TDR recovery events (Event ID 4101). Hardware & Display Driver Health: Real-time GPU driver version, release date, and WHQL verification with 1-click update launching. System File Integrity & CBS Health: Windows Component Store corruption detection via CBS logs. 1-Click Auto-Repair Engine: Instantly purges corrupted shader caches & crash dumps, synchronizes GPU display pipeline, resets Winsock TCP stack, restores Component Store health, and locks timer resolution to 0.500ms. Zero-Key Cloud AI Architecture: Fully managed free cloud AI endpoint (https://planettweakz.vercel.app/api/ai) — no user ever has to supply or enter their own API key.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
