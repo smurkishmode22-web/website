@@ -1,8 +1,8 @@
 {
-  "version": "2.4.7",
-  "title": "Planet Tweaks V2.4.7 ULTRA — Original Zen Mantle High-Speed Engine, Hone Optimizations & Zero-Placebo Overhaul",
+  "version": "2.4.8",
+  "title": "Planet Tweaks V2.4.8 ULTRA — Next-Gen Esports Crosshair Studio, Mouse Color Canvas & Mongraal 0-Ping Overhaul",
   "releaseDate": "2026-10-07",
-  "releaseNotes": "Original Zen Mantle Engine Restored: Restored 100% continuous Jump (Space) + Turbo Build asserting with high-speed dual piece streaming (Floor & Ramp / Wall) for instant ledge catches and 0 fall damage. Hone Latency Engine: Integrated verified Hone pipeline algorithms ('Reduce input lag', 'Reduce keyboard input time', 'Optimize FPS & Input Lag') with full clean rollback. Catalog Zero-Placebo Verification: Fully verified all 380+ tweaks with 0 placebo duplicates, 0 collisions, and rock-solid OS safety. Pro Pack Overhaul: Synchronized all candidates across Peterbot Zero Delay (92 items), Clix Max FPS (78 items), Mero Controller Response (52 items), Potato Max FPS (72 items), and All-In-One (238 items) with zero silent skips.",
+  "releaseNotes": "Next-Gen Esports Crosshair Designer Studio: Interactive mouse color spectrum canvas with click & drag tracking, custom HEX input codes, fine-tuned RGB sliders, and esports favorite palettes. Conditional Outline Engine: Dynamically locks outline color picker and thickness controls when high-contrast outlines are toggled off. Custom Loadout Persistence: Name your custom reticles, save them permanently to disk, and switch between pro presets (Peterbot Micro Dot, Mongraal Classic Cross, TenZ Cyan Precision, Clix Shotgun Circle, ScreaM T-Shape, Void Diamond, etc.) with 1-click loading. 12 Pro Reticle Shapes: Full support for Cross, Dot, T-Shape, Circle, Circle Dot, Diamond, Box, Chevron, X-Cross, Sniper, Triangle, and 8-Point Star with 0°–360° free rotation. Mongraal 0-Ping Pack: Upgraded esports network engine eliminating Nagle delay, forcing 1:1 instantaneous TCP ACK frequency, and unlocking CTCP congestion provider.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
