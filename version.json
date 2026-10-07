@@ -1,8 +1,8 @@
 {
-  "version": "2.4.9",
-  "title": "Planet Tweaks V2.4.9 ULTRA — OmniMend-Style Autonomous PC Doctor, Crash Log & Driver Inspector, 1-Click Auto-Repair",
+  "version": "2.5.1",
+  "title": "Planet Tweaks V2.5.1 ULTRA — Autonomous Gemini AI PC Agent, Modern Windows 11 Dark Charcoal UI/UX Redesign",
   "releaseDate": "2026-10-07",
-  "releaseNotes": "OmniMend-Grade Autonomous System Doctor: Deep inspection of Windows Minidump kernel crash records, %LOCALAPPDATA%\\CrashDumps, Event Viewer application crashes (Event ID 1000/1001), and GPU driver TDR recovery events (Event ID 4101). Hardware & Display Driver Health: Real-time GPU driver version, release date, and WHQL verification with 1-click update launching. System File Integrity & CBS Health: Windows Component Store corruption detection via CBS logs. 1-Click Auto-Repair Engine: Instantly purges corrupted shader caches & crash dumps, synchronizes GPU display pipeline, resets Winsock TCP stack, restores Component Store health, and locks timer resolution to 0.500ms. Zero-Key Cloud AI Architecture: Fully managed free cloud AI endpoint (https://planettweakz.vercel.app/api/ai) — no user ever has to supply or enter their own API key.",
+  "releaseNotes": "Autonomous Gemini AI PC Agent: Multi-turn tool calling engine with 22 dedicated Windows diagnostic and optimization tools (13 read-only PC inspectors, 9 system-modifying tools). Interactive inline action approval cards with safety policy verification. Windows 11 Dark Charcoal UI/UX Redesign: Modern 1340x840 layout, 6 dynamic hardware telemetry cards (CPU, RAM, GPU, Storage, Network/OS, Timers), 8 Quick Actions, modern chat workspace with tool execution chips and thinking indicator. Zero-credential security with optional Gemini API key configuration and offline heuristic fallback.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
