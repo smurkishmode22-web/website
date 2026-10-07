@@ -15,8 +15,8 @@ export default async function handler(req, res) {
     return res.status(200).json({
       status: 'online',
       service: 'Planet AI Cloud Endpoint',
-      version: '2.5.1',
-      models: ['gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-2.5-flash'],
+      version: '2.5.2',
+      models: ['gemini-3.8-flash', 'gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'],
       zeroKeyMode: true,
       functionCallingSupported: true
     });
@@ -32,41 +32,49 @@ export default async function handler(req, res) {
 
     // 1. Full Multi-turn Gemini Function/Tool Calling Payload from GeminiAgentService
     if (body.contents && Array.isArray(body.contents)) {
-      const model = body.model || 'gemini-2.0-flash';
+      const requestedModel = body.model || 'gemini-3.8-flash';
 
       if (apiKey && apiKey.length >= 15) {
-        try {
-          const geminiPayload = {
-            contents: body.contents,
-            generationConfig: body.generationConfig || { temperature: 0.4, maxOutputTokens: 1500 }
-          };
+        const candidateModels = (requestedModel === 'gemini-3.8-flash')
+          ? ['gemini-3.8-flash', 'gemini-2.0-flash', 'gemini-2.5-flash', 'gemini-1.5-flash']
+          : [requestedModel, 'gemini-2.0-flash', 'gemini-1.5-flash'];
 
-          if (body.system_instruction) {
-            geminiPayload.system_instruction = body.system_instruction;
-          }
+        for (const candidate of candidateModels) {
+          try {
+            const geminiPayload = {
+              contents: body.contents,
+              generationConfig: body.generationConfig || { temperature: 0.4, maxOutputTokens: 1500 }
+            };
 
-          if (body.tools) {
-            geminiPayload.tools = body.tools;
-          }
-
-          const geminiRes = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-            {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify(geminiPayload)
+            if (body.system_instruction) {
+              geminiPayload.system_instruction = body.system_instruction;
             }
-          );
 
-          if (geminiRes.ok) {
-            const data = await geminiRes.json();
-            return res.status(200).json(data);
-          } else {
-            const errText = await geminiRes.text();
-            console.error('Gemini upstream error:', geminiRes.status, errText);
+            if (body.tools) {
+              geminiPayload.tools = body.tools;
+            }
+
+            const geminiRes = await fetch(
+              `https://generativelanguage.googleapis.com/v1beta/models/${candidate}:generateContent?key=${apiKey}`,
+              {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(geminiPayload)
+              }
+            );
+
+            if (geminiRes.ok) {
+              const data = await geminiRes.json();
+              return res.status(200).json(data);
+            } else {
+              const errText = await geminiRes.text();
+              console.error(`Gemini candidate ${candidate} error:`, geminiRes.status, errText);
+              if (geminiRes.status === 404) continue;
+              break;
+            }
+          } catch (fetchErr) {
+            console.error(`Gemini candidate ${candidate} exception:`, fetchErr);
           }
-        } catch (fetchErr) {
-          console.error('Gemini fetch exception:', fetchErr);
         }
       }
 
@@ -102,7 +110,7 @@ export default async function handler(req, res) {
           const data = await geminiRes.json();
           const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
           if (text) {
-            return res.status(200).json({ response: text, provider: 'gemini-cloud' });
+            return res.status(200).json({ response: text, provider: 'gemini-3.8-flash' });
           }
         }
       } catch (geminiErr) {
