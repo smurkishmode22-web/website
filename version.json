@@ -1,8 +1,8 @@
 {
-  "version": "2.4.6",
-  "title": "Planet Tweaks V2.4.6 ULTRA — Hone Latency Engine, Catalog Zero-Placebo Verification & Pro Pack Overhaul",
+  "version": "2.4.7",
+  "title": "Planet Tweaks V2.4.7 ULTRA — Original Zen Mantle High-Speed Engine, Hone Optimizations & Zero-Placebo Overhaul",
   "releaseDate": "2026-10-07",
-  "releaseNotes": "Hone Latency Engine: Integrated verified Hone pipeline algorithms ('Reduce input lag', 'Reduce keyboard input time', 'Optimize FPS & Input Lag') with full clean rollback. Catalog Zero-Placebo Verification: Fully verified all 380+ tweaks with 0 placebo duplicates, 0 collisions, and rock-solid OS safety. Pro Pack Overhaul: Synchronized all candidates across Peterbot Zero Delay (92 items), Clix Max FPS (77 items), Mero Controller Response (52 items), Potato Max FPS (71 items), and All-In-One (238 items) with zero silent skips.",
+  "releaseNotes": "Original Zen Mantle Engine Restored: Restored 100% continuous Jump (Space) + Turbo Build asserting with high-speed dual piece streaming (Floor & Ramp / Wall) for instant ledge catches and 0 fall damage. Hone Latency Engine: Integrated verified Hone pipeline algorithms ('Reduce input lag', 'Reduce keyboard input time', 'Optimize FPS & Input Lag') with full clean rollback. Catalog Zero-Placebo Verification: Fully verified all 380+ tweaks with 0 placebo duplicates, 0 collisions, and rock-solid OS safety. Pro Pack Overhaul: Synchronized all candidates across Peterbot Zero Delay (92 items), Clix Max FPS (78 items), Mero Controller Response (52 items), Potato Max FPS (72 items), and All-In-One (238 items) with zero silent skips.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
