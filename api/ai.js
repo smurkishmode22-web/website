@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     return res.status(200).json({
       status: 'online',
       service: 'Planet AI Cloud Endpoint',
-      version: '2.5.2',
+      version: '2.5.3',
       models: ['gemini-3.8-flash', 'gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash'],
       zeroKeyMode: true,
       functionCallingSupported: true

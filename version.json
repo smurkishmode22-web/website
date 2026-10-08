@@ -1,8 +1,8 @@
 {
-  "version": "2.5.2",
-  "title": "Planet Tweaks V2.5.2 ULTRA — Powered by Gemini 3.8 Flash, Universal Zero-Key Cloud AI Architecture & Windows 11 Dark Charcoal UI",
+  "version": "2.5.3",
+  "title": "Planet Tweaks V2.5.3 ULTRA — Restored Esports Command Center Dashboard, Universal Zero-Key Cloud AI & English Locale Integrity",
   "releaseDate": "2026-10-07",
-  "releaseNotes": "Gemini 3.8 Flash Flagship AI Engine: Autonomous multi-turn function calling engine with 22 dedicated Windows diagnostic and optimization tools (13 read-only PC inspectors, 9 system-modifying tools). Universal Cloud AI Proxy: Zero-key OmniMend-style cloud architecture with instant sub-second response times and seamless local heuristic fallback. Windows 11 Dark Charcoal UI/UX Redesign: Modern 1340x840 layout, 6 dynamic hardware telemetry cards (CPU, RAM, GPU, Storage, Network/OS, Timers), 8 Quick Actions, modern chat workspace with tool execution chips and thinking indicator. Full Inno Setup installer v2.5.2 and automated silent updater integration.",
+  "releaseNotes": "Restored Classic Esports God Mode Command Center Dashboard: Returns the beloved 1-click God Mode Boost, live Latency Score Ring, 4 quick power widgets (0.500ms Timer Resolution, RAM Cleaner, FilterKeys, Shader Cleaner), live telemetry, and specialized esports game profiles. Universal Zero-Key Cloud AI Architecture: Seamless Gemini 3.8 Flash integration with zero setup required, universal cloud proxy connection, and multi-turn autonomous PC tools. English Locale & UI Polish: Complete purification of UTF-8 mojibake, en-only satellite assembly lock, and clean English typography across the entire interface.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
