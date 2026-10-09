@@ -1,8 +1,8 @@
 {
-  "version": "2.5.5",
-  "title": "Planet Tweaks V2.5.5 ULTRA — Restored 2.4.6 Esports Hubs Dashboard, Silent Updater Fix & Universal Cloud AI",
-  "releaseDate": "2026-10-07",
-  "releaseNotes": "Restored Exact v2.4.6 Esports Dashboard: Seamlessly recovers the beloved Esports Quick Launch Hubs (Game Booster, Macro Studio, Custom Crosshair, Latency Lab) and the Active Monitor system snapshot row with 1-click tools and Discord VIP Hub. Fixed RAM metric layout child binding. Silent Updater & Banner Fix: Modernized Update Planet Tweaks.bat with dynamic installer auto-detection to eliminate lingering update alerts, ensuring 100% clean upgrades. Universal Zero-Key Cloud AI Architecture: Flagship Gemini 3.8 Flash engine running directly through our secure high-speed universal cloud proxy with zero user setup or API key entry required.",
+  "version": "2.5.6",
+  "title": "Planet Tweaks V2.5.6 ULTRA — Purged Latency Tweaks, In-AI Flagship Engine & Ask/Execute Modes, Persistent GamerTag & Redesigned Settings",
+  "releaseDate": "2026-10-09",
+  "releaseNotes": "Zero Input Delay Latency Purge: Thoroughly audited all 1-Click Pro Packs and eliminated queue-flooding FilterKeys repeat settings, legacy non-raw mouse curves, memory compression disables, and DX MaxFrameLatency overrides for pure buttery smooth esports frame pacing. In-AI Flagship Engine & Mode Switcher: Moved Gemini 3.8 Flash flagship model selector and introduced dedicated [Ask Mode] (advisory & specs) and [Execute Mode] (autonomous technician) directly inside the AI view. Permanent GamerTag Persistence: GamerTag is now permanently preserved in local app settings across all updates. Redesigned Cyber Settings: Beautifully overhauled settings UI with Obsidian Cyber aesthetics and streamlined navigation.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
