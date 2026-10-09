@@ -1,8 +1,8 @@
 {
-  "version": "2.5.6",
-  "title": "Planet Tweaks V2.5.6 ULTRA — Purged Latency Tweaks, In-AI Flagship Engine & Ask/Execute Modes, Persistent GamerTag & Redesigned Settings",
+  "version": "2.5.7",
+  "title": "Planet Tweaks V2.5.7 ULTRA — App Debloater Suite, Mouse Pointer Studio, Overhauled Auth Modal & Input Polish",
   "releaseDate": "2026-10-09",
-  "releaseNotes": "Zero Input Delay Latency Purge: Thoroughly audited all 1-Click Pro Packs and eliminated queue-flooding FilterKeys repeat settings, legacy non-raw mouse curves, memory compression disables, and DX MaxFrameLatency overrides for pure buttery smooth esports frame pacing. In-AI Flagship Engine & Mode Switcher: Moved Gemini 3.8 Flash flagship model selector and introduced dedicated [Ask Mode] (advisory & specs) and [Execute Mode] (autonomous technician) directly inside the AI view. Permanent GamerTag Persistence: GamerTag is now permanently preserved in local app settings across all updates. Redesigned Cyber Settings: Beautifully overhauled settings UI with Obsidian Cyber aesthetics and streamlined navigation.",
+  "releaseNotes": "Live App Debloater Suite: Real-time scan and clean removal of built-in Microsoft bloatware with dedicated Removed Apps view. Mouse Pointer & Link Hand Studio: Moved to Input & Crosshair with custom .cur/.ani loading and instant live OS broadcast. Redesigned Auth & Profile Modal: Featuring official Google vector branding, active profile card stack, and permanent GamerTag persistence. Input & UI Polish: Fixed emoji rendering boxes with Segoe UI Emoji fallbacks, unified Mouse Acceleration Thresholds 1 & 2, expanded GeForce NOW & Cloud Gaming tweaks, and improved Inno Setup updater visibility.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "mandatory": false
 }
