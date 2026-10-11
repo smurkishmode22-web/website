@@ -1,0 +1,9 @@
+{
+  "version": "2.6.0",
+  "title": "Planet Tweaks V2.6.0 NOVA 🪐 — Planet Nova Flash Ultra Turbo & Deep Thinking Engine",
+  "releaseDate": "2026-10-10",
+  "releaseNotes": "Dual Edition Support: Choose between ultra-lightweight Planet Tweaks Classic (30 MB) and Planet Nova AI Edition (~1.1 GB). Planet Nova Flash Ultra Turbo: Supercharged flagship model with real-time sub-second responses and instant gaming optimizations. Cognitive Speed & Deep Thinking Modes: Switch between ⚡ Turbo Blitz (sub-second execution), ⚖️ Balanced Pro, and 🧠 Deep Thinking Ultra (deep multi-pass kernel & DPC latency audit to discover the absolute highest-impact tweaks). Agent Studio & Persona Rules: Customize agent name, avatar emoji, speech tones (Esports Coach, Savage Tech Bro, Kernel Engineer, Chill Gamer, Custom Persona), and multi-line custom instructions. Enterprise Zero-Damage Safety Guardrails: Kernel components, drivers, and anti-cheat processes (Vanguard, EAC, BattlEye, FACEIT) permanently protected against bad tweaks. Persistent Chat History Vault & Full-Screen AI Command Center: Multi-session chat management with resume/delete and modern expanded layout.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
+  "mandatory": false
+}
