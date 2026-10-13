@@ -1,8 +1,8 @@
 {
-  "version": "2.7.2",
-  "title": "Planet Tweaks V2.7.2 NOVA TITAN 🪐 — AI Chat Studio Polish, Pitch Black & Brown Hands, 4-Day Badge Expiry & Fortnite Pickup Tuning",
+  "version": "2.7.4",
+  "title": "Planet Tweaks V2.7.4 NOVA TITAN 🪐 — AI Chat Studio Polish, Pitch Black & Brown Hands, 4-Day Badge Expiry & Full .NET 10 Kernel Host Optimization",
   "releaseDate": "2026-10-13",
-  "releaseNotes": "Planet Nova AI Terminal Polish: Restored prominent docked chat bar with quick model switcher and instant one-click execution. Mouse Cursor Studio: Added Pitch Black Precision Hand and Dark Brown Cyber Hand presets alongside Obsidian Black. Smart Dynamic Badging: Automatically expires 'NEW' tweak badges after 4 days. Fortnite Macro Engine: Fine-tuned Pickup Macro with calibrated key-down intervals for 100% reliable server-side tick collection. Core Architecture: AMD Radeon UMD driver VSync & TurboSync purge with Fast Startup shutdown hang resolution.",
+  "releaseNotes": "Zero-Friction .NET 10 Host Architecture: Purged legacy local hostfxr/hostpolicy overrides so Planet Tweaks loads instantly via 64-bit Windows Desktop Runtime. Restored Snipping Tool OS integration with PrintScreen hotkey hook. Planet Nova AI Terminal Polish: Restored prominent docked chat bar with quick model switcher and instant one-click execution. Mouse Cursor Studio: Added Pitch Black Precision Hand and Dark Brown Cyber Hand presets alongside Obsidian Black. Smart Dynamic Badging: Automatically expires 'NEW' tweak badges after 4 days. Fortnite Macro Engine: Fine-tuned Pickup Macro with calibrated key-down intervals for 100% reliable server-side tick collection.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
