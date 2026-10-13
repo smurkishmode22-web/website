@@ -1,8 +1,8 @@
 {
-  "version": "2.7.0",
-  "title": "Planet Tweaks V2.7.0 NOVA TITAN 🪐 — DNS Optimizer, Live Tweak & 50Hz Mouse Inspector, Safe Hone Suite",
+  "version": "2.7.2",
+  "title": "Planet Tweaks V2.7.2 NOVA TITAN 🪐 — AI Chat Studio Polish, Pitch Black & Brown Hands, 4-Day Badge Expiry & Fortnite Pickup Tuning",
   "releaseDate": "2026-10-13",
-  "releaseNotes": "ExitLag-Style DNS Optimizer: Live ICMP round-trip ping benchmark across Cloudflare, Google, Quad9, OpenDNS, NextDNS, and AdGuard with 1-click dynamic network adapter routing and automatic DHCP restore. Live Applied Tweaks Inspector & Rollback Hub: Direct kernel & registry auditing detecting active esports tweaks, custom overrides, and the hidden 50Hz Background Raw Mouse Throttle (RawMouseThrottleDuration) with 1-click granular and mass restore. Safe Hone Maintenance Suite: SSD Volume TRIM flash optimization, DISM & SFC System File Checker component repair, read-only CHKDSK disk integrity scan, crash dump & WER memory cleaner, and full network stack reset. Planet Nova AI Refactor: 4 neural model tiers (Nova Ultra Flash, Deep Thinking Balanced, Deep Thinking Ultra, Turbo Blitz), side-by-side Ask vs Execute modes, editable custom persona instructions with instant tone persistence, and non-blocking asynchronous dispatch. Mouse Cursor Studio: New Pure Obsidian Black Link Hand & Precision Arrow presets. Fullscreen maximize border clipping fix with liquid-glass aesthetic polish.",
+  "releaseNotes": "Planet Nova AI Terminal Polish: Restored prominent docked chat bar with quick model switcher and instant one-click execution. Mouse Cursor Studio: Added Pitch Black Precision Hand and Dark Brown Cyber Hand presets alongside Obsidian Black. Smart Dynamic Badging: Automatically expires 'NEW' tweak badges after 4 days. Fortnite Macro Engine: Fine-tuned Pickup Macro with calibrated key-down intervals for 100% reliable server-side tick collection. Core Architecture: AMD Radeon UMD driver VSync & TurboSync purge with Fast Startup shutdown hang resolution.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
