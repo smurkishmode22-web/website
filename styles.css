@@ -2866,3 +2866,83 @@ body {
     font-weight: bold;
 }
 
+/* ==========================================================================
+   Cookie Banner & Legal Modals
+   ========================================================================== */
+.cookie-banner {
+    position: fixed;
+    bottom: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(92%, 760px);
+    background: rgba(10, 12, 18, 0.94);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+    padding: 16px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    z-index: 99999;
+}
+
+.cookie-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cookie-icon {
+    font-size: 24px;
+}
+
+.cookie-content p {
+    font-size: 12.5px;
+    color: #cbd5e1;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.cookie-actions {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.legal-modal-body h4 {
+    color: #f8fafc;
+    font-size: 1.05rem;
+    margin-top: 18px;
+    margin-bottom: 6px;
+}
+
+.legal-modal-body p, .legal-modal-body ul {
+    margin-bottom: 12px;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.legal-modal-body ul {
+    padding-left: 20px;
+}
+
+.legal-modal-body li {
+    margin-bottom: 6px;
+}
+
+@media (max-width: 640px) {
+    .cookie-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        bottom: 12px;
+        padding: 14px;
+    }
+    .cookie-actions {
+        width: 100%;
+        justify-content: flex-end;
+    }
+}
+

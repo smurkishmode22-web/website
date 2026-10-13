@@ -1081,4 +1081,119 @@ document.addEventListener('DOMContentLoaded', () => {
     const orbEngine = new LiquidChromeEngine();
     initStageControls(orbEngine);
     initModelInteractions();
+    checkCookieConsent();
 });
+
+// ==========================================================================
+// Legal Modals & Cookie Consent Engine
+// ==========================================================================
+const legalTexts = {
+    privacy: `
+        <h4>1. Information We Collect</h4>
+        <p>Planet Tweaks is built with a privacy-first, zero-surveillance architecture. We collect minimal telemetry strictly required for product operations:</p>
+        <ul>
+            <li><strong>Hardware Profile:</strong> CPU model, GPU vendor, RAM capacity, and OS build version (Windows 10/11) to validate tweak compatibility and prevent incompatible driver settings.</li>
+            <li><strong>Authentication & GamerTag:</strong> Optional Firebase authentication credentials (email/password or anonymous GamerTag) to sync your custom presets across machines.</li>
+            <li><strong>Telemetry Data:</strong> Anonymous error reports and crash dumps to continuously refine kernel stability. We never capture personal files, keystrokes, browsing history, or gameplay recordings.</li>
+        </ul>
+
+        <h4>2. Local Execution & Data Security</h4>
+        <p>All system tweaks, registry modifications, and power plan adjustments are executed locally on your machine. Your hardware profile is never sold, leased, or transmitted to third-party ad networks.</p>
+
+        <h4>3. Anti-Cheat Compliance</h4>
+        <p>Planet Tweaks complies strictly with Riot Vanguard, Easy Anti-Cheat (EAC), BattlEye, Ricochet, and FACEIT guidelines. We do not inject DLLs into game executables, bypass game memory protections, or alter game binary payloads.</p>
+
+        <h4>4. Your Rights & Data Deletion</h4>
+        <p>You have full ownership of your data under GDPR and CCPA regulations. To request complete deletion of your GamerTag, presets, or account data, contact us at <a href="mailto:support@planettweaks.app" style="color: #38bdf8;">support@planettweaks.app</a> or click the Data Deletion link below.</p>
+    `,
+    terms: `
+        <h4>1. Acceptance of Terms</h4>
+        <p>By downloading, installing, or using Planet Tweaks ("the Software"), you agree to be bound by these Terms of Service. If you do not agree, do not install or use the Software.</p>
+
+        <h4>2. Software License & Permitted Use</h4>
+        <p>Planet Tweaks grants you a non-exclusive, free, revocable license to use the Software on personal computers for gaming performance optimization and system tuning.</p>
+
+        <h4>3. Safety Architecture & User Responsibility</h4>
+        <p>Planet Tweaks provides automated Windows System Restore checkpoints and 1-click restore functionality for all tweaks. While our tweaks undergo esports kernel verification:</p>
+        <ul>
+            <li>You acknowledge that tuning operating system registry keys, power plans, and device interrupts involves system modifications.</li>
+            <li>Planet Tweaks shall not be held liable for hardware failures caused by third-party overclocking or pre-existing hardware instability.</li>
+            <li>Always maintain a recent Windows restore point or disk backup before performing aggressive OS deep cleans.</li>
+        </ul>
+
+        <h4>4. Prohibited Uses</h4>
+        <p>You agree not to reverse-engineer, decompile, redistribute repackaged malicious versions of the Software, or use the Software to circumvent competitive game anti-cheat systems.</p>
+    `,
+    refund: `
+        <h4>1. 100% Free Core Software</h4>
+        <p>Planet Tweaks Classic and Planet Tweaks Nova AI editions are distributed 100% free of charge. No payment details, credit cards, or subscription commitments are required to download and access all 275+ tweaks, DNS optimizations, and latency tools.</p>
+
+        <h4>2. Optional Donations & VIP Passes</h4>
+        <p>If you choose to voluntarily support the Planet Tweaks development team through donations, server boosts, or community VIP perks:</p>
+        <ul>
+            <li>Voluntary tips and donations are non-refundable once processed, as they directly fund server hosting and high-bandwidth download mirrors.</li>
+            <li>If an accidental duplicate transaction occurs, contact our billing team at <a href="mailto:support@planettweaks.app" style="color: #38bdf8;">support@planettweaks.app</a> within 14 days with your payment receipt for immediate review.</li>
+        </ul>
+    `,
+    cookies: `
+        <h4>1. What Cookies We Use</h4>
+        <p>Our website utilizes local storage and minimal session cookies to enhance your browsing experience:</p>
+        <ul>
+            <li><strong>Essential Session Storage:</strong> Stores your cyber audio mute/unmute state, theme mode, and cookie banner consent choice.</li>
+            <li><strong>Download Preference:</strong> Remembers your preferred edition (Classic vs Nova AI Edition) for faster future visits.</li>
+            <li><strong>Zero Third-Party Advertising:</strong> We do not deploy Facebook Pixel, Google AdSense, or invasive tracking beacons.</li>
+        </ul>
+
+        <h4>2. Managing Your Preferences</h4>
+        <p>You can clear or disable cookies at any time through your browser's security settings without impacting your ability to download Planet Tweaks.</p>
+    `
+};
+
+function openLegalModal(type) {
+    const modal = document.getElementById('legalModal');
+    const title = document.getElementById('legalModalTitle');
+    const body = document.getElementById('legalModalBody');
+    if (!modal || !title || !body) return;
+
+    if (type === 'privacy') {
+        title.textContent = 'Privacy Policy';
+        body.innerHTML = legalTexts.privacy;
+    } else if (type === 'terms') {
+        title.textContent = 'Terms of Service';
+        body.innerHTML = legalTexts.terms;
+    } else if (type === 'refund') {
+        title.textContent = 'Refund & Cancellation Policy';
+        body.innerHTML = legalTexts.refund;
+    } else if (type === 'cookies') {
+        title.textContent = 'Cookie Policy';
+        body.innerHTML = legalTexts.cookies;
+    }
+    modal.classList.add('active');
+}
+
+function closeLegalModal() {
+    const modal = document.getElementById('legalModal');
+    if (modal) modal.classList.remove('active');
+}
+
+function acceptCookies() {
+    try { localStorage.setItem('planet_tweaks_cookie_consent', 'all'); } catch(e){}
+    const banner = document.getElementById('cookieBanner');
+    if (banner) banner.style.display = 'none';
+}
+
+function acceptEssentialCookies() {
+    try { localStorage.setItem('planet_tweaks_cookie_consent', 'essential'); } catch(e){}
+    const banner = document.getElementById('cookieBanner');
+    if (banner) banner.style.display = 'none';
+}
+
+function checkCookieConsent() {
+    try {
+        const consent = localStorage.getItem('planet_tweaks_cookie_consent');
+        const banner = document.getElementById('cookieBanner');
+        if (banner && !consent) {
+            banner.style.display = 'flex';
+        }
+    } catch(e){}
+}
