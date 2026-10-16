@@ -1,8 +1,8 @@
 {
   "version": "2.7.7",
-  "title": "Planet Tweaks V2.7.7 NOVA TITAN 🪐 — 143-Tweak Master All-In-One, Fullscreen Taskbar Hover Fix, Live Active Tweaks Badge & Expanded Pro Packs",
-  "releaseDate": "2026-10-15",
-  "releaseNotes": "Pro Pack Overhaul: Expanded All-In-One to 143 verified unique tweaks spanning all Pro Packs. Fixed borderless fullscreen auto-hide taskbar hover activation via native WM_GETMINMAXINFO monitor work-area hook. Added live applied tweaks count badge in the inspector. Expanded App Optimizer to freeze Claude Desktop, Microsoft Store worker loops, and Steam WebHelper. Overhauled themes with Crimson Voltage, Solar Flare, and Electric Indigo.",
+  "title": "Planet Tweaks V2.7.7 NOVA TITAN 🪐 — Multi-Key Macro Sequence Builder, Outside Toast Alerts, Hone & Registry Sync, Lil Tjay Theme & Gemini AI Live Tester",
+  "releaseDate": "2026-10-16",
+  "releaseNotes": "Macro Builder Overhaul: Added Multi-Key Sequence Builder with custom millisecond sliders (1-500ms), live badge feedback, and Hold/Burst/Toggle modes. Outside Windows Toast Alerts: Automatic high-uptime (24h+) and dirty shader cache alerts outside the app without spam. Logs Tab External Sync: Live scanner detecting and logging tweaks applied via Hone or external registry scripts. Added Lil Tjay 'No No' (TT 222) deep midnight purple & lavender diamond theme. Google Gemini 2.0 Flash Cloud AI with instant live connection testing.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
