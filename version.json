@@ -1,8 +1,8 @@
 {
-  "version": "2.7.6",
-  "title": "Planet Tweaks V2.7.6 NOVA TITAN 🪐 — Full Catalog Audit v2, 1-Click Maintenance Suite, Phantom Purge Pack & Deduplicated Kernel Engine",
+  "version": "2.7.7",
+  "title": "Planet Tweaks V2.7.7 NOVA TITAN 🪐 — 143-Tweak Master All-In-One, Fullscreen Taskbar Hover Fix, Live Active Tweaks Badge & Expanded Pro Packs",
   "releaseDate": "2026-10-15",
-  "releaseNotes": "Catalog Audit v2: 100% strict verification across all 397 catalog tweaks with automated fail-closed build assertions. Dedicated 1-Click System Maintenance: Transplanted Hone SSD Re-TRIM, DISM/SFC Repair, CHKDSK Audit, and Network Reset straight to Windows Tools. App Optimizer Polish: Removed uninstalled preview cards to exclusively show physically installed apps. New Pro Pack: Added Phantom Purge & Standby Freezer to permanently kill background worker loops and startup boost across Edge, Chrome, Discord, Steam, and Spotify.",
+  "releaseNotes": "Pro Pack Overhaul: Expanded All-In-One to 143 verified unique tweaks spanning all Pro Packs. Fixed borderless fullscreen auto-hide taskbar hover activation via native WM_GETMINMAXINFO monitor work-area hook. Added live applied tweaks count badge in the inspector. Expanded App Optimizer to freeze Claude Desktop, Microsoft Store worker loops, and Steam WebHelper. Overhauled themes with Crimson Voltage, Solar Flare, and Electric Indigo.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
