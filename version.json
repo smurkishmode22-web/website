@@ -1,8 +1,8 @@
 {
-  "version": "2.7.4",
-  "title": "Planet Tweaks V2.7.4 NOVA TITAN 🪐 — AI Chat Studio Polish, Pitch Black & Brown Hands, 4-Day Badge Expiry & Full .NET 10 Kernel Host Optimization",
-  "releaseDate": "2026-10-13",
-  "releaseNotes": "Zero-Friction .NET 10 Host Architecture: Purged legacy local hostfxr/hostpolicy overrides so Planet Tweaks loads instantly via 64-bit Windows Desktop Runtime. Restored Snipping Tool OS integration with PrintScreen hotkey hook. Planet Nova AI Terminal Polish: Restored prominent docked chat bar with quick model switcher and instant one-click execution. Mouse Cursor Studio: Added Pitch Black Precision Hand and Dark Brown Cyber Hand presets alongside Obsidian Black. Smart Dynamic Badging: Automatically expires 'NEW' tweak badges after 4 days. Fortnite Macro Engine: Fine-tuned Pickup Macro with calibrated key-down intervals for 100% reliable server-side tick collection.",
+  "version": "2.7.6",
+  "title": "Planet Tweaks V2.7.6 NOVA TITAN 🪐 — Full Catalog Audit v2, 1-Click Maintenance Suite, Phantom Purge Pack & Deduplicated Kernel Engine",
+  "releaseDate": "2026-10-15",
+  "releaseNotes": "Catalog Audit v2: 100% strict verification across all 397 catalog tweaks with automated fail-closed build assertions. Dedicated 1-Click System Maintenance: Transplanted Hone SSD Re-TRIM, DISM/SFC Repair, CHKDSK Audit, and Network Reset straight to Windows Tools. App Optimizer Polish: Removed uninstalled preview cards to exclusively show physically installed apps. New Pro Pack: Added Phantom Purge & Standby Freezer to permanently kill background worker loops and startup boost across Edge, Chrome, Discord, Steam, and Spotify.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
