@@ -1,8 +1,8 @@
 {
-  "version": "2.7.7",
-  "title": "Planet Tweaks V2.7.7 NOVA TITAN 🪐 — Multi-Key Macro Sequence Builder, Outside Toast Alerts, Hone & Registry Sync, Lil Tjay Theme & Gemini AI Live Tester",
+  "version": "2.7.8",
+  "title": "Planet Tweaks V2.7.8 NOVA TITAN 🪐 — Lil Tjay 'TT' App Icon Switcher, Multi-Key Sequence Builder, Desktop Alerts & External Sync",
   "releaseDate": "2026-10-16",
-  "releaseNotes": "Macro Builder Overhaul: Added Multi-Key Sequence Builder with custom millisecond sliders (1-500ms), live badge feedback, and Hold/Burst/Toggle modes. Outside Windows Toast Alerts: Automatic high-uptime (24h+) and dirty shader cache alerts outside the app without spam. Logs Tab External Sync: Live scanner detecting and logging tweaks applied via Hone or external registry scripts. Added Lil Tjay 'No No' (TT 222) deep midnight purple & lavender diamond theme. Google Gemini 2.0 Flash Cloud AI with instant live connection testing.",
+  "releaseNotes": "Lil Tjay 'TT' App Icon: Added native 3D cyan balloon art icon option for desktop, taskbar, and tray. Multi-Key Macro Sequence Builder: Chained custom action keys with live 1-500ms sliders and Hold/Burst/Toggle modes. Outside Desktop Windows Toast Alerts: High-uptime (24h+) and dirty temp file reminders outside the app with zero spam. Logs Tab Hone & Registry Sync: Live external scanner detecting outside registry tweaks. Google Gemini 2.0 Flash live connection tester.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
