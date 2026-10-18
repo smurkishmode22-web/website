@@ -1,8 +1,8 @@
 {
-  "version": "2.7.8",
-  "title": "Planet Tweaks V2.7.8 NOVA TITAN 🪐 — Lil Tjay 'TT' App Icon Switcher, Multi-Key Sequence Builder, Desktop Alerts & External Sync",
-  "releaseDate": "2026-10-16",
-  "releaseNotes": "Lil Tjay 'TT' App Icon: Added native 3D cyan balloon art icon option for desktop, taskbar, and tray. Multi-Key Macro Sequence Builder: Chained custom action keys with live 1-500ms sliders and Hold/Burst/Toggle modes. Outside Desktop Windows Toast Alerts: High-uptime (24h+) and dirty temp file reminders outside the app with zero spam. Logs Tab Hone & Registry Sync: Live external scanner detecting outside registry tweaks. Google Gemini 2.0 Flash live connection tester.",
+  "version": "2.7.9",
+  "title": "Planet Tweaks V2.7.9 NOVA TITAN 🪐 — Restored Classic Custom Action Loop & Seamless In-App Auto-Updater",
+  "releaseDate": "2026-10-17",
+  "releaseNotes": "Restored Classic Custom Action Loop: Reverted to the ultra-clean, simple 2-key and delay preset macro setup for instant setup and zero confusion. Seamless In-App Auto-Updater: Fixed installer file lock conflicts when updating from within the app, ensuring automatic clean binary replacement and instant relaunch. Version bump to 2.7.9 across Classic and Nova AI editions.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
