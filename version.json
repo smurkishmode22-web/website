@@ -1,6 +1,6 @@
 {
-  "version": "2.7.9",
-  "title": "Planet Tweaks V2.7.9 NOVA TITAN 🪐 — Ghost App Tree Termination, Shift Chat Bypass & Studio Overhaul",
+  "version": "2.8.0",
+  "title": "Planet Tweaks V2.8.0 NOVA TITAN 🪐 — Ghost App Tree Termination, Shift Chat Bypass & Studio Overhaul",
   "releaseDate": "2026-10-18",
   "releaseNotes": "Ghost Apps Obliteration: Upgraded freeze engine to aggressively stop services and kill entire process trees (taskkill /F /T) with instant Force Close button. Shift Key Macro Bypass: Holding Shift now pauses all macro injection and key suppression for seamless in-game typing. Crosshair Studio Redesign: Added smooth scrolling, fixed loadout preset loading, compact overlay toggle, and cleaner controls. Cyber Slider: Sleek metallic pill thumb and obsidian track styling. GamerTag & Theme Persistence: Fixed GamerTag and active theme sync on startup. Random Tools Tab: Added quick access system tools.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
