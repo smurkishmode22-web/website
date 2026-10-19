@@ -1,8 +1,8 @@
 {
-  "version": "2.8.0",
-  "title": "Planet Tweaks V2.8.0 NOVA TITAN 🪐 — Ghost App Tree Termination, Shift Chat Bypass & Studio Overhaul",
+  "version": "2.8.1",
+  "title": "Planet Tweaks V2.8.1 NOVA TITAN 🪐 — Flawless Window Maximize, Unlocked Crosshair Scrolling & Zero-Delay Input Engine",
   "releaseDate": "2026-10-18",
-  "releaseNotes": "Ghost Apps Obliteration: Upgraded freeze engine to aggressively stop services and kill entire process trees (taskkill /F /T) with instant Force Close button. Shift Key Macro Bypass: Holding Shift now pauses all macro injection and key suppression for seamless in-game typing. Crosshair Studio Redesign: Added smooth scrolling, fixed loadout preset loading, compact overlay toggle, and cleaner controls. Cyber Slider: Sleek metallic pill thumb and obsidian track styling. GamerTag & Theme Persistence: Fixed GamerTag and active theme sync on startup. Random Tools Tab: Added quick access system tools.",
+  "releaseNotes": "Seamless Window Maximization: Dynamically eliminates border radius on maximize so desktop wallpaper never bleeds through edges. Unlocked Custom Crosshair Studio: Resolved layout scroll deadlocks for silky smooth preset and slider configuration. Rock-Solid Game Overlay: Reinforced Win32 HWND_TOPMOST priority and disabled activation so the crosshair reticle never hides or drops behind fullscreen DirectX esports titles. Persistent GamerTag Priority: Guaranteed your custom gamer tag stays locked in across cloud and local sessions. Zero-Delay Input Tweaks: Added Zero Keyboard Bounce Lockout (0ms) and Disable Mouse ClickLock to ensure rapid build, edit, and click sequences never hitch.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
