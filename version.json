@@ -1,8 +1,8 @@
 {
-  "version": "2.8.1",
-  "title": "Planet Tweaks V2.8.1 NOVA TITAN 🪐 — Flawless Window Maximize, Unlocked Crosshair Scrolling & Zero-Delay Input Engine",
-  "releaseDate": "2026-10-18",
-  "releaseNotes": "Seamless Window Maximization: Dynamically eliminates border radius on maximize so desktop wallpaper never bleeds through edges. Unlocked Custom Crosshair Studio: Resolved layout scroll deadlocks for silky smooth preset and slider configuration. Rock-Solid Game Overlay: Reinforced Win32 HWND_TOPMOST priority and disabled activation so the crosshair reticle never hides or drops behind fullscreen DirectX esports titles. Persistent GamerTag Priority: Guaranteed your custom gamer tag stays locked in across cloud and local sessions. Zero-Delay Input Tweaks: Added Zero Keyboard Bounce Lockout (0ms) and Disable Mouse ClickLock to ensure rapid build, edit, and click sequences never hitch.",
+  "version": "2.8.2",
+  "title": "Planet Tweaks V2.8.2 NOVA TITAN 🪐 — $10k Liquid Glass Settings, Supabase Cloud Auth, Sprint-Macro Freedom & Sub-Tab Architecture",
+  "releaseDate": "2026-10-21",
+  "releaseNotes": "Full $10,000 Settings Remodel: Completely redesigned modular settings HUD with glass bento tabs, circular profile photo clipping, and permanent GamerTag persistence. Supabase Cloud Sync: Instant 1-click cloud sync and Google OAuth fallback with encrypted cloud persistence. Sprint Macro Engine: Shift key restrictions completely removed so tactical sprint never stops or interrupts custom macro sequences. Precision Mouse Polling: Upgraded polling rate measurement to a sliding window queue for rock-solid 1000Hz/4000Hz/8000Hz esports accuracy. GPU Spec Switcher: Comprehensive display key spoofing and WinSAT string coverage. Random Sub-Tabs & Restore Point Controls: Organized Random tab into 4 dedicated sub-tabs with foldable restore point lists.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
