@@ -1,8 +1,8 @@
 {
-  "version": "2.8.6",
-  "title": "Planet Tweaks V2.8.6 NOVA TITAN 🪐 — Virtual Key (R) Remapper, Pro Pack Clean-up & Encoding Polish",
-  "releaseDate": "2026-10-21",
-  "releaseNotes": "Zero-Delay Remapping & Pro Pack Polish: Added dedicated 'Virtual Key (R)' 0-delay bind to Key Remapper (sends direct R without triggering Fortnite crouch) while preserving Paste (Ctrl+V). Streamlined Pro Packs grid by keeping top-tier Peterbot 0-Delay and eliminating duplicate card clutter. Added smart dynamic PC restart notices on tweaks requiring reboot. Permanently scrubbed foreign script font fallback encoding glitches.",
+  "version": "2.8.7",
+  "title": "Planet Tweaks V2.8.7 NOVA TITAN 🪐 — True 0-Delay Fortnite Drag Edit & Sub-Millisecond Engine",
+  "releaseDate": "2026-10-22",
+  "releaseNotes": "Zero-Delay Macro Engine Polish: Completely eradicated 26ms hardcoded pre-delay and 22ms release delay in Fortnite Drag Edit macro. Dropped edit key stroke and tile select grab to true 1ms sub-millisecond execution with instant 1ms release confirmation. Updated default drag edit preset timing to 1ms.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
