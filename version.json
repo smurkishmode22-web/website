@@ -1,8 +1,8 @@
 {
-  "version": "2.8.4",
-  "title": "Planet Tweaks V2.8.4 NOVA TITAN 🪐 — Planet Nova AI 3.8 Flash, Autonomous PC Tools & Pro Pack Suite",
+  "version": "2.8.5",
+  "title": "Planet Tweaks V2.8.5 NOVA TITAN 🪐 — Supabase Auth, Permanent GamerTag & AI Copilot Remodel",
   "releaseDate": "2026-10-21",
-  "releaseNotes": "Planet Nova AI Engine Upgrade: Fully operational with Google Gemini 3.8 Flash, instant connection tester fix, and master fallback API key support. Built-in autonomous PC tool calling allows Planet Nova to silently install apps via winget (Discord, Steam, Spotify, OBS, Chrome, Brave, 7zip, VLC, Process Lasso, MSI Afterburner), extract .zip archives directly to folders, pin/unpin apps from the taskbar, and run full 1-click PC boosts (cache purge, low latency tweaks, DNS flush, RAM trim). Construction warning banner completely removed. Pro Pack Suite: Standalone Peterbot 0-Delay Secret Pack, refined FNCS pack ordering, and De-Animation Purge with background startup bloat shutoff.",
+  "releaseNotes": "Cloud Architecture & AI UI Overhaul: Completely migrated authentication from Firebase to native Supabase Auth REST API with Google OAuth browser login. Fixed permanent GamerTag persistence so custom usernames never revert to PlanetGamer. Scrubbed user-facing API key input boxes with automated background credential resolution. Remodeled Gemini AI Assistant UI with full-height message flex and pinned bottom prompt inputs. Cleaned nested Random Tab container encoding.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
