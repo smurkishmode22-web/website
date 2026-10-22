@@ -1,8 +1,8 @@
 {
-  "version": "2.8.5",
-  "title": "Planet Tweaks V2.8.5 NOVA TITAN 🪐 — Supabase Auth, Permanent GamerTag & AI Copilot Remodel",
+  "version": "2.8.6",
+  "title": "Planet Tweaks V2.8.6 NOVA TITAN 🪐 — Virtual Key (R) Remapper, Pro Pack Clean-up & Encoding Polish",
   "releaseDate": "2026-10-21",
-  "releaseNotes": "Cloud Architecture & AI UI Overhaul: Completely migrated authentication from Firebase to native Supabase Auth REST API with Google OAuth browser login. Fixed permanent GamerTag persistence so custom usernames never revert to PlanetGamer. Scrubbed user-facing API key input boxes with automated background credential resolution. Remodeled Gemini AI Assistant UI with full-height message flex and pinned bottom prompt inputs. Cleaned nested Random Tab container encoding.",
+  "releaseNotes": "Zero-Delay Remapping & Pro Pack Polish: Added dedicated 'Virtual Key (R)' 0-delay bind to Key Remapper (sends direct R without triggering Fortnite crouch) while preserving Paste (Ctrl+V). Streamlined Pro Packs grid by keeping top-tier Peterbot 0-Delay and eliminating duplicate card clutter. Added smart dynamic PC restart notices on tweaks requiring reboot. Permanently scrubbed foreign script font fallback encoding glitches.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-setup.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/planet-tweaks-nova-setup.exe",
   "mandatory": false
