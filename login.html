@@ -158,25 +158,55 @@
         <a href="index.html" class="back-link">← Return to Planet Tweaks Home</a>
     </div>
 
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-        import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script>
+        const SUPABASE_URL = "https://rgycceantliyebnagtub.supabase.co";
+        const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJneWNjZWFudGxpeWVibmFndHViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI1Mzg0NDcsImV4cCI6MjEwODExNDQ0N30.AlFQ-0-NBcrAWp6y1zoiey641QQ_M7yqR-npTpFCp1E";
 
-        const firebaseConfig = {
-            apiKey: atob("QUl6YVN5QVFXRDlDYWNNdzVhaXVGaGJ4S3hZTkZHNGE4aXFxTU9Z"),
-            authDomain: "planettweaks-4b9ff.firebaseapp.com",
-            projectId: "planettweaks-4b9ff"
-        };
-
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
-        const provider = new GoogleAuthProvider();
-        provider.setCustomParameters({ prompt: 'select_account' });
+        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
         const urlParams = new URLSearchParams(window.location.search);
         const callbackPort = urlParams.get('port') || '51789';
         const googleBtn = document.getElementById('googleBtn');
         const statusPill = document.getElementById('statusPill');
+
+        async function syncSessionWithDesktop(user, session) {
+            const payload = {
+                idToken: session?.access_token || '',
+                refreshToken: session?.refresh_token || '',
+                email: user.email || '',
+                displayName: user.user_metadata?.full_name || user.user_metadata?.name || (user.email ? user.email.split('@')[0] : 'PlanetGamer'),
+                localId: user.id || '',
+                photoUrl: user.user_metadata?.avatar_url || ''
+            };
+
+            statusPill.innerHTML = '<span class="spinner"></span> Syncing with Planet Tweaks Desktop...';
+
+            try {
+                const response = await fetch(`http://127.0.0.1:${callbackPort}/callback`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (response.ok) {
+                    statusPill.className = 'status-pill status-success';
+                    document.getElementById('loginCard').innerHTML = `
+                        <div class="login-logo" style="color: #10B981;">✅</div>
+                        <h1 class="login-title" style="color: #10B981;">AUTHENTICATED!</h1>
+                        <p class="login-subtitle">Welcome back, <strong>${payload.displayName}</strong>!<br>Your cloud session is now active in Planet Tweaks.</p>
+                        <p style="font-size: 13px; color: #38BDF8; font-weight: 600;">You can close this tab and return to the app.</p>
+                    `;
+                    return true;
+                }
+            } catch (desktopErr) {
+                console.log('Desktop listener not reachable or web-only sign in:', desktopErr);
+            }
+
+            statusPill.className = 'status-pill status-success';
+            statusPill.innerHTML = `<strong>✓ Welcome, ${payload.displayName}!</strong><br>Logged in successfully.`;
+            return false;
+        }
 
         window.handleGoogleSignIn = async function() {
             googleBtn.style.display = 'none';
@@ -185,45 +215,18 @@
             statusPill.innerHTML = '<span class="spinner"></span> Connecting to Google...';
 
             try {
-                const result = await signInWithPopup(auth, provider);
-                const user = result.user;
-                const token = await user.getIdToken();
-
-                const payload = {
-                    idToken: token,
-                    email: user.email || '',
-                    displayName: user.displayName || (user.email ? user.email.split('@')[0] : 'PlanetGamer'),
-                    localId: user.uid || '',
-                    photoUrl: user.photoURL || ''
-                };
-
-                statusPill.innerHTML = '<span class="spinner"></span> Syncing with Planet Tweaks Desktop...';
-
-                // Send session back to the desktop app listener
-                try {
-                    const response = await fetch(`http://127.0.0.1:${callbackPort}/callback`, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify(payload)
-                    });
-
-                    if (response.ok) {
-                        statusPill.className = 'status-pill status-success';
-                        document.getElementById('loginCard').innerHTML = `
-                            <div class="login-logo" style="color: #10B981;">✅</div>
-                            <h1 class="login-title" style="color: #10B981;">AUTHENTICATED!</h1>
-                            <p class="login-subtitle">Welcome back, <strong>${payload.displayName}</strong>!<br>Your cloud session is now active in Planet Tweaks.</p>
-                            <p style="font-size: 13px; color: #38BDF8; font-weight: 600;">You can close this tab and return to the app.</p>
-                        `;
-                        return;
+                const redirectTo = window.location.origin + window.location.pathname + (callbackPort ? `?port=${callbackPort}` : '');
+                const { data, error } = await supabase.auth.signInWithOAuth({
+                    provider: 'google',
+                    options: {
+                        redirectTo: redirectTo,
+                        queryParams: {
+                            prompt: 'select_account'
+                        }
                     }
-                } catch (desktopErr) {
-                    console.log('Desktop listener not reachable or web-only sign in:', desktopErr);
-                }
+                });
 
-                // If signed in from browser directly
-                statusPill.className = 'status-pill status-success';
-                statusPill.innerHTML = `<strong>✓ Welcome, ${payload.displayName}!</strong><br>Logged in successfully.`;
+                if (error) throw error;
             } catch (err) {
                 console.error(err);
                 googleBtn.style.display = 'flex';
@@ -232,14 +235,25 @@
             }
         };
 
-        // Automatically trigger Google sign in if opened from the app
-        if (urlParams.has('port')) {
-            window.addEventListener('load', () => {
-                setTimeout(() => {
-                    handleGoogleSignIn();
-                }, 400);
-            });
-        }
+        // Check for session on return from OAuth or auto-login
+        window.addEventListener('load', async () => {
+            try {
+                const { data: { session }, error } = await supabase.auth.getSession();
+                if (session && session.user) {
+                    googleBtn.style.display = 'none';
+                    statusPill.style.display = 'block';
+                    statusPill.className = 'status-pill status-loading';
+                    await syncSessionWithDesktop(session.user, session);
+                } else if (urlParams.has('port') && !window.location.hash.includes('access_token')) {
+                    // Automatically trigger Google sign in if opened from the app without a session
+                    setTimeout(() => {
+                        handleGoogleSignIn();
+                    }, 400);
+                }
+            } catch (e) {
+                console.warn('Session check error:', e);
+            }
+        });
     </script>
 </body>
 </html>
