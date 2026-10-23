@@ -1,9 +1,9 @@
 {
-  "version": "2.8.8",
-  "title": "Planet Tweaks V2.8.8 NOVA TITAN 🪐 — True Atomic 0-Delay Fortnite Drag Edit & High-Priority Macro Dispatcher",
+  "version": "2.8.9",
+  "title": "Planet Tweaks V2.8.9 NOVA TITAN 🪐 — Timed Auto-Message Spammer (1-59m) & Instant Play/Pause Engine",
   "releaseDate": "2026-10-22",
-  "releaseNotes": "Zero-Delay Macro Engine Upgrade: Added atomic batched SendKeyBatch for single-packet instantaneous SendInput execution. Eradicated thread-pool hop jitter with a dedicated high-priority FIFO dispatcher thread. Added Pass-Through Mode (trigger == edit key passes physical key directly to game) and instant 0ms batched edit+select. Added Select Delay slider (0-30ms) and in-app Confirm Edit on Release toggle.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.8.8_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.8.8_Nova_AI_Edition.exe",
+  "releaseNotes": "Timed Message Spammer Engine: Added continuous auto-typing message repeater with 1-59 minute interval timer and instant in-app Play/Pause controls. Custom message input, instant token-based pause cancellation with 0 CPU overhead, and native template preset.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.8.9_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.8.9_Nova_AI_Edition.exe",
   "mandatory": false
 }

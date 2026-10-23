@@ -229,8 +229,8 @@ function toggleFaq(button) {
 }
 
 // 6. Download Modal & Dynamic Download Trigger
-let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v2.8.8_Latest.exe';
-let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v2.8.8_Nova_AI_Edition.exe';
+let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v2.8.9_Latest.exe';
+let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v2.8.9_Nova_AI_Edition.exe';
 
 // Automatically sync download URL with version.json (cache-busted to prevent stale cached versions)
 if (typeof fetch === 'function') {
