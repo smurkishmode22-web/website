@@ -4,6 +4,6 @@
   "releaseDate": "2026-10-24",
   "releaseNotes": "Planet Tweaks V2.9.1 NOVA TITAN: Zero-delay quad-edit mouse hook bypass, Supabase cloud auth, Ollama local AI + Gemini 2.5 integration, 4-step Pro Pack safety pipeline, Ryzen 7 9800X3D Spec Switcher, silent 1-click in-app updater, and zero-DWM glassless UI.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.1_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.1_Nova_AI_Edition.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.1_Latest.exe",
   "mandatory": false
 }
