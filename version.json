@@ -2,7 +2,7 @@
   "version": "2.9.2",
   "title": "Planet Tweaks V2.9.2 NOVA TITAN 🪐 — Ultra Performance & Streamlined Cloud Engine",
   "releaseDate": "2026-10-24",
-  "releaseNotes": "Planet Tweaks V2.9.2 NOVA TITAN: Zero-delay title bar hit testing & window control fixes, real-time kernel CPU clock & hardware telemetry engine, real GPU driver & VRAM specs, unified cyber cloud login & registration portal with 1-click desktop session sync.",
+  "releaseNotes": "Planet Tweaks V2.9.2 NOVA TITAN: Idle zero-delay input hook detachment for raw game inputs, Task Manager CPU Base Speed ~MHz and GPU UTF-16LE AdapterString hardware spoofing, GFN Reflex stream packet pacing & 75Mbps bitrate optimization, Chrome background task & cloud helper purge, AMD Vari-Bright dynamic dimming disable, and enhanced 4-pillar latency diagnostics.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.2_Latest.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.2_Latest.exe",
   "mandatory": false
