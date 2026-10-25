@@ -3,100 +3,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In - Planet Tweaks Cloud</title>
+    <title>Sign In & Register - Planet Tweaks Cloud</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         body {
-            background-color: #06080E;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: #0B0D13;
             color: #F8FAFC;
-            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0;
             padding: 24px;
-            overflow-x: hidden;
             position: relative;
+            overflow-x: hidden;
+        }
+        .glow-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            pointer-events: none;
+            opacity: 0.22;
+        }
+        .glow-top {
+            width: 480px;
+            height: 480px;
+            background: radial-gradient(circle, #38BDF8, #8B5CF6);
+            top: -150px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .glow-bottom {
+            width: 360px;
+            height: 360px;
+            background: radial-gradient(circle, #0284C7, transparent);
+            bottom: -100px;
+            right: 15%;
         }
         .login-card {
-            background: rgba(14, 19, 31, 0.85);
-            border: 1px solid rgba(56, 189, 248, 0.2);
-            backdrop-filter: blur(24px);
-            -webkit-backdrop-filter: blur(24px);
-            border-radius: 24px;
-            padding: 48px 40px;
+            background: #131722;
+            border: 1px solid #1F2536;
+            border-radius: 20px;
+            padding: 36px 32px;
+            max-width: 440px;
             width: 100%;
-            max-width: 460px;
-            text-align: center;
-            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 40px rgba(56, 189, 248, 0.1);
+            box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.75), 0 0 40px rgba(56, 189, 248, 0.08);
             position: relative;
             z-index: 10;
+            text-align: center;
         }
         .login-logo {
             font-size: 42px;
-            margin-bottom: 12px;
-            filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.5));
+            margin-bottom: 8px;
+            display: inline-block;
+            filter: drop-shadow(0 0 16px rgba(56, 189, 248, 0.6));
         }
         .login-title {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: 800;
             letter-spacing: -0.5px;
-            color: #FFFFFF;
-            margin: 0 0 8px;
-            text-transform: uppercase;
+            margin-bottom: 6px;
         }
         .login-title span {
-            background: linear-gradient(135deg, #38BDF8 0%, #00FFCC 100%);
+            background: linear-gradient(135deg, #38BDF8 0%, #818CF8 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
         .login-subtitle {
+            font-size: 13px;
             color: #94A3B8;
-            font-size: 14px;
-            line-height: 1.6;
-            margin: 0 0 32px;
+            line-height: 1.5;
+            margin-bottom: 22px;
         }
-        .btn-google {
-            background: #FFFFFF;
-            color: #0F172A;
+
+        /* Mode Tabs */
+        .auth-tabs {
+            display: flex;
+            background: #0E1118;
+            border: 1px solid #1E2330;
+            border-radius: 12px;
+            padding: 4px;
+            margin-bottom: 22px;
+            gap: 4px;
+        }
+        .auth-tab {
+            flex: 1;
+            background: transparent;
             border: none;
-            border-radius: 14px;
-            padding: 16px 24px;
-            font-size: 15px;
+            color: #94A3B8;
+            font-size: 12.5px;
+            font-weight: 600;
+            padding: 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .auth-tab.active {
+            background: #1E2536;
+            color: #38BDF8;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Form Inputs */
+        .form-group {
+            text-align: left;
+            margin-bottom: 14px;
+        }
+        .form-label {
+            display: block;
+            font-size: 11px;
             font-weight: 700;
+            color: #94A3B8;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+        .form-input {
             width: 100%;
+            background: #0E1118;
+            border: 1px solid #1F2536;
+            border-radius: 10px;
+            padding: 11px 14px;
+            font-size: 13.5px;
+            color: #F8FAFC;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+            font-family: inherit;
+        }
+        .form-input:focus {
+            border-color: #38BDF8;
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        }
+
+        /* Buttons */
+        .btn-primary {
+            width: 100%;
+            background: linear-gradient(135deg, #38BDF8 0%, #0284C7 100%);
+            border: none;
+            border-radius: 10px;
+            padding: 12px 18px;
+            color: #000000;
+            font-weight: 700;
+            font-size: 13.5px;
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 12px;
-            transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+            gap: 8px;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 14px rgba(56, 189, 248, 0.35);
+            transition: transform 0.15s, box-shadow 0.15s;
         }
-        .btn-google:hover {
-            background: #F1F5F9;
-            transform: translateY(-2px);
-            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45), 0 0 20px rgba(255, 255, 255, 0.2);
+        .btn-primary:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 6px 20px rgba(56, 189, 248, 0.45);
         }
-        .btn-google:active {
+        .btn-primary:active {
             transform: translateY(0);
         }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 16px 0;
+            color: #475569;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .divider::before, .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #1F2536;
+        }
+        .divider span {
+            padding: 0 10px;
+        }
+
+        .btn-google {
+            width: 100%;
+            background: #0E1118;
+            border: 1px solid #1F2536;
+            border-radius: 10px;
+            padding: 11px 16px;
+            color: #F8FAFC;
+            font-weight: 600;
+            font-size: 13px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: background 0.2s, border-color 0.2s;
+        }
+        .btn-google:hover {
+            background: #181D2A;
+            border-color: #38BDF8;
+        }
+
+        /* Status & Alert Box */
         .status-pill {
-            margin-top: 24px;
-            padding: 16px;
-            border-radius: 14px;
-            font-size: 13.5px;
-            line-height: 1.5;
             display: none;
+            padding: 12px 14px;
+            border-radius: 10px;
+            font-size: 12.5px;
+            margin-top: 14px;
+            line-height: 1.45;
+            text-align: left;
         }
         .status-loading {
-            background: rgba(14, 165, 233, 0.1);
-            border: 1px solid rgba(14, 165, 233, 0.3);
+            background: rgba(56, 189, 248, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
             color: #38BDF8;
         }
         .status-success {
@@ -111,21 +239,22 @@
         }
         .spinner {
             display: inline-block;
-            width: 16px;
-            height: 16px;
-            border: 2px solid #38BDF8;
+            width: 14px;
+            height: 14px;
+            border: 2px solid currentColor;
             border-top-color: transparent;
             border-radius: 50%;
             animation: spin 0.8s linear infinite;
             vertical-align: middle;
-            margin-right: 8px;
+            margin-right: 6px;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
+
         .back-link {
             display: inline-block;
-            margin-top: 28px;
+            margin-top: 22px;
             color: #64748B;
-            font-size: 13px;
+            font-size: 12.5px;
             text-decoration: none;
             transition: color 0.2s;
         }
@@ -134,23 +263,54 @@
         }
     </style>
 </head>
-<body class="oled-theme">
+<body>
     <div class="glow-orb glow-top"></div>
     <div class="glow-orb glow-bottom"></div>
 
     <div class="login-card" id="loginCard">
         <div class="login-logo">🪐</div>
         <h1 class="login-title">Planet <span>Tweaks</span></h1>
-        <p class="login-subtitle">Sign in with your Google account to sync your esports presets, GamerTag, and zero-latency configs across devices.</p>
+        <p class="login-subtitle">Sync your GamerTag, esports pro packs, and cloud presets directly with the desktop app.</p>
 
-        <button class="btn-google" id="googleBtn" onclick="handleGoogleSignIn()">
-            <svg width="20" height="20" viewBox="0 0 18 18">
+        <!-- Mode Navigation -->
+        <div class="auth-tabs">
+            <button class="auth-tab active" id="tabSignIn" onclick="switchMode('signin')">Sign In</button>
+            <button class="auth-tab" id="tabSignUp" onclick="switchMode('signup')">Create Account</button>
+            <button class="auth-tab" id="tabMagic" onclick="switchMode('magic')">Magic Link</button>
+        </div>
+
+        <!-- Form Container -->
+        <form id="authForm" onsubmit="handleAuthSubmit(event)">
+            <div class="form-group" id="tagGroup" style="display: none;">
+                <label class="form-label">GamerTag / Display Name</label>
+                <input type="text" id="gamerTagInput" class="form-input" placeholder="e.g. ClixFN, Peterbot" autocomplete="nickname">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Email Address</label>
+                <input type="email" id="emailInput" class="form-input" placeholder="gamer@planettweaks.com" required autocomplete="email">
+            </div>
+
+            <div class="form-group" id="passwordGroup">
+                <label class="form-label">Password</label>
+                <input type="password" id="passwordInput" class="form-input" placeholder="••••••••" autocomplete="current-password">
+            </div>
+
+            <button type="submit" class="btn-primary" id="submitBtn">
+                <span id="btnText">⚡ Sign In to Cloud</span>
+            </button>
+        </form>
+
+        <div class="divider"><span>Or</span></div>
+
+        <button class="btn-google" id="googleBtn" type="button" onclick="handleGoogleSignIn()">
+            <svg width="18" height="18" viewBox="0 0 18 18">
                 <path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/>
                 <path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332C2.438 15.983 5.482 18 9 18z"/>
                 <path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957C.347 6.173 0 7.548 0 9s.347 2.827.957 4.039l3.007-2.332z"/>
                 <path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0 5.482 0 2.438 2.017.957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/>
             </svg>
-            Sign In with Google
+            Continue with Google
         </button>
 
         <div id="statusPill" class="status-pill"></div>
@@ -167,20 +327,62 @@
 
         const urlParams = new URLSearchParams(window.location.search);
         const callbackPort = urlParams.get('port') || '51789';
-        const googleBtn = document.getElementById('googleBtn');
-        const statusPill = document.getElementById('statusPill');
+
+        let currentMode = 'signin'; // 'signin' | 'signup' | 'magic'
+
+        function setStatus(msg, type = 'loading') {
+            const pill = document.getElementById('statusPill');
+            pill.style.display = 'block';
+            pill.className = `status-pill status-${type}`;
+            pill.innerHTML = (type === 'loading' ? '<span class="spinner"></span>' : '') + msg;
+        }
+
+        function hideStatus() {
+            document.getElementById('statusPill').style.display = 'none';
+        }
+
+        window.switchMode = function(mode) {
+            currentMode = mode;
+            hideStatus();
+            document.getElementById('tabSignIn').className = 'auth-tab' + (mode === 'signin' ? ' active' : '');
+            document.getElementById('tabSignUp').className = 'auth-tab' + (mode === 'signup' ? ' active' : '');
+            document.getElementById('tabMagic').className = 'auth-tab' + (mode === 'magic' ? ' active' : '');
+
+            const tagGroup = document.getElementById('tagGroup');
+            const passwordGroup = document.getElementById('passwordGroup');
+            const submitBtn = document.getElementById('submitBtn');
+            const btnText = document.getElementById('btnText');
+
+            if (mode === 'signin') {
+                tagGroup.style.display = 'none';
+                passwordGroup.style.display = 'block';
+                document.getElementById('passwordInput').required = true;
+                btnText.textContent = '⚡ Sign In to Cloud';
+            } else if (mode === 'signup') {
+                tagGroup.style.display = 'block';
+                passwordGroup.style.display = 'block';
+                document.getElementById('passwordInput').required = true;
+                btnText.textContent = '✨ Create Free Account';
+            } else if (mode === 'magic') {
+                tagGroup.style.display = 'none';
+                passwordGroup.style.display = 'none';
+                document.getElementById('passwordInput').required = false;
+                btnText.textContent = '📨 Send 1-Click Magic Link';
+            }
+        };
 
         async function syncSessionWithDesktop(user, session) {
+            const gamerTag = user.user_metadata?.full_name || user.user_metadata?.name || (user.email ? user.email.split('@')[0] : 'PlanetGamer');
             const payload = {
                 idToken: session?.access_token || '',
                 refreshToken: session?.refresh_token || '',
                 email: user.email || '',
-                displayName: user.user_metadata?.full_name || user.user_metadata?.name || (user.email ? user.email.split('@')[0] : 'PlanetGamer'),
+                displayName: gamerTag,
                 localId: user.id || '',
                 photoUrl: user.user_metadata?.avatar_url || ''
             };
 
-            statusPill.innerHTML = '<span class="spinner"></span> Syncing with Planet Tweaks Desktop...';
+            setStatus('Syncing session with Planet Tweaks Desktop...', 'loading');
 
             try {
                 const response = await fetch(`http://127.0.0.1:${callbackPort}/callback`, {
@@ -190,12 +392,11 @@
                 });
 
                 if (response.ok) {
-                    statusPill.className = 'status-pill status-success';
                     document.getElementById('loginCard').innerHTML = `
                         <div class="login-logo" style="color: #10B981;">✅</div>
                         <h1 class="login-title" style="color: #10B981;">AUTHENTICATED!</h1>
-                        <p class="login-subtitle">Welcome back, <strong>${payload.displayName}</strong>!<br>Your cloud session is now active in Planet Tweaks.</p>
-                        <p style="font-size: 13px; color: #38BDF8; font-weight: 600;">You can close this tab and return to the app.</p>
+                        <p class="login-subtitle">Welcome back, <strong>${gamerTag}</strong>!<br>Your cloud session is now locked in and active in Planet Tweaks.</p>
+                        <p style="font-size: 13.5px; color: #38BDF8; font-weight: 700; margin-top: 14px;">You can close this tab and return to the game.</p>
                     `;
                     return true;
                 }
@@ -203,52 +404,108 @@
                 console.log('Desktop listener not reachable or web-only sign in:', desktopErr);
             }
 
-            statusPill.className = 'status-pill status-success';
-            statusPill.innerHTML = `<strong>✓ Welcome, ${payload.displayName}!</strong><br>Logged in successfully.`;
+            setStatus(`<strong>✓ Welcome, ${gamerTag}!</strong><br>Logged in successfully.`, 'success');
             return false;
         }
 
-        window.handleGoogleSignIn = async function() {
-            googleBtn.style.display = 'none';
-            statusPill.style.display = 'block';
-            statusPill.className = 'status-pill status-loading';
-            statusPill.innerHTML = '<span class="spinner"></span> Connecting to Google...';
+        window.handleAuthSubmit = async function(e) {
+            e.preventDefault();
+            const email = document.getElementById('emailInput').value.trim();
+            const password = document.getElementById('passwordInput').value;
+            const gamerTag = document.getElementById('gamerTagInput').value.trim() || email.split('@')[0];
 
-            try {
-                const redirectTo = window.location.origin + window.location.pathname + (callbackPort ? `?port=${callbackPort}` : '');
-                const { data, error } = await supabase.auth.signInWithOAuth({
-                    provider: 'google',
-                    options: {
-                        redirectTo: redirectTo,
-                        queryParams: {
-                            prompt: 'select_account'
+            if (!email) return;
+
+            if (currentMode === 'signin') {
+                setStatus('Signing in...', 'loading');
+                try {
+                    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+                    if (error) {
+                        if (error.message.includes('Invalid login credentials')) {
+                            setStatus('⚠️ Invalid email or password. If you don’t have an account yet, click "Create Account" above!', 'error');
+                        } else {
+                            setStatus('⚠️ ' + error.message, 'error');
                         }
+                        return;
                     }
-                });
-
-                if (error) throw error;
-            } catch (err) {
-                console.error(err);
-                googleBtn.style.display = 'flex';
-                statusPill.className = 'status-pill status-error';
-                statusPill.innerHTML = '⚠️ ' + (err.message || 'Google sign-in was cancelled or blocked.');
+                    if (data?.user && data?.session) {
+                        await syncSessionWithDesktop(data.user, data.session);
+                    }
+                } catch (err) {
+                    setStatus('⚠️ ' + (err.message || 'Login error occurred.'), 'error');
+                }
+            } else if (currentMode === 'signup') {
+                setStatus('Creating account...', 'loading');
+                try {
+                    const { data, error } = await supabase.auth.signUp({
+                        email,
+                        password,
+                        options: {
+                            data: { full_name: gamerTag }
+                        }
+                    });
+                    if (error) {
+                        if (error.message.toLowerCase().includes('already registered')) {
+                            setStatus('ℹ️ This email is already registered! Switched to Sign In — please enter your password.', 'loading');
+                            switchMode('signin');
+                            return;
+                        }
+                        setStatus('⚠️ ' + error.message, 'error');
+                        return;
+                    }
+                    if (data?.session && data?.user) {
+                        await syncSessionWithDesktop(data.user, data.session);
+                    } else if (data?.user && !data?.session) {
+                        setStatus(`📩 Verification email sent to <strong>${email}</strong>! Please click the link in your email to confirm your account.`, 'success');
+                    }
+                } catch (err) {
+                    setStatus('⚠️ ' + (err.message || 'Signup failed.'), 'error');
+                }
+            } else if (currentMode === 'magic') {
+                setStatus('Sending 1-click magic link...', 'loading');
+                try {
+                    const redirectUrl = window.location.origin + window.location.pathname + (callbackPort ? `?port=${callbackPort}` : '');
+                    const { error } = await supabase.auth.signInWithOtp({
+                        email,
+                        options: { emailRedirectTo: redirectUrl }
+                    });
+                    if (error) throw error;
+                    setStatus(`✨ Magic Link sent to <strong>${email}</strong>! Check your inbox to log in instantly.`, 'success');
+                } catch (err) {
+                    setStatus('⚠️ ' + (err.message || 'Could not send magic link.'), 'error');
+                }
             }
         };
 
-        // Check for session on return from OAuth or auto-login
+        window.handleGoogleSignIn = async function() {
+            setStatus('Connecting to Google...', 'loading');
+            try {
+                const redirectTo = window.location.origin + window.location.pathname + (callbackPort ? `?port=${callbackPort}` : '');
+                const { error } = await supabase.auth.signInWithOAuth({
+                    provider: 'google',
+                    options: {
+                        redirectTo: redirectTo,
+                        queryParams: { prompt: 'select_account' }
+                    }
+                });
+                if (error) {
+                    if (error.message.includes('not enabled')) {
+                        setStatus('ℹ️ Google OAuth is pending cloud setup. Please sign in with your email & password above!', 'error');
+                    } else {
+                        throw error;
+                    }
+                }
+            } catch (err) {
+                console.error(err);
+                setStatus('⚠️ ' + (err.message || 'Google sign-in was cancelled or blocked.'), 'error');
+            }
+        };
+
         window.addEventListener('load', async () => {
             try {
-                const { data: { session }, error } = await supabase.auth.getSession();
+                const { data: { session } } = await supabase.auth.getSession();
                 if (session && session.user) {
-                    googleBtn.style.display = 'none';
-                    statusPill.style.display = 'block';
-                    statusPill.className = 'status-pill status-loading';
                     await syncSessionWithDesktop(session.user, session);
-                } else if (urlParams.has('port') && !window.location.hash.includes('access_token')) {
-                    // Automatically trigger Google sign in if opened from the app without a session
-                    setTimeout(() => {
-                        handleGoogleSignIn();
-                    }, 400);
                 }
             } catch (e) {
                 console.warn('Session check error:', e);
