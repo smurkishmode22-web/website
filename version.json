@@ -1,8 +1,8 @@
 {
   "version": "2.9.3",
-  "title": "Planet Tweaks V2.9.3 NOVA TITAN 🪐 — 2-Key Dragon Edit & GFN Zero-Drop Engine",
+  "title": "Planet Tweaks V2.9.3 NOVA TITAN 🪐 — 2-Key Drag Edit & True 0ms Zero-Delay Engine",
   "releaseDate": "2026-10-26",
-  "releaseNotes": "Planet Tweaks V2.9.3 NOVA TITAN: Streamlined 2-Key Dragon Edit Macro architecture (unified Edit Key + Tile Select with native Mouse Button XButton1/XButton2 trigger support), UE5 game-mesh sub-tick cadence calibration eliminating dropped/missing tiles on GeForce NOW and local PC, 1-click GFN vs Local PC streaming profile toggles, and AHK script sync with Confirm Edit on Release.",
+  "releaseNotes": "Planet Tweaks V2.9.3 NOVA TITAN: Streamlined 2-Key Drag Edit Macro architecture with true 0ms delay on both Local PC and GeForce NOW (unified Edit Key + Tile Select with native Mouse Button XButton1/XButton2 trigger support), hold-to-drag tile selection with instant Confirm Edit on Release, 1-click GFN vs Local PC streaming profile toggles, and AHK script sync.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.3_Latest.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.3_Latest.exe",
   "mandatory": false
