@@ -2,7 +2,7 @@
   "version": "2.9.5",
   "title": "Planet Tweaks V2.9.5 NOVA TITAN 🪐 — True Zero-Delay Edit & Input Audit Engine",
   "releaseDate": "2026-10-27",
-  "releaseNotes": "Planet Tweaks V2.9.5 NOVA TITAN: Comprehensive system audit complete with 162+ verified esports kernel optimizations. Restored optimal DoubleClickSpeed (500ms) and eliminated 1000ms FilterKeys acceptance delay for instant Fortnite double/triple edits on GeForce NOW and local PC. Stabilized AMD laptop USB xHCI controllers to eliminate 500Hz/1000Hz polling jitter. Locked 2-Key Drag Edit with true 0ms instant hold, unified naming across all platforms, and automated background Chrome worker cleanup.",
+  "releaseNotes": "Planet Tweaks V2.9.5 NOVA TITAN: Comprehensive competitive input overhaul with authentic 3-Key Fortnite Drag Edit (Activation Key, In-Game Edit Key, and Tile Select Key with true 0ms delay). Smooth non-freezing slider engine with zero UI stutter. Purged legacy Hone tweaks from catalog and Pro Pack, locking pure Zero FilterKeys Acceptance Delay (0ms), Clear Sticky Flags (0), and Optimal DoubleClickSpeed (500ms) for instant double/triple edits.",
   "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.5_Latest.exe",
   "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.5_Latest.exe",
   "mandatory": false
