@@ -1,9 +1,9 @@
 {
-  "version": "2.9.2",
-  "title": "Planet Tweaks V2.9.2 NOVA TITAN 🪐 — Ultra Performance & Streamlined Cloud Engine",
-  "releaseDate": "2026-10-24",
-  "releaseNotes": "Planet Tweaks V2.9.2 NOVA TITAN: Idle zero-delay input hook detachment for raw game inputs, Task Manager CPU Base Speed ~MHz and GPU UTF-16LE AdapterString hardware spoofing, GFN Reflex stream packet pacing & 75Mbps bitrate optimization, Chrome background task & cloud helper purge, AMD Vari-Bright dynamic dimming disable, and enhanced 4-pillar latency diagnostics.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.2_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.2_Latest.exe",
+  "version": "2.9.3",
+  "title": "Planet Tweaks V2.9.3 NOVA TITAN 🪐 — 2-Key Dragon Edit & GFN Zero-Drop Engine",
+  "releaseDate": "2026-10-26",
+  "releaseNotes": "Planet Tweaks V2.9.3 NOVA TITAN: Streamlined 2-Key Dragon Edit Macro architecture (unified Edit Key + Tile Select with native Mouse Button XButton1/XButton2 trigger support), UE5 game-mesh sub-tick cadence calibration eliminating dropped/missing tiles on GeForce NOW and local PC, 1-click GFN vs Local PC streaming profile toggles, and AHK script sync with Confirm Edit on Release.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.3_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.3_Latest.exe",
   "mandatory": false
 }
