@@ -1,9 +1,9 @@
 {
-  "version": "2.9.6",
-  "title": "Planet Tweaks V2.9.6 NOVA TITAN 🪐 — True Zero-Delay Edit & Input Isolation Engine",
+  "version": "2.9.7",
+  "title": "Planet Tweaks V2.9.7 NOVA TITAN 🪐 — Competitive Drag Edit Overhaul & Wi-Fi Stability Engine",
   "releaseDate": "2026-10-27",
-  "releaseNotes": "Planet Tweaks V2.9.6 NOVA TITAN: Ultra-low latency Drag Edit engine overhaul. Eliminated coarse thread delay for instantaneous 0.2ms sub-millisecond tile grabbing. Implemented strict user-bound key isolation—the macro strictly and only activates the keys you explicitly configure (zero ghost mouse clicks). Added active hardware watchdog and physical release verification to ensure zero stuck keys under any game or desktop condition.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.6_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.6_Nova_AI_Edition.exe",
+  "releaseNotes": "Planet Tweaks V2.9.7 NOVA TITAN: Overhauled the competitive Fortnite Drag Edit engine with true hold-to-paint Left Click mechanics and 0ms hook release verification, completely eliminating premature edit cancellation and desktop lockups. Audited the Network Ping Pro Pack, purging legacy Wi-Fi scan frequency overrides to ensure 100% stable connection retention on Intel AX200 and modern Wi-Fi adapters without roaming drops or driver conflicts. Enhanced UDP hardware offloading and packet delivery pacing for flawless GeForce NOW cloud streaming.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.7_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.7_Nova_AI_Edition.exe",
   "mandatory": false
 }
