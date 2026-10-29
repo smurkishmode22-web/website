@@ -1,9 +1,9 @@
 {
-  "version": "2.9.8",
-  "title": "Planet Tweaks V2.9.8 NOVA TITAN 🪐 — Whole-App 2-Column Remodel, Snap Tap, Media Remaps & PC-Breaker Guard",
+  "version": "2.9.9",
+  "title": "Planet Tweaks V2.9.9 NOVA TITAN 🪐 — Remodeled Pre-Launch Builder, 2-Column Performance Engines, True NKRO Scanner & Permanent Vault",
   "releaseDate": "2026-10-28",
-  "releaseNotes": "Planet Tweaks V2.9.8 NOVA TITAN: (1) Whole-App Compact 2-Column Hardware-Utility UI Remodel across every tweak tab, Input & Crosshair, and Windows Tools with all duplicate buttons purged. (2) Full PC-Breaker & Input-Lockout Protection: fixed stuck Alt/Ctrl/Shift modifiers in low-level keyboard hooks, shipped 1-click Unstick Keys & Emergency Panic Killswitch recovery, blocked NVMe/AHCI storage MSI boot-loops, added 15-second auto-revert black-screen protection to Stretched Resolution switcher, and fixed Reduce Input Lag. (3) PowerToys-Style Media Key Remaps (Play/Pause, Next, Previous, Volume Mute/Up/Down) + 1,000MB Chrome Background RAM Killer. (4) New 🎲 Random Hub with 5 Square Sub-Tabs: ⚡ Snap Tap / SOCD, 🚀 Custom Pre-Launch Routine Builder, ⌨️ Live Anti-Ghosting NKRO Matrix & Reversible Fixer, 📐 Sensitivity & eDPI Converter, and 📦 Shareable Setup Codes. (5) Permanent Sidebar & Tab Layout Persistence across updates.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.8_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.8_Nova_AI_Edition.exe",
+  "releaseNotes": "Planet Tweaks V2.9.9 NOVA TITAN: (1) Remodeled 🚀 Pre-Launch Routine Builder: Close Background Apps strictly shows ONLY currently running apps on your PC (zero uninstalled clutter + live Refresh), Open Apps & Shortcuts deduplicates every app to 1 clean row with zero [Start Menu] spam, launches normally via Windows Shell with 0% background overhead, and adds gray-to-red ✕ remove buttons wired to Deleted Tabs + '+ Add App / Shortcut'. (2) Remodeled ⚙️ Settings -> Performance Engines: clean 2-Column Hardware Switch Grid separating Input Hooks & Latency Engines from Startup & Optional Modules with live 0.00ms Pure Native / Hook Active telemetry and 1-click Zero-Overhead Trim. (3) Upgraded ⌨️ Live Anti-Ghosting Matrix: combined Win32 GetAsyncKeyState hardware scanning + low-level keyboard/mouse hooks (even on remapped keys) with live True NKRO / 6KRO / 3-5 Key Cluster rollover diagnostics. (4) Permanent 🗑️ Deleted Tabs & Pre-Launch Vault: fixed workspace_layout.json overwriting saved DeletedTweaks across updates, pinned Deleted Tabs permanently in the sidebar, and added Section 3 to restore removed Pre-Launch apps anytime. (5) Cleaned up duplicate Unstick Keys buttons.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.9_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.9_Nova_AI_Edition.exe",
   "mandatory": false
 }
