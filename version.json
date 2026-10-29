@@ -1,9 +1,9 @@
 {
-  "version": "2.9.7",
-  "title": "Planet Tweaks V2.9.7 NOVA TITAN 🪐 — Competitive Drag Edit Overhaul & Wi-Fi Stability Engine",
-  "releaseDate": "2026-10-27",
-  "releaseNotes": "Planet Tweaks V2.9.7 NOVA TITAN: Overhauled the competitive Fortnite Drag Edit engine with true hold-to-paint Left Click mechanics and 0ms hook release verification, completely eliminating premature edit cancellation and desktop lockups. Audited the Network Ping Pro Pack, purging legacy Wi-Fi scan frequency overrides to ensure 100% stable connection retention on Intel AX200 and modern Wi-Fi adapters without roaming drops or driver conflicts. Enhanced UDP hardware offloading and packet delivery pacing for flawless GeForce NOW cloud streaming.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.7_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.7_Nova_AI_Edition.exe",
+  "version": "2.9.8",
+  "title": "Planet Tweaks V2.9.8 NOVA TITAN 🪐 — Whole-App 2-Column Remodel, Snap Tap, Media Remaps & PC-Breaker Guard",
+  "releaseDate": "2026-10-28",
+  "releaseNotes": "Planet Tweaks V2.9.8 NOVA TITAN: (1) Whole-App Compact 2-Column Hardware-Utility UI Remodel across every tweak tab, Input & Crosshair, and Windows Tools with all duplicate buttons purged. (2) Full PC-Breaker & Input-Lockout Protection: fixed stuck Alt/Ctrl/Shift modifiers in low-level keyboard hooks, shipped 1-click Unstick Keys & Emergency Panic Killswitch recovery, blocked NVMe/AHCI storage MSI boot-loops, added 15-second auto-revert black-screen protection to Stretched Resolution switcher, and fixed Reduce Input Lag. (3) PowerToys-Style Media Key Remaps (Play/Pause, Next, Previous, Volume Mute/Up/Down) + 1,000MB Chrome Background RAM Killer. (4) New 🎲 Random Hub with 5 Square Sub-Tabs: ⚡ Snap Tap / SOCD, 🚀 Custom Pre-Launch Routine Builder, ⌨️ Live Anti-Ghosting NKRO Matrix & Reversible Fixer, 📐 Sensitivity & eDPI Converter, and 📦 Shareable Setup Codes. (5) Permanent Sidebar & Tab Layout Persistence across updates.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.8_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.8_Nova_AI_Edition.exe",
   "mandatory": false
 }
