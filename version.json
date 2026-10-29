@@ -1,9 +1,9 @@
 {
-  "version": "2.9.9",
-  "title": "Planet Tweaks V2.9.9 NOVA TITAN 🪐 — Remodeled Pre-Launch Builder, 2-Column Performance Engines, True NKRO Scanner & Permanent Vault",
-  "releaseDate": "2026-10-28",
-  "releaseNotes": "Planet Tweaks V2.9.9 NOVA TITAN: (1) Remodeled 🚀 Pre-Launch Routine Builder: Close Background Apps strictly shows ONLY currently running apps on your PC (zero uninstalled clutter + live Refresh), Open Apps & Shortcuts deduplicates every app to 1 clean row with zero [Start Menu] spam, launches normally via Windows Shell with 0% background overhead, and adds gray-to-red ✕ remove buttons wired to Deleted Tabs + '+ Add App / Shortcut'. (2) Remodeled ⚙️ Settings -> Performance Engines: clean 2-Column Hardware Switch Grid separating Input Hooks & Latency Engines from Startup & Optional Modules with live 0.00ms Pure Native / Hook Active telemetry and 1-click Zero-Overhead Trim. (3) Upgraded ⌨️ Live Anti-Ghosting Matrix: combined Win32 GetAsyncKeyState hardware scanning + low-level keyboard/mouse hooks (even on remapped keys) with live True NKRO / 6KRO / 3-5 Key Cluster rollover diagnostics. (4) Permanent 🗑️ Deleted Tabs & Pre-Launch Vault: fixed workspace_layout.json overwriting saved DeletedTweaks across updates, pinned Deleted Tabs permanently in the sidebar, and added Section 3 to restore removed Pre-Launch apps anytime. (5) Cleaned up duplicate Unstick Keys buttons.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.9_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v2.9.9_Nova_AI_Edition.exe",
+  "version": "3.0.0",
+  "title": "Planet Tweaks V3.0.0 NOVA TITAN 🪐 — Pro Drag Edit V2 Engine (0-Misfire + GeForce NOW Synced), Pre-Launch Vault & 2-Column Hardware UI",
+  "releaseDate": "2026-10-29",
+  "releaseNotes": "Planet Tweaks V3.0.0 NOVA TITAN: (1) 🎯 Pro Drag Edit V2 Engine: off-thread non-blocking input pipeline eliminates hook & mouse movement stalls while dragging tiles; calibrated Edit-Open pulse (1ms Native / 6ms GeForce NOW) eliminates 0.00ms same-packet drops & shotgun misfires; atomic Tap-Flick guard ensures fast 1-frame window/corner edits never drop tiles; clean Select-Only release NEVER interrupts ADS or Turbo-Build; plus 1-click Native 0-Delay, GeForce NOW Pro, and Quad-Edit Lock presets & Pro [P] secondary bind switch. (2) 🚀 Remodeled Pre-Launch Routine Builder with live running-only Close Apps, deduplicated Open Apps, normal Windows Shell launch, and gray-to-red ✕ Vault buttons. (3) ⚙️ 2-Column Performance Engines Switch Grid, True NKRO Hardware Anti-Ghosting Scanner, and Permanent 🗑️ Deleted Tabs Vault.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.0_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.0_Nova_AI_Edition.exe",
   "mandatory": false
 }
