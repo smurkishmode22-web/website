@@ -1,9 +1,9 @@
 {
-  "version": "3.0.1",
-  "title": "Planet Tweaks V3.0.1 NOVA TITAN 🪐 — One-Button Pro Drag Edit (Advanced Mechanics 0-Delay Engine) & Fluid Auto-Reset",
+  "version": "3.0.2",
+  "title": "Planet Tweaks V3.0.2 NOVA TITAN - Pro Drag Edit FPS Frame-Sync, Shotgun Prefire and Sprint Editing Engine",
   "releaseDate": "2026-10-30",
-  "releaseNotes": "Planet Tweaks V3.0.1 NOVA TITAN: (1) 🎯 One-Button Pro Drag Edit Overhaul (Advanced Mechanics Engine): Hold your in-game Fortnite Edit Key (e.g. E or F) to open the edit grid and drag-select tiles with zero manual clicks; releasing your Edit Key confirms instantaneously in 0.00ms. Eliminates dual-key confusion by synchronizing Primary Edit Key with the hook trigger. (2) ⚡ 0-Delay Synchronous Hook Dispatch: Stripped Task.Run thread-pool latency on keypress so tile selection engages in < 0.3ms — zero dropped or skipped tiles on lightning flicks. (3) 🔄 Fluid Auto-Reset on Right Click: Tapping Right-Click while holding Edit resets the wall & re-primes select instantly so you can reset and re-edit in one fluid sweep. (4) ⚡ Instant 0.00ms Release & Confirm: Eliminates artificial release delays and guarantees instant confirmation for both Confirm-on-Release ON and OFF players.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.1_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.1_Nova_AI_Edition.exe",
+  "releaseNotes": "Planet Tweaks V3.0.2 NOVA TITAN: (1) One-Button Pro Drag Edit Overhaul: Freely assignable Tile Select key (zero forced bindings) with 4-way calibrated FPS Frame-Sync (360 FPS / 240 FPS / GFN 165 FPS Synced / 144 FPS) delivering true 0.00ms Confirm on Release. (2) Competitive Shotgun Prefire Defense: 1-Tap Pump Shotgun + Instant Wall cover (< 20ms) to eliminate return fire and trade damage. (3) Sprint Editing Engine: Automatically maintains Tactical Sprint lock through edits for zero momentum drop during high-speed piece control. (4) Zen Mantle Upgrade: High-frequency mantle pulse (22ms down, 14ms up) with continuous W forward pin for effortless first-frame ledge mantling.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.2_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.2_Nova_AI_Edition.exe",
   "mandatory": false
 }
