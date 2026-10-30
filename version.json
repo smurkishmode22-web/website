@@ -1,9 +1,9 @@
 {
-  "version": "3.0.0",
-  "title": "Planet Tweaks V3.0.0 NOVA TITAN 🪐 — Pro Drag Edit V2 Engine (0-Misfire + GeForce NOW Synced), Pre-Launch Vault & 2-Column Hardware UI",
-  "releaseDate": "2026-10-29",
-  "releaseNotes": "Planet Tweaks V3.0.0 NOVA TITAN: (1) 🎯 Pro Drag Edit V2 Engine: off-thread non-blocking input pipeline eliminates hook & mouse movement stalls while dragging tiles; calibrated Edit-Open pulse (1ms Native / 6ms GeForce NOW) eliminates 0.00ms same-packet drops & shotgun misfires; atomic Tap-Flick guard ensures fast 1-frame window/corner edits never drop tiles; clean Select-Only release NEVER interrupts ADS or Turbo-Build; plus 1-click Native 0-Delay, GeForce NOW Pro, and Quad-Edit Lock presets & Pro [P] secondary bind switch. (2) 🚀 Remodeled Pre-Launch Routine Builder with live running-only Close Apps, deduplicated Open Apps, normal Windows Shell launch, and gray-to-red ✕ Vault buttons. (3) ⚙️ 2-Column Performance Engines Switch Grid, True NKRO Hardware Anti-Ghosting Scanner, and Permanent 🗑️ Deleted Tabs Vault.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.0_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.0_Nova_AI_Edition.exe",
+  "version": "3.0.1",
+  "title": "Planet Tweaks V3.0.1 NOVA TITAN 🪐 — One-Button Pro Drag Edit (Advanced Mechanics 0-Delay Engine) & Fluid Auto-Reset",
+  "releaseDate": "2026-10-30",
+  "releaseNotes": "Planet Tweaks V3.0.1 NOVA TITAN: (1) 🎯 One-Button Pro Drag Edit Overhaul (Advanced Mechanics Engine): Hold your in-game Fortnite Edit Key (e.g. E or F) to open the edit grid and drag-select tiles with zero manual clicks; releasing your Edit Key confirms instantaneously in 0.00ms. Eliminates dual-key confusion by synchronizing Primary Edit Key with the hook trigger. (2) ⚡ 0-Delay Synchronous Hook Dispatch: Stripped Task.Run thread-pool latency on keypress so tile selection engages in < 0.3ms — zero dropped or skipped tiles on lightning flicks. (3) 🔄 Fluid Auto-Reset on Right Click: Tapping Right-Click while holding Edit resets the wall & re-primes select instantly so you can reset and re-edit in one fluid sweep. (4) ⚡ Instant 0.00ms Release & Confirm: Eliminates artificial release delays and guarantees instant confirmation for both Confirm-on-Release ON and OFF players.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.1_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.1_Nova_AI_Edition.exe",
   "mandatory": false
 }
