@@ -1,9 +1,9 @@
 {
-  "version": "3.0.2",
-  "title": "Planet Tweaks V3.0.2 NOVA TITAN - Pro Drag Edit FPS Frame-Sync, Shotgun Prefire and Sprint Editing Engine",
-  "releaseDate": "2026-10-30",
-  "releaseNotes": "Planet Tweaks V3.0.2 NOVA TITAN: (1) One-Button Pro Drag Edit Overhaul: Freely assignable Tile Select key (zero forced bindings) with 4-way calibrated FPS Frame-Sync (360 FPS / 240 FPS / GFN 165 FPS Synced / 144 FPS) delivering true 0.00ms Confirm on Release. (2) Competitive Shotgun Prefire Defense: 1-Tap Pump Shotgun + Instant Wall cover (< 20ms) to eliminate return fire and trade damage. (3) Sprint Editing Engine: Automatically maintains Tactical Sprint lock through edits for zero momentum drop during high-speed piece control. (4) Zen Mantle Upgrade: High-frequency mantle pulse (22ms down, 14ms up) with continuous W forward pin for effortless first-frame ledge mantling.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.2_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.2_Nova_AI_Edition.exe",
+  "version": "3.0.3",
+  "title": "Planet Tweaks V3.0.3 NOVA TITAN - 1-Click Clip Compressor, Headphone Loudness Amplifier, Deep 808 Sub-Bass Studio & Themes Overhaul",
+  "releaseDate": "2026-10-31",
+  "releaseNotes": "Planet Tweaks V3.0.3 NOVA TITAN: (1) 1-Click Clip Compressor: Transcode raw gameplay clips (.mp4, .mov, .mkv, .avi, .webm) into Discord-ready ~10MB videos using 720p scaling + CRF 28 + 96k AAC with 0ms background latency. (2) Headphone Loudness Amplifier & Sub-Bass Studio: Real-time Windows APO Loudness Equalization for +150% volume boost and +12dB 80Hz Deep Sub-Bass punch with 100% reversible rollbacks. (3) Themes Overhaul: 6 new viral Instagram themes (@niki.aroca) including Midnight Luxe, Sky High, Deploy Ready, Aqua Jade, Galactic Violet, and Charcoal Royal, with Mocha Brown preserved as default. (4) Debloat Tab Suite: Dedicated Microsoft Edge and Brave Browser debloating plus multi-select Start Menu AppX purge. (5) UI & Layout Polish: Sleek 1px dark obsidian card borders, solid graphite hover states, compact Drag Edit Studio sub-cards, and complete UTF-8 mojibake eradication.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.3_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.3_Nova_AI_Edition.exe",
   "mandatory": false
 }
