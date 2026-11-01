@@ -1,9 +1,9 @@
 {
-  "version": "3.0.3",
-  "title": "Planet Tweaks V3.0.3 NOVA TITAN - 1-Click Clip Compressor, Headphone Loudness Amplifier, Deep 808 Sub-Bass Studio & Themes Overhaul",
-  "releaseDate": "2026-10-31",
-  "releaseNotes": "Planet Tweaks V3.0.3 NOVA TITAN: (1) 1-Click Clip Compressor: Transcode raw gameplay clips (.mp4, .mov, .mkv, .avi, .webm) into Discord-ready ~10MB videos using 720p scaling + CRF 28 + 96k AAC with 0ms background latency. (2) Headphone Loudness Amplifier & Sub-Bass Studio: Real-time Windows APO Loudness Equalization for +150% volume boost and +12dB 80Hz Deep Sub-Bass punch with 100% reversible rollbacks. (3) Themes Overhaul: 6 new viral Instagram themes (@niki.aroca) including Midnight Luxe, Sky High, Deploy Ready, Aqua Jade, Galactic Violet, and Charcoal Royal, with Mocha Brown preserved as default. (4) Debloat Tab Suite: Dedicated Microsoft Edge and Brave Browser debloating plus multi-select Start Menu AppX purge. (5) UI & Layout Polish: Sleek 1px dark obsidian card borders, solid graphite hover states, compact Drag Edit Studio sub-cards, and complete UTF-8 mojibake eradication.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.3_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.3_Nova_AI_Edition.exe",
+  "version": "3.0.4",
+  "title": "Planet Tweaks V3.0.4 NOVA TITAN - Instant Key Recorder, 1080p Clip Transcoder, Random Tweaks Suite & Viral Instagram Palettes",
+  "releaseDate": "2026-11-01",
+  "releaseNotes": "Planet Tweaks V3.0.4 NOVA TITAN: (1) 0ms Instant Macro Key Recorder: Decoupled UI state from background JSON serialization, eliminating all binding lag. (2) 1080p vs 720p Clip Compressor Switcher: Added 1-click toggle for Discord 10MB (720p CRF 28) vs Full HD Crisp Mode (1080p CRF 26). (3) Random Tweaks Vault: Curated Chris Titus WinUtil, Hone, and ExitLag registry and TCP packet pacing tweaks inside Random Hub. (4) Headphone Loudness Studio Factory Reset: Added 1-click 'Reset Factory Audio' button to purge injected APO keys across all audio endpoints. (5) 6 Viral Instagram Color Themes: Exact palettes from @uxui_shrut and @niki.aroca (Acid Lime Electrify, Fearless Orchid, Luxurious Burgundy, Mandarin Citrus Punch, Tropical Mint Indigo, Crimson Seal Navy) with Mocha Brown preserved as default. (6) Website SEO & Architecture Overhaul: Added custom 404 page, robots.txt, llms.txt, JSON-LD structured data, alt tags, and internal link structure.",
+  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.4_Latest.exe",
+  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.4_Nova_AI_Edition.exe",
   "mandatory": false
 }
