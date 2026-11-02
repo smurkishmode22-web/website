@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://planettweakz.vercel.app/sitemap.xml
+

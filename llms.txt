@@ -16,3 +16,4 @@ Planet Tweaks (V3.0.4 NOVA TITAN) is a high-performance Windows OS kernel engine
 - Framework: .NET 10.0 WPF (C# 13, Windows x64)
 - Current Release: Version 3.0.4
 - Official Website: https://planettweakz.vercel.app
+

@@ -1,9 +1,9 @@
-{
-  "version": "3.0.4",
-  "title": "Planet Tweaks V3.0.4 NOVA TITAN - Instant Key Recorder, 1080p Clip Transcoder, Random Tweaks Suite & Viral Instagram Palettes",
-  "releaseDate": "2026-11-01",
-  "releaseNotes": "Planet Tweaks V3.0.4 NOVA TITAN: (1) 0ms Instant Macro Key Recorder: Decoupled UI state from background JSON serialization, eliminating all binding lag. (2) 1080p vs 720p Clip Compressor Switcher: Added 1-click toggle for Discord 10MB (720p CRF 28) vs Full HD Crisp Mode (1080p CRF 26). (3) Random Tweaks Vault: Curated Chris Titus WinUtil, Hone, and ExitLag registry and TCP packet pacing tweaks inside Random Hub. (4) Headphone Loudness Studio Factory Reset: Added 1-click 'Reset Factory Audio' button to purge injected APO keys across all audio endpoints. (5) 6 Viral Instagram Color Themes: Exact palettes from @uxui_shrut and @niki.aroca (Acid Lime Electrify, Fearless Orchid, Luxurious Burgundy, Mandarin Citrus Punch, Tropical Mint Indigo, Crimson Seal Navy) with Mocha Brown preserved as default. (6) Website SEO & Architecture Overhaul: Added custom 404 page, robots.txt, llms.txt, JSON-LD structured data, alt tags, and internal link structure.",
-  "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.4_Latest.exe",
-  "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.4_Nova_AI_Edition.exe",
-  "mandatory": false
+﻿{
+    "version":  "3.0.5",
+    "title":  "Planet Tweaks V3.0.5 NOVA TITAN - 60-Min Integrity Watchdog, Multi-Browser Debloater Suite \u0026 Chris Titus Vault",
+    "releaseDate":  "2026-11-02",
+    "releaseNotes":  "Planet Tweaks V3.0.5 NOVA TITAN: (1) 60-Min \u0026 On-Startup Integrity Watchdog: Silently locks MouseDataQueueSize = 0 (Zero-Delay mode) or 16, auto-enforces Windows 6/11 raw 1:1 mouse sensitivity, and scans active tweaks every hour to auto-reapply anything Windows reverts. (2) True Multi-Browser Esports Debloat: Added dedicated Edge, Chrome, and Brave debloaters to purge Copilot, sidebar telemetry, GenAI background daemons, and tracking pings. (3) 18+ Chris Titus WinUtil \u0026 Hone/ExitLag Tweaks: Added WPBT OEM firmware bloatware blocker, classic detailed BSOD codes, 1-click End Task on taskbar, 7GB Reserved Storage reclaim, verbose service logon, and precision UTC clock to the Random Tweaks Vault. (4) Clip Compressor Folder Picker Fix: File selection now automatically discovers and defaults to Videos\\Planet Tweaks Videos for instant 1-click clip compression. (5) Discord Esports Stream Debloater: Strips Discord overlay, stops GPU rendering lag, and purges shader/GPU cache for smooth 60fps streaming.",
+    "downloadUrl":  "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.5_Latest.exe",
+    "novaDownloadUrl":  "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.5_Nova_AI_Edition.exe",
+    "mandatory":  false
 }
