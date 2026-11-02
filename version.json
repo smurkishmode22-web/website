@@ -1,9 +1,9 @@
-﻿{
-    "version":  "3.0.5",
-    "title":  "Planet Tweaks V3.0.5 NOVA TITAN - 60-Min Integrity Watchdog, Multi-Browser Debloater Suite \u0026 Chris Titus Vault",
-    "releaseDate":  "2026-11-02",
-    "releaseNotes":  "Planet Tweaks V3.0.5 NOVA TITAN: (1) 60-Min \u0026 On-Startup Integrity Watchdog: Silently locks MouseDataQueueSize = 0 (Zero-Delay mode) or 16, auto-enforces Windows 6/11 raw 1:1 mouse sensitivity, and scans active tweaks every hour to auto-reapply anything Windows reverts. (2) True Multi-Browser Esports Debloat: Added dedicated Edge, Chrome, and Brave debloaters to purge Copilot, sidebar telemetry, GenAI background daemons, and tracking pings. (3) 18+ Chris Titus WinUtil \u0026 Hone/ExitLag Tweaks: Added WPBT OEM firmware bloatware blocker, classic detailed BSOD codes, 1-click End Task on taskbar, 7GB Reserved Storage reclaim, verbose service logon, and precision UTC clock to the Random Tweaks Vault. (4) Clip Compressor Folder Picker Fix: File selection now automatically discovers and defaults to Videos\\Planet Tweaks Videos for instant 1-click clip compression. (5) Discord Esports Stream Debloater: Strips Discord overlay, stops GPU rendering lag, and purges shader/GPU cache for smooth 60fps streaming.",
-    "downloadUrl":  "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.5_Latest.exe",
-    "novaDownloadUrl":  "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.5_Nova_AI_Edition.exe",
-    "mandatory":  false
+{
+    "version": "3.0.6",
+    "title": "Planet Tweaks V3.0.6 NOVA TITAN - Headphone Studio Fix, Instant 0ms Macro Capture & All-Category Expansion",
+    "releaseDate": "2026-11-02",
+    "releaseNotes": "Planet Tweaks V3.0.6 NOVA TITAN: (1) Headphone Studio APO Permissions Fix: Resolved Windows registry access constraints on audio endpoints (MMDevices FxProperties) with dynamic ACL privilege elevation; Loudness AMP, Bass Boost, and APO enhancements now apply and revert cleanly with zero errors. (2) Instant 0ms Macro Key Recording: Eliminated the hook thread self-join deadlock during key capture, delivering instant, zero-delay physical key binding for competitive macros. (3) CPU Performance Tab Laptop Unlock: Unlocked all 20 elite CPU scheduling, parking, and AC power plan tweaks for both Laptops and Desktops. (4) Mass Category Expansion: Expanded all lighter categories to 15-20+ verified kernel tweaks across Cloud Gaming/GFN (16 tweaks), Potato/Max FPS (18 tweaks), Game Booster (18 tweaks), Storage (17 tweaks), and Privacy & Safety (18 tweaks). (5) GeForce NOW 2.0.90 Delay Elimination: Neutralized heavy CEF Mica/Acrylic backdrop filters and injected zero-delay streaming flags into sharedstorage.json.",
+    "downloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.6_Latest.exe",
+    "novaDownloadUrl": "https://planettweakz.vercel.app/downloads/PlanetTweaks_Setup_v3.0.6_Nova_AI_Edition.exe",
+    "mandatory": false
 }
