@@ -1,5 +1,5 @@
-/**
- * PLANET TWEAKS � V2.0 ULTRA WEBSITE INTERACTIVITY
+﻿/**
+ * PLANET TWEAKS ï¿½ V2.0 ULTRA WEBSITE INTERACTIVITY
  */
 
 // 1. Game FPS & Latency Benchmark Data
@@ -15,7 +15,7 @@ const gameBenchmarks = {
         afterRam: '2.8 GB (-64%)',
         beforeBar: '42%',
         afterBar: '95%',
-        testedOn: '🖥️ Rig Tested: AMD Ryzen 5 5600X • NVIDIA RTX 3060 12GB • 16GB DDR4 • 1080p Performance Mode'
+        testedOn: 'ðŸ–¥ï¸ Rig Tested: AMD Ryzen 5 5600X â€¢ NVIDIA RTX 3060 12GB â€¢ 16GB DDR4 â€¢ 1080p Performance Mode'
     },
     valorant: {
         beforeFps: 220,
@@ -28,7 +28,7 @@ const gameBenchmarks = {
         afterRam: '2.4 GB (-63%)',
         beforeBar: '50%',
         afterBar: '98%',
-        testedOn: '🖥️ Rig Tested: Intel Core i5-12400F • RTX 3060 • 16GB RAM • Vanguard Anti-Cheat Optimized'
+        testedOn: 'ðŸ–¥ï¸ Rig Tested: Intel Core i5-12400F â€¢ RTX 3060 â€¢ 16GB RAM â€¢ Vanguard Anti-Cheat Optimized'
     },
     cs2: {
         beforeFps: 165,
@@ -41,7 +41,7 @@ const gameBenchmarks = {
         afterRam: '3.1 GB (-62%)',
         beforeBar: '44%',
         afterBar: '92%',
-        testedOn: '🖥️ Rig Tested: AMD Ryzen 7 5700X3D • RTX 4060 • 32GB DDR4 • Faceit 128-tick Ready'
+        testedOn: 'ðŸ–¥ï¸ Rig Tested: AMD Ryzen 7 5700X3D â€¢ RTX 4060 â€¢ 32GB DDR4 â€¢ Faceit 128-tick Ready'
     },
     warzone: {
         beforeFps: 110,
@@ -54,7 +54,7 @@ const gameBenchmarks = {
         afterRam: '5.2 GB (-54%)',
         beforeBar: '35%',
         afterBar: '82%',
-        testedOn: '🖥️ Rig Tested: AMD Ryzen 5 7600 • RTX 3070 • 32GB DDR5 • Urzikstan 1440p'
+        testedOn: 'ðŸ–¥ï¸ Rig Tested: AMD Ryzen 5 7600 â€¢ RTX 3070 â€¢ 32GB DDR5 â€¢ Urzikstan 1440p'
     },
     apex: {
         beforeFps: 155,
@@ -67,7 +67,7 @@ const gameBenchmarks = {
         afterRam: '3.0 GB (-62%)',
         beforeBar: '48%',
         afterBar: '94%',
-        testedOn: '🖥️ Rig Tested: Intel Core i7-11700K • RTX 3070 Ti • 16GB DDR4 • 240Hz Locked'
+        testedOn: 'ðŸ–¥ï¸ Rig Tested: Intel Core i7-11700K â€¢ RTX 3070 Ti â€¢ 16GB DDR4 â€¢ 240Hz Locked'
     }
 };
 
@@ -182,7 +182,7 @@ function sendDemoChat() {
     const userBubble = document.createElement('div');
     userBubble.className = 'chat-bubble user';
     userBubble.innerHTML = `
-        <div class="sender-info">You • ${nowStr}</div>
+        <div class="sender-info">You â€¢ ${nowStr}</div>
         <div class="msg-text">${escapeHtml(query)}</div>
     `;
     chatList.appendChild(userBubble);
@@ -199,9 +199,9 @@ function sendDemoChat() {
         const aiBubble = document.createElement('div');
         aiBubble.className = 'chat-bubble ai';
         aiBubble.innerHTML = `
-            <div class="sender-info">Planet AI • ${nowStr}</div>
+            <div class="sender-info">Planet AI â€¢ ${nowStr}</div>
             <div class="msg-text">${replyText}</div>
-            <a href="#catalog" class="ai-action-pill">⚡ Open Recommended Catalog</a>
+            <a href="#catalog" class="ai-action-pill">âš¡ Open Recommended Catalog</a>
         `;
         chatList.appendChild(aiBubble);
         chatList.scrollTop = chatList.scrollHeight;
@@ -229,8 +229,8 @@ function toggleFaq(button) {
 }
 
 // 6. Download Modal & Dynamic Download Trigger
-let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.1.0_Latest.exe';
-let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.1.0_Nova_AI_Edition.exe';
+let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.1.1_Latest.exe';
+let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.1.1_Nova_AI_Edition.exe';
 
 // Automatically sync download URL with version.json (cache-busted to prevent stale cached versions)
 if (typeof fetch === 'function') {
@@ -922,7 +922,7 @@ function initStageControls(orbEngine) {
     if (soundToggleBtn && soundIcon && soundLabel) {
         soundToggleBtn.addEventListener('click', () => {
             cyberAudio.enabled = !cyberAudio.enabled;
-            soundIcon.textContent = cyberAudio.enabled ? '🔊' : '🔇';
+            soundIcon.textContent = cyberAudio.enabled ? 'ðŸ”Š' : 'ðŸ”‡';
             soundLabel.textContent = cyberAudio.enabled ? 'Audio' : 'Mute';
             if (cyberAudio.enabled) cyberAudio.play('click');
         });

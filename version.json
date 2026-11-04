@@ -1,9 +1,9 @@
 {
-    "version": "3.1.0",
-    "title": "Planet Tweaks V3.1.0 NOVA TITAN - Dedicated App Debloat, Keyboard & Mouse Pro Packs, Diego & Niki Viral Themes",
-    "releaseDate": "2026-11-03",
-    "releaseNotes": "Planet Tweaks V3.1.0 NOVA TITAN: (1) Dedicated App Debloat Suite: Complete separation of App & Browser Debloat into its own dedicated sidebar tab featuring 1-click debloaters for Microsoft Edge, Google Chrome, Brave Browser, Discord (DSCP 46 QoS + Stream Lag Fix), Spotify, Razer Co-Installer Blocker, and Logitech Download Assistant Blocker. (2) Two New Pro Packs: Dedicated Keyboard Pro Pack (0ms repeat delay, maximum 31 repeat rate, FilterKeys lockout purge) and Mouse Zero-Delay Pack (1:1 MarkC raw linear curves, MouseDataQueueSize=8, AAPThreshold=0). (3) Diego & Niki Viral UI Themes: Added 6 new 60-30-10 color palettes (Acid Lime Cyber, Solar Coral Navy, Forest Electric Violet, Kinetic Tangerine, Royal Health Purple, Deep Solix Blue) to desktop app and website with 10% electric action button styling. (4) Custom Typography & Text Color Studio: Full text color customization in Studio drawer. (5) Complete Unicode Polish: Purged all legacy corrupt characters across website and client.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.0_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.0_Nova_AI_Edition.exe",
+    "version": "3.1.1",
+    "title": "Planet Tweaks V3.1.1 NOVA TITAN - Curated Solix & Mocha Themes, MPO & DXGI GPU Tuning, Zero-Delay FilterKeys, Auto-Bundle",
+    "releaseDate": "2026-11-04",
+    "releaseNotes": "Planet Tweaks V3.1.1 NOVA TITAN: (1) Curated Theme Suite: Streamlined Settings to feature Deep Solix Blue (Default) and Mocha Brown with zero UI clutter. (2) Zero Duplicate Clutter: Cleaned duplicate tool cards between Windows Tools and Random Sub-Tabs. (3) GPU & Cloud Esports Tuning: Multi-Plane Overlay (MPO) stutter elimination, DXGI Flip Model 1-Frame pre-rendered scanout, GPU EnergyDriver throttle disable, and GeForce NOW DSCP 46 EF QoS packet tagging. (4) Keyboard & Mouse Input Latency: Added Zero-Delay FilterKeys Wait (0ms) and optimized cloud stream buffering. (5) 1-Click Master AI Code Bundle: Automated generation of single drag-and-drop context bundle for AI assistance.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.1_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.1_Nova_AI_Edition.exe",
     "mandatory": false
 }
