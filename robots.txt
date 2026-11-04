@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://planettweaks.website/sitemap.xml
 Sitemap: https://planettweakz.vercel.app/sitemap.xml
-

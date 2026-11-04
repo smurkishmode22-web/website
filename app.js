@@ -229,8 +229,8 @@ function toggleFaq(button) {
 }
 
 // 6. Download Modal & Dynamic Download Trigger
-let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.0.8_Latest.exe';
-let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.0.8_Nova_AI_Edition.exe';
+let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.0.9_Latest.exe';
+let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.0.9_Nova_AI_Edition.exe';
 
 // Automatically sync download URL with version.json (cache-busted to prevent stale cached versions)
 if (typeof fetch === 'function') {
@@ -263,13 +263,6 @@ function closeDownloadModal() {
 
 function triggerDownload() {
     openDownloadModal();
-    const link = document.createElement('a');
-    link.href = currentDownloadUrl;
-    link.setAttribute('download', currentDownloadUrl.split('/').pop() || 'planet-tweaks-setup.exe');
-    link.setAttribute('target', '_self');
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
 }
 
 function onDownloadClicked(event) {
