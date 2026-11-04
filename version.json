@@ -1,9 +1,9 @@
-{
-    "version": "3.1.1",
-    "title": "Planet Tweaks V3.1.1 NOVA TITAN - Curated Solix & Mocha Themes, MPO & DXGI GPU Tuning, Zero-Delay FilterKeys, Auto-Bundle",
+﻿{
+    "version": "3.1.2",
+    "title": "Planet Tweaks V3.1.2 NOVA TITAN - Debloat Apps Suite, Jump-Shoot Zero Lockout Studio, Diego & Niki Viral Themes, Zero Mojibake",
     "releaseDate": "2026-11-04",
-    "releaseNotes": "Planet Tweaks V3.1.1 NOVA TITAN: (1) Curated Theme Suite: Streamlined Settings to feature Deep Solix Blue (Default) and Mocha Brown with zero UI clutter. (2) Zero Duplicate Clutter: Cleaned duplicate tool cards between Windows Tools and Random Sub-Tabs. (3) GPU & Cloud Esports Tuning: Multi-Plane Overlay (MPO) stutter elimination, DXGI Flip Model 1-Frame pre-rendered scanout, GPU EnergyDriver throttle disable, and GeForce NOW DSCP 46 EF QoS packet tagging. (4) Keyboard & Mouse Input Latency: Added Zero-Delay FilterKeys Wait (0ms) and optimized cloud stream buffering. (5) 1-Click Master AI Code Bundle: Automated generation of single drag-and-drop context bundle for AI assistance.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.1_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.1_Nova_AI_Edition.exe",
+    "releaseNotes": "Planet Tweaks V3.1.2 NOVA TITAN: (1) Dedicated Debloat Apps Sidebar Tab: One-click background worker thread and telemetry stripping for Chrome, Edge, Brave, Discord, Spotify, Razer, and Logitech. (2) Jump-Shoot Mouse Fix & Diagnostic Studio: Zeroes Accidental Activation Prevention (AAPThreshold = 0) and PalmCheck lockouts to eliminate missed shotgun shots and delayed clicks while jumping (Spacebar) or moving (WASD). (3) Tab Leaking Race Condition Eliminated: Sequence-guarded async renders ensure fast tab switching never leaks cards across categories. (4) Diego & Niki Viral Palettes: Expanded Theme Suite with Solar Coral, Forest Violet, Kinetic Tangerine, Royal Health Purple, OLED Pitch Black, and Nova Matrix. (5) Strict Zero-Mojibake Mandate: 100% clean UTF-8 emojis and zero corrupted character encoding across all UI views and docs.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.2_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.2_Nova_AI_Edition.exe",
     "mandatory": false
 }
