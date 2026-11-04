@@ -1,9 +1,9 @@
 {
-    "version": "3.0.9",
-    "title": "Planet Tweaks V3.0.9 NOVA TITAN - Mouse Zero-Delay, App Debloat & Custom Domain Update",
+    "version": "3.1.0",
+    "title": "Planet Tweaks V3.1.0 NOVA TITAN - Dedicated App Debloat, Keyboard & Mouse Pro Packs, Diego & Niki Viral Themes",
     "releaseDate": "2026-11-03",
-    "releaseNotes": "Planet Tweaks V3.0.9 NOVA TITAN: (1) Mouse Zero-Delay Pro Pack: Eliminates simultaneous key+click contention (AAPThreshold=0, typing palm suppression disabled) so sidejump shots and rapid clicks never get eaten while holding Spacebar or movement keys, paired with MarkC 1:1 linear curves and MouseDataQueueSize=8. (2) Dedicated App Debloat Suite: 1-click debloating for Microsoft Edge (StartupBoost=0, BackgroundMode=0, Copilot=0), Google Chrome, Brave Browser, Discord (directX hook fix, QoS DSCP 46 high priority streaming), and Spotify. (3) Razer & Logitech Third-Party Driver Bloatware Block: Prevents Windows Update from silently downloading background peripheral bloat. (4) Official Custom Domain: Deployed live to planettweaks.website with full SSL, sitemap.xml, and Google Search Console indexing. (5) UI & System Refinement: Repaired Keyboard Tweaks tab rendering and cleaned website typography.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.0.9_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.0.9_Nova_AI_Edition.exe",
+    "releaseNotes": "Planet Tweaks V3.1.0 NOVA TITAN: (1) Dedicated App Debloat Suite: Complete separation of App & Browser Debloat into its own dedicated sidebar tab featuring 1-click debloaters for Microsoft Edge, Google Chrome, Brave Browser, Discord (DSCP 46 QoS + Stream Lag Fix), Spotify, Razer Co-Installer Blocker, and Logitech Download Assistant Blocker. (2) Two New Pro Packs: Dedicated Keyboard Pro Pack (0ms repeat delay, maximum 31 repeat rate, FilterKeys lockout purge) and Mouse Zero-Delay Pack (1:1 MarkC raw linear curves, MouseDataQueueSize=8, AAPThreshold=0). (3) Diego & Niki Viral UI Themes: Added 6 new 60-30-10 color palettes (Acid Lime Cyber, Solar Coral Navy, Forest Electric Violet, Kinetic Tangerine, Royal Health Purple, Deep Solix Blue) to desktop app and website with 10% electric action button styling. (4) Custom Typography & Text Color Studio: Full text color customization in Studio drawer. (5) Complete Unicode Polish: Purged all legacy corrupt characters across website and client.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.0_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.0_Nova_AI_Edition.exe",
     "mandatory": false
 }
