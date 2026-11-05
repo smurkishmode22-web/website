@@ -1,9 +1,9 @@
-﻿{
-    "version": "3.1.2",
-    "title": "Planet Tweaks V3.1.2 NOVA TITAN - Debloat Apps Suite, Jump-Shoot Zero Lockout Studio, Diego & Niki Viral Themes, Zero Mojibake",
-    "releaseDate": "2026-11-04",
-    "releaseNotes": "Planet Tweaks V3.1.2 NOVA TITAN: (1) Dedicated Debloat Apps Sidebar Tab: One-click background worker thread and telemetry stripping for Chrome, Edge, Brave, Discord, Spotify, Razer, and Logitech. (2) Jump-Shoot Mouse Fix & Diagnostic Studio: Zeroes Accidental Activation Prevention (AAPThreshold = 0) and PalmCheck lockouts to eliminate missed shotgun shots and delayed clicks while jumping (Spacebar) or moving (WASD). (3) Tab Leaking Race Condition Eliminated: Sequence-guarded async renders ensure fast tab switching never leaks cards across categories. (4) Diego & Niki Viral Palettes: Expanded Theme Suite with Solar Coral, Forest Violet, Kinetic Tangerine, Royal Health Purple, OLED Pitch Black, and Nova Matrix. (5) Strict Zero-Mojibake Mandate: 100% clean UTF-8 emojis and zero corrupted character encoding across all UI views and docs.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.2_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.1.2_Nova_AI_Edition.exe",
+{
+    "version": "3.2.0",
+    "title": "Planet Tweaks V3.2.0 NOVA TITAN - Hone Esports Overhaul, Circular Avatar Cropper, Task Manager Flex Studio, Fastest Startup Priority",
+    "releaseDate": "2026-11-05",
+    "releaseNotes": "Planet Tweaks V3.2.0 NOVA TITAN: (1) Fastest Startup Priority: Instant ReadyToRun AOT startup with 00_PlanetTweaks_FastBoot Scheduled Task (Priority 0, 0-delay) and Explorer 0-second launch unblocking. (2) Hone Esports Kernel Tweaks: Integrated Hone tweaks into catalog with verified registry paths (Optimize AMD GPU Settings, Radeon Control Panel, Message Signal Interrupts, Visual Effects, Background Activity, Network Performance, FPS & Input Lag, Roblox 9999 FPS Unlock). (3) Circular Avatar Framing Studio: Interactive pan & zoom circular cropper for custom PFPs with instant preview and 256x256 export. (4) Task Manager Flex Studio: Pixel-perfect Fluent performance visualizer with live CPU uptime and waveform simulator. (5) Strict Zero-Mojibake Mandate: 100% clean UTF-8 encoding across all views.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.0_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.0_Nova_AI_Edition.exe",
     "mandatory": false
 }
