@@ -1,9 +1,9 @@
-{
-    "version":  "3.2.4",
-    "title":  "Planet Tweaks V3.2.4 NOVA TITAN - Hone Mouse Studio & Zero Mojibake Esports Suite",
+﻿{
+    "version":  "3.2.5",
+    "title":  "Planet Tweaks V3.2.5 NOVA TITAN - Master Esports Engine \u0026 Zero-Delay Queue Suite",
     "releaseDate":  "2026-11-06",
-    "releaseNotes":  "Planet Tweaks V3.2.4 NOVA TITAN: (1) Complete Zero-Mojibake UI sweep eliminating all corrupt character artifacts across Debloat, Pro Packs, and Tools. (2) Hone Peripherals & Live Mouse Telemetry Studio: Live wireless receiver header, real-time Hz polling selector (125, 250, 500, 1000), DPI stages selector, and interactive debounce click test. (3) Prominent Discord Rich Presence Hero Card placed at top of Settings with live toggle and presence preview. (4) ExitLag-Style Auto-Ping DNS Benchmark measuring live ICMP latency on open with 1-click lowest ping apply. (5) Esports Mic Isolation & De-Bleed in Windows Tools and Headphone Studio eliminating game/music leakage into Discord/chat. (6) Compact modern sub-tabs in Random tab eliminating vertical scrolling. (7) Verified 100% Pro Pack alignment across Max FPS, Peterbot, Clix, and Mero packs.",
-    "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.4_Latest.exe",
-    "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.4_Nova_AI_Edition.exe",
+    "releaseNotes":  "Planet Tweaks V3.2.5 NOVA TITAN: (1) Zero-delay input reliability overhaul eliminating synthetic mouse/key release collisions in FastInputService. (2) Esports mouse queue locked to 8-packet buffer and keyboard queue to 18-packet buffer with automated watchdog protection. (3) AMD USB 3.1 xHCI controller MSI hardware erratum patched to eliminate dropped clicks under load. (4) Full Win32 DPAPI encryption for API keys and authentication tokens. (5) Complete process-tree termination and exact registry rollback with zero handle leaks. (6) Pro Packs 100% synchronized across Peterbot, Clix, Mero, and All-In-One profiles.",
+    "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.5_Latest.exe",
+    "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.5_Nova_AI_Edition.exe",
     "mandatory":  false
 }
