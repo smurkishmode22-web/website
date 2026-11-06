@@ -1,9 +1,9 @@
-{
-    "version": "3.2.1",
-    "title": "Planet Tweaks V3.2.1 NOVA TITAN - Jump-Shoot Lockout Purge, Mouse Calibration Studio, Random Apps Debloater & Discord Rich Presence",
-    "releaseDate": "2026-11-05",
-    "releaseNotes": "Planet Tweaks V3.2.1 NOVA TITAN: (1) Fortnite Jump-Shoot Lockout Purge: Strips Windows Accidental Activation Prevention (AAP) lockout and tunes mouclass queue buffers so holding Space or WASD never blocks shooting in Fortnite or GeForce NOW. (2) Dedicated Mouse Calibration Studio: Integrated into Random hub with 1:1 MarkC raw curves and live click response diagnostics. (3) Dedicated Random Apps Debloater: Deep scan and 1-click uninstaller for pre-installed Windows bloatware packages. (4) Random Tweaks 10-per-Page Pagination: Fast, fluid paginated navigation with direct page count indicators. (5) Discord Rich Presence: Native IPC pipe integration showing live optimization status on Discord profiles. (6) Strict Zero-Mojibake Mandate: 100% clean UTF-8 encoding across all views and cloud endpoints.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.1_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.1_Nova_AI_Edition.exe",
-    "mandatory": false
+﻿{
+    "version":  "3.2.2",
+    "title":  "Planet Tweaks V3.2.2 NOVA TITAN - Esports Mouse Queue Lock, Zero-Crash Key Remapper, Mic Isolation \u0026 ExitLag Auto-Ping",
+    "releaseDate":  "2026-11-06",
+    "releaseNotes":  "Planet Tweaks V3.2.2 NOVA TITAN: (1) Esports Mouse Data Queue Lock: User-selectable buffer (8, 20, 32, 64) locked by Tweak Watchdog against hourly Windows resets. (2) Zero-Crash Universal Key Remapper: Full support for Delete and media keys with bulletproof null-safe event delegates. (3) Avatar Cropper Upgrade: 0.1x - 4.0x zoom range auto-fitting high-res gamer avatars with zero stuck dragging. (4) ExitLag-Style Auto-Ping DNS: Measures live ping latency on tab open with 1-click lowest-latency routing. (5) Esports Mic Isolation \u0026 De-Bleed: Disables Stereo Mix loopback, strips +30dB AGC noise boost, and locks clean source audio. (6) Discord Rich Presence Toggle: User preference toggle in Settings. (7) Compact Random Hub: Refined, sleek sub-tab cards.",
+    "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.2_Latest.exe",
+    "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.2_Nova_AI_Edition.exe",
+    "mandatory":  false
 }
