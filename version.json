@@ -1,9 +1,9 @@
 ﻿{
-    "version":  "3.2.2",
-    "title":  "Planet Tweaks V3.2.2 NOVA TITAN - Esports Mouse Queue Lock, Zero-Crash Key Remapper, Mic Isolation \u0026 ExitLag Auto-Ping",
+    "version":  "3.2.3",
+    "title":  "Planet Tweaks V3.2.3 NOVA TITAN - Bulletproof System Restore \u0026 Safety Architecture",
     "releaseDate":  "2026-11-06",
-    "releaseNotes":  "Planet Tweaks V3.2.2 NOVA TITAN: (1) Esports Mouse Data Queue Lock: User-selectable buffer (8, 20, 32, 64) locked by Tweak Watchdog against hourly Windows resets. (2) Zero-Crash Universal Key Remapper: Full support for Delete and media keys with bulletproof null-safe event delegates. (3) Avatar Cropper Upgrade: 0.1x - 4.0x zoom range auto-fitting high-res gamer avatars with zero stuck dragging. (4) ExitLag-Style Auto-Ping DNS: Measures live ping latency on tab open with 1-click lowest-latency routing. (5) Esports Mic Isolation \u0026 De-Bleed: Disables Stereo Mix loopback, strips +30dB AGC noise boost, and locks clean source audio. (6) Discord Rich Presence Toggle: User preference toggle in Settings. (7) Compact Random Hub: Refined, sleek sub-tab cards.",
-    "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.2_Latest.exe",
-    "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.2_Nova_AI_Edition.exe",
+    "releaseNotes":  "Planet Tweaks V3.2.3 NOVA TITAN: (1) Bulletproof System Restore: Automatically unlocks 24-hour creation frequency limits, enables Drive C: System Protection, and starts Volume Shadow Copy (VSS) for 100% reliable safety checkpoint creation. (2) Esports Mouse Queue Buffer Selector \u0026 Lock: User-selectable buffer (8, 20, 32, 64) locked by Tweak Watchdog against hourly Windows resets. (3) Zero-Crash Universal Key Remapper: Full support for Delete and media keys with bulletproof null-safe event delegates. (4) Avatar Cropper Upgrade: 0.1x - 4.0x zoom range auto-fitting high-res gamer avatars with zero stuck dragging. (5) ExitLag-Style Auto-Ping DNS: Measures live ping latency on tab open with 1-click lowest-latency routing. (6) Esports Mic Isolation \u0026 De-Bleed: Disables Stereo Mix loopback, strips +30dB AGC noise boost, and locks clean source audio. (7) Discord Rich Presence Toggle: User preference toggle in Settings.",
+    "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.3_Latest.exe",
+    "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.3_Nova_AI_Edition.exe",
     "mandatory":  false
 }
