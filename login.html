@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -395,10 +395,10 @@
                     document.getElementById('loginCard').innerHTML = `
                         <div class="login-logo" style="color: #10B981;">✅</div>
                         <h1 class="login-title" style="color: #10B981;">AUTHENTICATED!</h1>
-                        <p class="login-subtitle">Welcome back, <strong>${gamerTag}</strong>!<br>Your cloud session is now locked in and active in Planet Tweaks.</p>
+                        <p class="login-subtitle">Welcome back, <strong id="authGamerTag"></strong>!<br>Your cloud session is now locked in and active in Planet Tweaks.</p>
                         <p style="font-size: 13.5px; color: #38BDF8; font-weight: 700; margin-top: 14px;">You can close this tab and return to the game.</p>
                     `;
-                    return true;
+                    const tagEl = document.getElementById('authGamerTag'); if (tagEl) tagEl.textContent = gamerTag; return true;
                 }
             } catch (desktopErr) {
                 console.log('Desktop listener not reachable or web-only sign in:', desktopErr);

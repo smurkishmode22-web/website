@@ -1,9 +1,12 @@
-// Planet Tweaks Universal Cloud AI Endpoint (Vercel Serverless Function)
+﻿// Planet Tweaks Universal Cloud AI Endpoint (Vercel Serverless Function)
 // OmniMend-Style Universal Master Engine - Zero API Key required by end users
 
 export default async function handler(req, res) {
   // Set CORS headers
-  res.setHeader('Access-Control-Allow-Origin', '*');
+    const origin = req.headers.origin || '';
+  const allowedOrigins = ['https://planettweaks.website', 'https://www.planettweaks.website', 'http://localhost', 'http://127.0.0.1'];
+  const isAllowed = allowedOrigins.some(o => origin.startsWith(o)) || origin === '';
+  res.setHeader('Access-Control-Allow-Origin', isAllowed ? (origin || '*') : 'https://planettweaks.website');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
 
