@@ -1,8 +1,8 @@
-﻿{
+{
     "version":  "3.2.5",
-    "title":  "Planet Tweaks V3.2.5 NOVA TITAN - Master Esports Engine \u0026 Zero-Delay Queue Suite",
+    "title":  "Planet Tweaks V3.2.5 NOVA TITAN - Master Esports Engine & Unlocked Feature Suite",
     "releaseDate":  "2026-11-06",
-    "releaseNotes":  "Planet Tweaks V3.2.5 NOVA TITAN: (1) Zero-delay input reliability overhaul eliminating synthetic mouse/key release collisions in FastInputService. (2) Esports mouse queue locked to 8-packet buffer and keyboard queue to 18-packet buffer with automated watchdog protection. (3) AMD USB 3.1 xHCI controller MSI hardware erratum patched to eliminate dropped clicks under load. (4) Full Win32 DPAPI encryption for API keys and authentication tokens. (5) Complete process-tree termination and exact registry rollback with zero handle leaks. (6) Pro Packs 100% synchronized across Peterbot, Clix, Mero, and All-In-One profiles.",
+    "releaseNotes":  "Planet Tweaks V3.2.5 NOVA TITAN Unlocked: (1) Unlocked full competitive macro suite: Sprint Edit (Zero-Slowdown Tactical Sprint Lock) and Shotgun Prefire Wall Defense templates + 1-Click Esports Preset Importer. (2) Dedicated Esports Mic Isolation & De-Bleed Hero Card (+10dB/+20dB/+30dB AGC stripper & Stereo Mix kill) in Windows Tools with active microphone telemetry. (3) Surfaced Windows System Diagnostic Doctor with 1-click automated system repair. (4) Surfaced Third-Party Optimizer Damage Scanner & Rollback (reverts Hone, Chris Titus, AtlasOS damage). (5) Surfaced PCIe Resizable BAR (ReBAR/SAM) status checker & Esports Synthetic Multi-Core Benchmark in Latency Lab. (6) Zero-delay input reliability with MouseDataQueueSize = 8 locked buffer and 0 mojibake characters verified.",
     "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.5_Latest.exe",
     "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.5_Nova_AI_Edition.exe",
     "mandatory":  false
