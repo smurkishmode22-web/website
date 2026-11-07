@@ -1,9 +1,9 @@
 {
-    "version":  "3.2.6",
-    "title":  "Planet Tweaks V3.2.6 NOVA TITAN - Master Esports Engine & Unlocked Feature Suite",
-    "releaseDate":  "2026-11-06",
-    "releaseNotes":  "Planet Tweaks V3.2.6 NOVA TITAN: (1) Unlocked full competitive macro suite: Sprint Edit (Zero-Slowdown Tactical Sprint Lock) and Shotgun Prefire Wall Defense templates + 1-Click Esports Preset Importer with all 16 macro templates verified. (2) Dedicated Esports Mic Isolation & De-Bleed Hero Card (+10dB/+20dB/+30dB AGC stripper & Stereo Mix kill) in Windows Tools with active microphone telemetry. (3) Windows System Diagnostic Doctor with 1-click automated system repair. (4) Third-Party Optimizer Damage Scanner & Rollback (reverts Hone, Chris Titus, AtlasOS damage). (5) PCIe Resizable BAR (ReBAR/SAM) status checker & Esports Synthetic Multi-Core Benchmark in Latency Lab. (6) Clean Unicode icon rendering across all macro presets and 0 mojibake characters verified.",
-    "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.6_Latest.exe",
-    "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.6_Nova_AI_Edition.exe",
-    "mandatory":  false
+    "version": "3.2.7",
+    "title": "Planet Tweaks V3.2.7 NOVA TITAN - 100% Full Visibility Suite, Zero-Drop Mouse Engine & Discord RPC 2.0",
+    "releaseDate": "2026-11-06",
+    "releaseNotes": "Planet Tweaks V3.2.7 NOVA TITAN: (1) 100% Full Catalog & Tab Visibility: Unlocked Custom Crosshair in sidebar by default, surfaced all 18 Game Booster catalog tweaks & all 29 App Optimizer tweaks (Edge, Chrome, Brave, Steam, Discord/VoiceMod, Razer/Logitech), and surfaced all 16 macro templates in both Local & Cloud modes. (2) Zero-Drop Mouse Engine: Upgraded mouclass packet ring buffer guard to >= 100 (128 high-polling preset) across Watchdog, Pro Packs, and Mouse Hz Studio so rapid clicks never drop on 1K-8KHz gaming mice. (3) Sprint Edit Momentum Fix: Preserves physical W forward hold without synthetic key interruption. (4) Process Monitor Upgrades: Grouped VoiceMod background daemons and added strict PowerToys protection. (5) Rebuilt Discord Rich Presence IPC pipe reader & 100% clean UTF-8 icon rendering with zero mojibake.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.7_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.2.7_Nova_AI_Edition.exe",
+    "mandatory": false
 }
