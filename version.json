@@ -1,9 +1,9 @@
 {
-    "version": "3.3.0",
-    "title": "Planet Tweaks V3.3.0 NOVA TITAN - Zero Keyboard Acceptance Delay, 35GB ShadowStorage, Offline GamerTag Auth & Esports Rapid Repeat",
+    "version": "3.3.1",
+    "title": "Planet Tweaks V3.3.1 NOVA TITAN - Complete Hone, Aphrodite & Z-Tweaks Integration, 0-Delay Invariant TSC, Non-AI Matte Obsidian Design",
     "releaseDate": "2026-11-09",
-    "releaseNotes": "Planet Tweaks V3.3.0 NOVA TITAN: (1) Zero Acceptance Delay & Esports Rapid Repeat: Hardcoded DelayBeforeAcceptance=0, BounceTime=0, WaitMSec=0, 15ms repeat rate, and 150ms repeat delay with 100% safe rollback. (2) 35GB System Restore Storage: Enforced 35GB shadow storage limit with zero restore point wipes on rollback. (3) Offline Session Resilience: Graceful fallback for GamerTag authentication when offline or disconnected. (4) UI Refinement: Compact Windows Tools diagnostic deck, purged fake mouse peripherals, and consolidated Debloat tabs. (5) Guardian Angel Master Switch: Custom toggle under Settings.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.0_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.0_Nova_AI_Edition.exe",
+    "releaseNotes": "Planet Tweaks V3.3.1 NOVA TITAN: (1) Hone, Aphrodite & Z-Tweaks Full Absorption: Integrated 295+ competitive optimizations across registry, kernel timing, and network priority into Random Tweaks. (2) Pure Zero Delay & Clix Max FPS Packs: Overhauled with Invariant TSC 0.500ms kernel timer, DSCP CS7 packet priority, 8000Hz peripheral unthrottling, and purged generic browser filler. (3) Non-AI Design System: Standardized clean matte dark UI styling, purged emojis, and added Hardware Compatibility Shield for unsupported hardware. (4) Zero-Drop Input Engine: Hardcoded 0ms keyboard acceptance delay, 8-packet mouse queue, and restored Sprint Edit & Shotgun Pre-Fire macros.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.1_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.1_Nova_AI_Edition.exe",
     "mandatory": false
 }
