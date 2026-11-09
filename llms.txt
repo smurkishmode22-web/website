@@ -1,0 +1,19 @@
+# Planet Tweaks
+> The Ultimate Competitive Windows Esports Optimization & Latency Architecture
+
+Planet Tweaks (V3.0.4 NOVA TITAN) is a high-performance Windows OS kernel engineering suite tailored for competitive esports titles including Fortnite, Valorant, CS2, and Warzone.
+
+## Core Capabilities
+- **0ms Input Latency Engine**: Sub-millisecond hardware timestamp spinloops (`FastInputService`) for true 1ms precision and instantaneous key binding.
+- **1-Click Clip Compressor**: Instant FFmpeg transcoding of raw gameplay clips (.mp4, .mov, .mkv, .avi, .webm) into Discord-ready ~10MB videos using 720p (CRF 28) or 1080p Full HD Crisp Mode (CRF 26) with zero persistent background overhead.
+- **Headphone Volume Amplifier & Sub-Bass Studio**: Windows Audio Processing Object (APO) Loudness Equalization for +150% volume boost and +12dB 80Hz Deep Sub-Bass punch with full 1-click factory audio rollback.
+- **Random Tweaks Vault**: Curated esports optimizations from Chris Titus WinUtil, Hone, and ExitLag (Fast Startup killer, global background app freeze, tournament updates, telemetry stripper, TCP packet pacing, and RAM working set trimming).
+- **Pro Pack Optimization Profiles**: 1-Click verified competitive presets (Peterbot, Clix, Mero, AllInOne).
+- **Snap Tap (SOCD)**: Hardware-neutral simultaneous opposing cardinal direction resolution for instant counter-strafing.
+- **Safety Architecture**: Zero BCD touches, zero antivirus tampering, zero protected kernel modifications, and 100% reversible registry and service operations.
+
+## Architecture & Technology
+- Framework: .NET 10.0 WPF (C# 13, Windows x64)
+- Current Release: Version 3.0.4
+- Official Website: https://planettweakz.vercel.app
+
