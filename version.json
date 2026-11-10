@@ -1,9 +1,9 @@
 {
-    "version": "3.3.2",
-    "title": "Planet Tweaks V3.3.2 TITAN - Complete Hone, Aphrodite & Z-Tweaks Integration, Restored Icons, FilterKeys Live Studio",
+    "version": "3.3.4",
+    "title": "Planet Tweaks V3.3.4 TITAN - Hone, Aphrodite & Z-Tweaks Integration, 0 Sensitivity Tampering, 8000Hz USB Studio, 100% Rollback Support",
     "releaseDate": "2026-11-09",
-    "releaseNotes": "Planet Tweaks V3.3.2 TITAN: (1) Restored Vibrant Icons across all top bar buttons, sidebar category headers, and navigation tabs. (2) Dedicated Aphrodite & Z-Tweaks Vault with 8000Hz USB High Speed Studio. (3) Hone Preset Converter with 1-click active PC registry scanner and share code importer. (4) FilterKeys Pro Live Repeat Rate Studio with interactive typing test box and dynamic status indicators. (5) Re-calibrated Peterbot Zero Delay (74 tweaks) and Pure Zero Delay (70 tweaks, 0 sensitivity tampering). (6) Scaled window size to 1220x750 for optimal laptop scaling.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.2_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.2_Nova_AI_Edition.exe",
+    "releaseNotes": "Planet Tweaks V3.3.4 TITAN: (1) Dedicated Aphrodite & Z-Tweaks sub-tab with dual Unthrottle (1000Hz-8000Hz) and Revert controls. (2) Clean 11-optimization Hone preset converter (0poiwpy / echowtw) with 0 registry dumping. (3) Re-engineered Pure Zero Delay (87 verified tweaks) and Peterbot Zero Delay (91 verified tweaks) with strictly zero mouse sensitivity or cursor curve tampering. (4) Background Watchdog Mouse Protection: 1:1 mouse scaling enforcement disabled by default. (5) Complete Mojibake encoding purge across all UI cards and documentation. (6) Full Inno Setup installer compilation and automated deployment.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.4_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.4_Nova_AI_Edition.exe",
     "mandatory": false
 }
