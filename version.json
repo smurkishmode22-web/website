@@ -1,9 +1,9 @@
 {
-    "version": "3.3.1",
-    "title": "Planet Tweaks V3.3.1 NOVA TITAN - Complete Hone, Aphrodite & Z-Tweaks Integration, 0-Delay Invariant TSC, Non-AI Matte Obsidian Design",
+    "version": "3.3.2",
+    "title": "Planet Tweaks V3.3.2 TITAN - Complete Hone, Aphrodite & Z-Tweaks Integration, Restored Icons, FilterKeys Live Studio",
     "releaseDate": "2026-11-09",
-    "releaseNotes": "Planet Tweaks V3.3.1 NOVA TITAN: (1) Hone, Aphrodite & Z-Tweaks Full Absorption: Integrated 295+ competitive optimizations across registry, kernel timing, and network priority into Random Tweaks. (2) Pure Zero Delay & Clix Max FPS Packs: Overhauled with Invariant TSC 0.500ms kernel timer, DSCP CS7 packet priority, 8000Hz peripheral unthrottling, and purged generic browser filler. (3) Non-AI Design System: Standardized clean matte dark UI styling, purged emojis, and added Hardware Compatibility Shield for unsupported hardware. (4) Zero-Drop Input Engine: Hardcoded 0ms keyboard acceptance delay, 8-packet mouse queue, and restored Sprint Edit & Shotgun Pre-Fire macros.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.1_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.1_Nova_AI_Edition.exe",
+    "releaseNotes": "Planet Tweaks V3.3.2 TITAN: (1) Restored Vibrant Icons across all top bar buttons, sidebar category headers, and navigation tabs. (2) Dedicated Aphrodite & Z-Tweaks Vault with 8000Hz USB High Speed Studio. (3) Hone Preset Converter with 1-click active PC registry scanner and share code importer. (4) FilterKeys Pro Live Repeat Rate Studio with interactive typing test box and dynamic status indicators. (5) Re-calibrated Peterbot Zero Delay (74 tweaks) and Pure Zero Delay (70 tweaks, 0 sensitivity tampering). (6) Scaled window size to 1220x750 for optimal laptop scaling.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.2_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.2_Nova_AI_Edition.exe",
     "mandatory": false
 }
