@@ -1,9 +1,9 @@
 {
-    "version": "3.3.5",
-    "title": "Planet Tweaks V3.3.5 TITAN - Forensic Tweak Test Lab, Hone/Aphrodite/Z-Tweaks Vault, 8000Hz Studio & 0 Sensitivity Tampering",
-    "releaseDate": "2026-11-09",
-    "releaseNotes": "Planet Tweaks V3.3.5 TITAN: (1) Temporary Forensic 'Tweak Test' Lab added to Esports & Pro Modes: Test historical tweaks 1-by-1 with live registry state inspection, proposed values, and instant rollback so you can pinpoint exact conflicts with 100% safety. (2) Dedicated Aphrodite & Z-Tweaks sub-tab with dual Unthrottle (1000Hz-8000Hz) and Revert controls. (3) Clean 11-optimization Hone preset converter (0poiwpy / echowtw) with 0 registry dumping. (4) Re-engineered Pure Zero Delay (87 verified tweaks) and Peterbot Zero Delay (91 verified tweaks) with strictly zero mouse sensitivity or cursor curve tampering. (5) Background Watchdog Mouse Protection: 1:1 mouse scaling enforcement disabled by default. (6) Complete Mojibake encoding purge across all UI cards and documentation. (7) Full Inno Setup installer compilation and automated deployment.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.5_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.5_Nova_AI_Edition.exe",
+    "version": "3.3.8",
+    "title": "Planet Tweaks V3.3.8 TITAN - Re-Engineered Zero Delay Architecture, 15 Aphrodite Tweaks, Peterbot Pointer Engine, Rapid Mouse Debounce & Safety Hardening",
+    "releaseDate": "2026-11-10",
+    "releaseNotes": "Planet Tweaks V3.3.8 TITAN: (1) Re-engineered Pure Zero Delay (98 tweaks) and Peterbot 0-Delay Secret Pack (102 tweaks) with dual zero-delay architecture (Peterbot with pointer changer vs Pure Zero Delay strictly input/kernel). (2) 15 Core Aphrodite Competitive Tweaks added including NDU RAM leak fix, 32MB locked IO buffer, 64KB TCP buffer, and 1ms XInput controller polling. (3) High-CPS mouse click response suite added: Rapid Esports Double-Click Interval (200ms), Expanded Double-Click Hitbox, and Touchpad Palm Rejection lockout removal. (4) Keyboard packet queue depth optimized to safe 25 buffer. (5) Permanent hardware blacklist enforcement against multiplex driver failures.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.8_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.8_Nova_AI_Edition.exe",
     "mandatory": false
 }
