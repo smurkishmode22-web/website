@@ -1,9 +1,9 @@
 {
-    "version": "3.3.9",
-    "title": "Planet Tweaks V3.3.9 TITAN - Tweak Test Lab Retired, Verified Low-Latency Passers Restored & Pure Zero Delay Refined",
-    "releaseDate": "2026-11-10",
-    "releaseNotes": "Planet Tweaks V3.3.9 TITAN: (1) Retired the temporary Tweak Test Lab UI and purged all unverified/failed tweaks. (2) Kept only verified passing tweaks in their original categories (Keyboard Packet Queue Depth 25 buffer, Device Base Name, USB HID Polling Priority 3, kbdclass Start 1, FilterKeys 27, 15 Aphrodite tweaks). (3) All Pro Packs (Pure Zero Delay, Peterbot Zero Delay, All-In-One, Low Latency Input) repopulated and re-optimized with verified passing tweaks. (4) Maintained strict permanent blacklist against driver multiplexing and unstable registry hacks.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.9_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.3.9_Nova_AI_Edition.exe",
+    "version": "3.4.0",
+    "title": "Planet Tweaks V3.4.0 - Master Low-Latency Stability & Independent Audit Release",
+    "releaseDate": "2026-11-11",
+    "releaseNotes": "Planet Tweaks V3.4.0: (1) Fail-Closed Safety Architecture: Permanent quarantine on unsafe device spoofs, verified transactional rollback on companion commands, pre-Undo fail-closed snapshot gating, and fail-closed state journals. (2) Zero-Latency Input Stack: Full Peterbot & Pure Zero Delay optimization with native FilterKeys (0ms delay, Flags 27), stock 100 MouseDataQueueSize, and non-destructive CapsLock remapping. (3) Purged Unstable Tweaks: 100% removed 1ms HidUsb registry forcing, 8000Hz USB peripheral unthrottle, Dynamic Tick bcdedit modifications, and all duplicate/conflicting USB suspend entries. (4) Total Mojibake Elimination: Complete sanitization across all UI labels, cards, and metadata. (5) 26 Automated Verification Tests passing with 0 build errors across Public and Private editions.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.0_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.0_Nova_AI_Edition.exe",
     "mandatory": false
 }
