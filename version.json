@@ -1,9 +1,9 @@
 {
-    "version": "3.4.2",
-    "title": "Planet Tweaks V3.4.2 - Tweak Test Lab & Hone Permanent Preservation Release",
-    "releaseDate": "2026-11-11",
-    "releaseNotes": "Planet Tweaks V3.4.2: (1) Tweak Test Lab Integration: Dedicated isolation lab tab with individual test cards for isolated verification of queue depths, FilterKeys 0 delay, Win32 Priority Separation, and Global Timer Resolution without modifying automated zero-delay packs. (2) Hone Optimization Permanent Preservation: All 11 active Hone tweaks permanently secured into Windows kernel and user registries. (3) Input & Shutdown Stability: Permanent ACPI power-down fix (PowerdownAfterShutdown=1) and mouse class queue overflow protection (MouseDataQueueSize=100) preventing post-reboot click drops. (4) UI Version Alignment: Clean v3.4.2 branding across all Windows chrome headers, Alt-Tab switcher, auto-updater endpoints, and Discord Rich Presence.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.2_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.2_Nova_AI_Edition.exe",
+    "version": "3.4.3",
+    "title": "Planet Tweaks V3.4.3 - Universal Revert & Safety Policy Unblock Release",
+    "releaseDate": "2026-11-12",
+    "releaseNotes": "Planet Tweaks V3.4.3: (1) Universal Revert Engine: Completely resolved the 'Undo blocked by SafetyPolicy' issue. Tweaks without local pre-apply snapshots (such as tweaks applied externally or pre-existing in Windows) now gracefully and safely revert to clean Windows stock defaults with zero blockages. (2) FilterKeys & Revert Safety: 0 Delay Before Acceptance and FilterKeys flags can now be smoothly applied and reverted on demand. (3) UI & Version Alignment: Full v3.4.3 branding across all Windows chrome headers, Alt-Tab switcher, auto-updater endpoints, and Discord Rich Presence.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.3_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.3_Nova_AI_Edition.exe",
     "mandatory": false
 }
