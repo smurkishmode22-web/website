@@ -1,9 +1,9 @@
 {
-    "version": "3.4.1",
-    "title": "Planet Tweaks V3.4.1 - Zero Delay Kernel & Input Stability Release",
+    "version": "3.4.2",
+    "title": "Planet Tweaks V3.4.2 - Tweak Test Lab & Hone Permanent Preservation Release",
     "releaseDate": "2026-11-11",
-    "releaseNotes": "Planet Tweaks V3.4.1: (1) Purged Reboot Driver Deadlocks: Completely removed 'Keyboard Packet Queue Depth (5 Buffer)' and '0 Delay Before Acceptance' from all automated zero-delay packs (Peterbot, Pure Zero Delay, Low Latency Input) to eliminate multi-keyboard boot deadlocks and FilterKeys lockout on restart. (2) Demoted Dangerous Buffers: Moved all low-queue depth keyboard tweaks to Opt-In manual configuration with safety warnings. (3) Live Input & Kernel Performance: Maintained stock 100 Keyboard Queue Depth while retaining 100% of zero-latency kernel timers, Win32 priority separation, and raw input optimizations. (4) System Restore Storage Expansion: Shadow copy storage expanded to 100 GB with fail-safe driver baseline rollbacks. (5) Full Verification: 100% clean builds across Public and Private editions with 0 compiler errors.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.1_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.1_Nova_AI_Edition.exe",
+    "releaseNotes": "Planet Tweaks V3.4.2: (1) Tweak Test Lab Integration: Dedicated isolation lab tab with individual test cards for isolated verification of queue depths, FilterKeys 0 delay, Win32 Priority Separation, and Global Timer Resolution without modifying automated zero-delay packs. (2) Hone Optimization Permanent Preservation: All 11 active Hone tweaks permanently secured into Windows kernel and user registries. (3) Input & Shutdown Stability: Permanent ACPI power-down fix (PowerdownAfterShutdown=1) and mouse class queue overflow protection (MouseDataQueueSize=100) preventing post-reboot click drops. (4) UI Version Alignment: Clean v3.4.2 branding across all Windows chrome headers, Alt-Tab switcher, auto-updater endpoints, and Discord Rich Presence.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.2_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.2_Nova_AI_Edition.exe",
     "mandatory": false
 }
