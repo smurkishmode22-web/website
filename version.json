@@ -1,9 +1,9 @@
 {
-    "version": "3.4.0",
-    "title": "Planet Tweaks V3.4.0 - Master Low-Latency Stability & Independent Audit Release",
+    "version": "3.4.1",
+    "title": "Planet Tweaks V3.4.1 - Zero Delay Kernel & Input Stability Release",
     "releaseDate": "2026-11-11",
-    "releaseNotes": "Planet Tweaks V3.4.0: (1) Fail-Closed Safety Architecture: Permanent quarantine on unsafe device spoofs, verified transactional rollback on companion commands, pre-Undo fail-closed snapshot gating, and fail-closed state journals. (2) Zero-Latency Input Stack: Full Peterbot & Pure Zero Delay optimization with native FilterKeys (0ms delay, Flags 27), stock 100 MouseDataQueueSize, and non-destructive CapsLock remapping. (3) Purged Unstable Tweaks: 100% removed 1ms HidUsb registry forcing, 8000Hz USB peripheral unthrottle, Dynamic Tick bcdedit modifications, and all duplicate/conflicting USB suspend entries. (4) Total Mojibake Elimination: Complete sanitization across all UI labels, cards, and metadata. (5) 26 Automated Verification Tests passing with 0 build errors across Public and Private editions.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.0_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.0_Nova_AI_Edition.exe",
+    "releaseNotes": "Planet Tweaks V3.4.1: (1) Purged Reboot Driver Deadlocks: Completely removed 'Keyboard Packet Queue Depth (5 Buffer)' and '0 Delay Before Acceptance' from all automated zero-delay packs (Peterbot, Pure Zero Delay, Low Latency Input) to eliminate multi-keyboard boot deadlocks and FilterKeys lockout on restart. (2) Demoted Dangerous Buffers: Moved all low-queue depth keyboard tweaks to Opt-In manual configuration with safety warnings. (3) Live Input & Kernel Performance: Maintained stock 100 Keyboard Queue Depth while retaining 100% of zero-latency kernel timers, Win32 priority separation, and raw input optimizations. (4) System Restore Storage Expansion: Shadow copy storage expanded to 100 GB with fail-safe driver baseline rollbacks. (5) Full Verification: 100% clean builds across Public and Private editions with 0 compiler errors.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.1_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.1_Nova_AI_Edition.exe",
     "mandatory": false
 }
