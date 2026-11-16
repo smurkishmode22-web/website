@@ -1,9 +1,11 @@
 {
-    "version": "3.4.3",
-    "title": "Planet Tweaks V3.4.3 - Universal Revert & Safety Policy Unblock Release",
-    "releaseDate": "2026-11-12",
-    "releaseNotes": "Planet Tweaks V3.4.3: (1) Universal Revert Engine: Completely resolved the 'Undo blocked by SafetyPolicy' issue. Tweaks without local pre-apply snapshots (such as tweaks applied externally or pre-existing in Windows) now gracefully and safely revert to clean Windows stock defaults with zero blockages. (2) FilterKeys & Revert Safety: 0 Delay Before Acceptance and FilterKeys flags can now be smoothly applied and reverted on demand. (3) UI & Version Alignment: Full v3.4.3 branding across all Windows chrome headers, Alt-Tab switcher, auto-updater endpoints, and Discord Rich Presence.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.3_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.3_Nova_AI_Edition.exe",
-    "mandatory": false
+    "version": "3.4.7",
+    "title": "Planet Tweaks V3.4.7 - Complete Overhaul, Verified Tweaks & Honest Diagnostics Release",
+    "releaseDate": "2026-11-15",
+    "releaseNotes": "Planet Tweaks V3.4.7: (1) Verified Catalog & Safety Architecture: Audited 340+ catalog definitions with 200 certified REMOVE entries, explicit Safe/HardwareSpecific/Experimental classifications, ConflictGroup mutual exclusion, and >=100 safe mouse/keyboard ring buffer policies. (2) Honest Telemetry & Diagnostics: Real ACPI WMI/perf-counter hardware telemetry (zero synthetic sensor estimates), FilterKeys-OFF scoring, and live Raw Input (WM_INPUT) polling rate monitor. (3) Theme Engine & UI Overhaul: Unified 3-color DynamicResource token system across MainWindow and secondary windows, crosshair cursor-monitor offset controls, and debounced search.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.7_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.7_Nova_AI_Edition.exe",
+    "mandatory": false,
+    "sha256": "2ba54139764824d9ca4d92e617632493cc120f08450e88e0890b385965f1a335",
+    "novaSha256": "bfd696f9017f484b7a5a0772ff36d4ce3561bb6276367212dac5eac3aa44dacd"
 }
