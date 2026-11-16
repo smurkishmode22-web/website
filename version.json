@@ -1,11 +1,11 @@
 {
-    "version": "3.4.7",
-    "title": "Planet Tweaks V3.4.7 - Complete Overhaul, Verified Tweaks & Honest Diagnostics Release",
-    "releaseDate": "2026-11-15",
-    "releaseNotes": "Planet Tweaks V3.4.7: (1) Verified Catalog & Safety Architecture: Audited 340+ catalog definitions with 200 certified REMOVE entries, explicit Safe/HardwareSpecific/Experimental classifications, ConflictGroup mutual exclusion, and >=100 safe mouse/keyboard ring buffer policies. (2) Honest Telemetry & Diagnostics: Real ACPI WMI/perf-counter hardware telemetry (zero synthetic sensor estimates), FilterKeys-OFF scoring, and live Raw Input (WM_INPUT) polling rate monitor. (3) Theme Engine & UI Overhaul: Unified 3-color DynamicResource token system across MainWindow and secondary windows, crosshair cursor-monitor offset controls, and debounced search.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.7_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.7_Nova_AI_Edition.exe",
+    "version": "3.4.8",
+    "title": "Planet Tweaks V3.4.8 - Icons Restored, Instant Tab Switching, Win32 Crosshair & 16 CPU Tweaks",
+    "releaseDate": "2026-11-16",
+    "releaseNotes": "Planet Tweaks V3.4.8: (1) Full Icon Restoration & Clean Sidebar: Restored every navigation icon, header control, close button, and modal badge; removed duplicate/extra tabs (System Info, standalone Themes mixer, duplicate Input & Crosshair, duplicate Debloat Apps) and kept clean Themes inside Settings. (2) Instant Tab Switching & Scroll-to-Top Fix: Fast registry probes + 20s DetectCmd cache + background parallel probe refresh eliminate tab-switch hangs and always reset scroll to top. (3) Hardware-Clipped Zero-Delay Crosshair Studio: Side-by-side preview workbench, restored rainbow HSV spectrum slider, 100% solid Win32 ExtCreateRegion overlay (zero WS_EX_LAYERED dimming at 100% opacity), and 16 safe Desktop CPU tweaks restored.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.8_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.8_Nova_AI_Edition.exe",
     "mandatory": false,
-    "sha256": "2ba54139764824d9ca4d92e617632493cc120f08450e88e0890b385965f1a335",
-    "novaSha256": "bfd696f9017f484b7a5a0772ff36d4ce3561bb6276367212dac5eac3aa44dacd"
+    "sha256": "0d24fe474669e2343c9d278da3a32e3c4bb7911dded9045e2254c15868f01c24",
+    "novaSha256": "029ea0154e5beeaa131565e2f33af95eb94b6a7b64a37bb5f781455d8d815cbd"
 }
