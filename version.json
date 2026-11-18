@@ -1,11 +1,11 @@
 {
-    "version": "3.4.8",
-    "title": "Planet Tweaks V3.4.8 - Icons Restored, Instant Tab Switching, Win32 Crosshair & 16 CPU Tweaks",
-    "releaseDate": "2026-11-16",
-    "releaseNotes": "Planet Tweaks V3.4.8: (1) Full Icon Restoration & Clean Sidebar: Restored every navigation icon, header control, close button, and modal badge; removed duplicate/extra tabs (System Info, standalone Themes mixer, duplicate Input & Crosshair, duplicate Debloat Apps) and kept clean Themes inside Settings. (2) Instant Tab Switching & Scroll-to-Top Fix: Fast registry probes + 20s DetectCmd cache + background parallel probe refresh eliminate tab-switch hangs and always reset scroll to top. (3) Hardware-Clipped Zero-Delay Crosshair Studio: Side-by-side preview workbench, restored rainbow HSV spectrum slider, 100% solid Win32 ExtCreateRegion overlay (zero WS_EX_LAYERED dimming at 100% opacity), and 16 safe Desktop CPU tweaks restored.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.8_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.4.8_Nova_AI_Edition.exe",
+    "version": "3.5.0",
+    "title": "Planet Tweaks V3.5.0 - Zenn Mantle Restored, Instant Build Fix & Live Macro Sandbox",
+    "releaseDate": "2026-11-18",
+    "releaseNotes": "Planet Tweaks V3.5.0 (2026-11-18): (1) Instant Build Stability Fix: Moved Instant Build off the synchronous low-level keyboard hook thread, fixed Win32 KEYEVENTF_SCANCODE wVk=0 injection, added Win/Alt modifier guard, and added automatic stale-key pruning + 100ms physical-release watchdog so keys/clicks never stick or scramble input. (2) Live Macro Test Sandbox Fix: Macros now run natively inside the Macro Test Sandbox with right-click menu suppression and a live physical/simulated key & mouse signal feed. (3) Zenn Mantle & Fall Cancel (Legacy v3.2.7 Engine): Holds Spacebar at 0ms + holds Place Build continuously (zero W/A/S/D keys) while spamming your two bound Build Keys at your configured delays (8ms default). (4) Workspace Cleanup: Quarantined/removed Elevator 90s and removed the Diagnostics sidebar tab while keeping Spec Switcher restored.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.0_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.0_Nova_AI_Edition.exe",
     "mandatory": false,
-    "sha256": "0d24fe474669e2343c9d278da3a32e3c4bb7911dded9045e2254c15868f01c24",
-    "novaSha256": "029ea0154e5beeaa131565e2f33af95eb94b6a7b64a37bb5f781455d8d815cbd"
+    "sha256": "f040a2ad42f37428c15ece435789ddfc48bf3bce22f325a723804aaff6b015f7",
+    "novaSha256": "a0a791b5acdbe15234dfd5b84875be00a6e91547e6100a0c536ec99dec4cb6e6"
 }
