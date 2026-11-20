@@ -323,10 +323,22 @@
         const SUPABASE_URL = "https://rgycceantliyebnagtub.supabase.co";
         const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJneWNjZWFudGxpeWVibmFndHViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI1Mzg0NDcsImV4cCI6MjEwODExNDQ0N30.AlFQ-0-NBcrAWp6y1zoiey641QQ_M7yqR-npTpFCp1E";
 
-        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+            auth: { flowType: 'pkce', detectSessionInUrl: true }
+        });
 
+        const EXPECTED_CALLBACK_PORT = '51789';
         const urlParams = new URLSearchParams(window.location.search);
-        const callbackPort = urlParams.get('port') || '51789';
+        const suppliedPort =
+            urlParams.get('port') ||
+            sessionStorage.getItem('pt_oauth_port');
+        const callbackPort = EXPECTED_CALLBACK_PORT;
+        const callbackPortValid =
+            !suppliedPort || suppliedPort === EXPECTED_CALLBACK_PORT;
+        const oauthState = urlParams.get('state') || sessionStorage.getItem('pt_oauth_state') || '';
+        try {
+            if (urlParams.get('state')) sessionStorage.setItem('pt_oauth_state', oauthState);
+        } catch (e) {}
 
         let currentMode = 'signin'; // 'signin' | 'signup' | 'magic'
 
@@ -372,22 +384,34 @@
         };
 
         async function syncSessionWithDesktop(user, session) {
-            const gamerTag = user.user_metadata?.full_name || user.user_metadata?.name || (user.email ? user.email.split('@')[0] : 'PlanetGamer');
+            if (!callbackPortValid) {
+                setStatus(
+                    'Invalid desktop sign-in callback. Please restart sign-in from Planet Tweaks.',
+                    'error'
+                );
+                return;
+            }
+            const gamerTag = user.user_metadata?.gamer_tag || user.user_metadata?.full_name || user.user_metadata?.name || (user.email ? user.email.split('@')[0] : 'PlanetGamer');
+            const activeState = oauthState || (function() { try { return sessionStorage.getItem('pt_oauth_state') || ''; } catch (e) { return ''; } })();
             const payload = {
                 idToken: session?.access_token || '',
                 refreshToken: session?.refresh_token || '',
                 email: user.email || '',
                 displayName: gamerTag,
                 localId: user.id || '',
-                photoUrl: user.user_metadata?.avatar_url || ''
+                photoUrl: user.user_metadata?.avatar_id || user.user_metadata?.avatar_url || '',
+                state: activeState
             };
 
             setStatus('Syncing session with Planet Tweaks Desktop...', 'loading');
 
             try {
-                const response = await fetch(`http://127.0.0.1:${callbackPort}/callback`, {
+                const response = await fetch(`http://127.0.0.1:${callbackPort}/callback?state=${encodeURIComponent(activeState)}`, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-PlanetTweaks-State': activeState
+                    },
                     body: JSON.stringify(payload)
                 });
 
@@ -462,9 +486,16 @@
                     setStatus('⚠️ ' + (err.message || 'Signup failed.'), 'error');
                 }
             } else if (currentMode === 'magic') {
+                if (!callbackPortValid) {
+                    setStatus(
+                        'Invalid desktop sign-in callback. Please restart sign-in from Planet Tweaks.',
+                        'error'
+                    );
+                    return;
+                }
                 setStatus('Sending 1-click magic link...', 'loading');
                 try {
-                    const redirectUrl = window.location.origin + window.location.pathname + (callbackPort ? `?port=${callbackPort}` : '');
+                    const redirectUrl = window.location.origin + window.location.pathname + `?port=${EXPECTED_CALLBACK_PORT}` + (oauthState ? `&state=${encodeURIComponent(oauthState)}` : '');
                     const { error } = await supabase.auth.signInWithOtp({
                         email,
                         options: { emailRedirectTo: redirectUrl }
@@ -478,9 +509,17 @@
         };
 
         window.handleGoogleSignIn = async function() {
+            if (!callbackPortValid) {
+                setStatus(
+                    'Invalid desktop sign-in callback. Please restart sign-in from Planet Tweaks.',
+                    'error'
+                );
+                return;
+            }
             setStatus('Connecting to Google...', 'loading');
             try {
-                const redirectTo = window.location.origin + window.location.pathname + (callbackPort ? `?port=${callbackPort}` : '');
+                const qs = `?port=${EXPECTED_CALLBACK_PORT}` + (oauthState ? `&state=${encodeURIComponent(oauthState)}` : '');
+                const redirectTo = window.location.origin + window.location.pathname + qs;
                 const { error } = await supabase.auth.signInWithOAuth({
                     provider: 'google',
                     options: {
