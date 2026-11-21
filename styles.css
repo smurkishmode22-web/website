@@ -2717,7 +2717,24 @@ body {
 
 @media (max-width: 768px) {
     .nav-links, .nav-actions { display: none; }
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: rgba(11, 13, 19, 0.98);
+        backdrop-filter: blur(14px);
+        padding: 16px 24px 20px;
+        gap: 14px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        z-index: 999;
+    }
     .mobile-toggle { display: flex; }
+    .mobile-toggle.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .mobile-toggle.active span:nth-child(2) { opacity: 0; }
+    .mobile-toggle.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
     .hero-headline { font-size: 38px; }
     .benchmark-grid { grid-template-columns: 1fr; }
     .benchmark-vs { transform: rotate(90deg); margin: 10px 0; }

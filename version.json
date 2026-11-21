@@ -1,11 +1,11 @@
 {
-    "version":  "3.5.1",
-    "title":  "Planet Tweaks V3.5.1 - Full Remodel, Light \u0026 Dark Themes, Font Changer, Health Center \u0026 Hardened Safety",
-    "releaseDate":  "2026-11-20",
-    "releaseNotes":  "Planet Tweaks V3.5.1 (2026-11-20): (1) Themes \u0026 App-Wide Font Changer: Added IQON Clean Light \u0026 Polar Daylight themes, Custom Theme Creator with non-destructive Live Preview, saved custom presets, and 6-font live typography switching across all open windows. (2) Collapsible Navigation, My PC \u0026 Read-Only Health Center: Added compact 64px sidebar rail, 11 modular Audio \u0026 Media destinations, sensor-aware My PC hardware telemetry, and 7-domain read-only Health Center diagnostics. (3) Hardened Safety \u0026 Persistence: Fixed OAuth callback port guard (51789), isolated Public/Private data directories, added atomic two-file AppSettings rollback \u0026 truthful save-failure handling, validated Scheduled Task startup XML, and tightened Keyboard Remapper Scancode Map batch validation.",
-    "downloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.1_Latest.exe",
-    "novaDownloadUrl":  "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.1_Nova_AI_Edition.exe",
-    "mandatory":  false,
-    "sha256":  "7761deb437427bc70ed40f6ff92155a2f8a59bcf67062634952dd1157a1a691e",
-    "novaSha256":  "6e0e5a4e20e9901889599935a0ef4ad405354de1c00408307b9d4e33b4809e4a"
+    "version": "3.5.1",
+    "title": "Planet Tweaks V3.5.1 - IQON Bento Dashboard, Mouse Input Fix, Curated Themes & Full Overhaul",
+    "releaseDate": "2026-11-20",
+    "releaseNotes": "Planet Tweaks V3.5.1 (2026-11-20): (1) IQON Bento Dashboard: Redesigned 3-column bento layout with GPU sensor-aware N/A handling, real 28-sample purple network waveform, thermal zone stub rejection, and friendly power plan readout. (2) Mouse Input & Lifecycle Fixes: Fixed double MOUSEEVENTF_*UP injection and physical-click hold cancellation race in FastInputService, cleaned up Anti-Ghosting WH_MOUSE_LL hooks & Latency Lab timers on navigation/close, enforced single WndProc hook registration, and added ChronoBlock 0.500ms auto-lock persistence. (3) Curated 14-Theme Studio & Sidebar Polish: Kept Deep Solix Blue, Mocha Brown, Lagoon Blue, and Polar Daylight plus new Dark, Bright, and DarkxBright split-contrast themes with collapsible Custom Palette Studio, smooth 240<->48px sidebar fold animation, 3.5s tooltip delay, Windows Tools sub-tabs (Utilities | My PC | Health Center), parallel App Optimizer, and hardened SafetyPolicy & truthful offline/DNS cloud status.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.1_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.1_Nova_AI_Edition.exe",
+    "mandatory": false,
+    "sha256": "2b325c51c91521ce8768b6f55faee618ccbeee4dabeabab949f7bb3db26abca8",
+    "novaSha256": "6d76d3f3c6be2f906a1eed5ec5ce44cdacefaaf3b8f0d2f075f4512620d604df"
 }

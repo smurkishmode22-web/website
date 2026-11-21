@@ -15,7 +15,7 @@ const gameBenchmarks = {
         afterRam: '2.8 GB (-64%)',
         beforeBar: '42%',
         afterBar: '95%',
-        testedOn: 'ðŸ–¥ Rig Tested: AMD Ryzen 5 5600X  -  NVIDIA RTX 3060 12GB  -  16GB DDR4  -  1080p Performance Mode'
+        testedOn: '🖥️ Rig Tested: AMD Ryzen 5 5600X  -  NVIDIA RTX 3060 12GB  -  16GB DDR4  -  1080p Performance Mode'
     },
     valorant: {
         beforeFps: 220,
@@ -28,7 +28,7 @@ const gameBenchmarks = {
         afterRam: '2.4 GB (-63%)',
         beforeBar: '50%',
         afterBar: '98%',
-        testedOn: 'ðŸ–¥ Rig Tested: Intel Core i5-12400F  -  RTX 3060  -  16GB RAM  -  Vanguard Anti-Cheat Optimized'
+        testedOn: '🖥️ Rig Tested: Intel Core i5-12400F  -  RTX 3060  -  16GB RAM  -  Vanguard Anti-Cheat Optimized'
     },
     cs2: {
         beforeFps: 165,
@@ -41,7 +41,7 @@ const gameBenchmarks = {
         afterRam: '3.1 GB (-62%)',
         beforeBar: '44%',
         afterBar: '92%',
-        testedOn: 'ðŸ–¥ Rig Tested: AMD Ryzen 7 5700X3D  -  RTX 4060  -  32GB DDR4  -  Faceit 128-tick Ready'
+        testedOn: '🖥️ Rig Tested: AMD Ryzen 7 5700X3D  -  RTX 4060  -  32GB DDR4  -  Faceit 128-tick Ready'
     },
     warzone: {
         beforeFps: 110,
@@ -54,7 +54,7 @@ const gameBenchmarks = {
         afterRam: '5.2 GB (-54%)',
         beforeBar: '35%',
         afterBar: '82%',
-        testedOn: 'ðŸ–¥ Rig Tested: AMD Ryzen 5 7600  -  RTX 3070  -  32GB DDR5  -  Urzikstan 1440p'
+        testedOn: '🖥️ Rig Tested: AMD Ryzen 5 7600  -  RTX 3070  -  32GB DDR5  -  Urzikstan 1440p'
     },
     apex: {
         beforeFps: 155,
@@ -67,7 +67,7 @@ const gameBenchmarks = {
         afterRam: '3.0 GB (-62%)',
         beforeBar: '48%',
         afterBar: '94%',
-        testedOn: 'ðŸ–¥ Rig Tested: Intel Core i7-11700K  -  RTX 3070 Ti  -  16GB DDR4  -  240Hz Locked'
+        testedOn: '🖥️ Rig Tested: Intel Core i7-11700K  -  RTX 3070 Ti  -  16GB DDR4  -  240Hz Locked'
     }
 };
 
@@ -201,7 +201,7 @@ function sendDemoChat() {
         aiBubble.innerHTML = `
             <div class="sender-info">Planet AI  -  ${nowStr}</div>
             <div class="msg-text">${replyText}</div>
-            <a href="#catalog" class="ai-action-pill">âš¡ Open Recommended Catalog</a>
+            <a href="#catalog" class="ai-action-pill">⚡ Open Recommended Catalog</a>
         `;
         chatList.appendChild(aiBubble);
         chatList.scrollTop = chatList.scrollHeight;
@@ -922,7 +922,7 @@ function initStageControls(orbEngine) {
     if (soundToggleBtn && soundIcon && soundLabel) {
         soundToggleBtn.addEventListener('click', () => {
             cyberAudio.enabled = !cyberAudio.enabled;
-            soundIcon.textContent = cyberAudio.enabled ? 'ðŸ”Š' : 'ðŸ”‡';
+            soundIcon.textContent = cyberAudio.enabled ? '🔊' : '🔇';
             soundLabel.textContent = cyberAudio.enabled ? 'Audio' : 'Mute';
             if (cyberAudio.enabled) cyberAudio.play('click');
         });
@@ -1190,5 +1190,26 @@ function checkCookieConsent() {
         }
     } catch(e){}
 }
+
+// Mobile navigation hamburger menu toggle
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.querySelector('.nav-links');
+    if (mobileBtn && navLinks) {
+        mobileBtn.setAttribute('aria-expanded', 'false');
+        mobileBtn.addEventListener('click', () => {
+            const isOpen = navLinks.classList.toggle('active');
+            mobileBtn.classList.toggle('active', isOpen);
+            mobileBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                mobileBtn.classList.remove('active');
+                mobileBtn.setAttribute('aria-expanded', 'false');
+            });
+        });
+    }
+});
 
 
