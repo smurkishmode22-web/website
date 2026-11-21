@@ -1,5 +1,5 @@
 /**
- * PLANET TWEAKS - V3.5.1 TITAN WEBSITE INTERACTIVITY
+ * PLANET TWEAKS - V3.5.2 TITAN WEBSITE INTERACTIVITY
  */
 
 // 1. Game FPS & Latency Benchmark Data
@@ -229,8 +229,8 @@ function toggleFaq(button) {
 }
 
 // 6. Download Modal & Dynamic Download Trigger
-let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.5.1_Latest.exe';
-let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.5.1_Nova_AI_Edition.exe';
+let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.5.2_Latest.exe';
+let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.5.2_Nova_AI_Edition.exe';
 
 // Automatically sync download URL with version.json (cache-busted to prevent stale cached versions)
 if (typeof fetch === 'function') {
