@@ -323,9 +323,30 @@
         const SUPABASE_URL = "https://rgycceantliyebnagtub.supabase.co";
         const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJneWNjZWFudGxpeWVibmFndHViIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTI1Mzg0NDcsImV4cCI6MjEwODExNDQ0N30.AlFQ-0-NBcrAWp6y1zoiey641QQ_M7yqR-npTpFCp1E";
 
-        const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-            auth: { flowType: 'pkce', detectSessionInUrl: true }
-        });
+        const supabaseSdk = window.supabase;
+        const supabaseClient = supabaseSdk
+            ? supabaseSdk.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+                auth: { flowType: 'pkce', detectSessionInUrl: true }
+            })
+            : null;
+
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        function formatCloudError(err, fallback) {
+            const raw = (err && (err.message || String(err))) || fallback || 'Cloud request failed.';
+            const lower = raw.toLowerCase();
+            if (lower.includes('failed to fetch') || lower.includes('networkerror') || lower.includes('load failed') || lower.includes('err_name_not_resolved')) {
+                return 'Cloud authentication server is currently unreachable — check your connection or use Offline Guest Mode in Planet Tweaks.';
+            }
+            return escapeHtml(raw);
+        }
 
         const EXPECTED_CALLBACK_PORT = '51789';
         const urlParams = new URLSearchParams(window.location.search);
@@ -428,7 +449,7 @@
                 console.log('Desktop listener not reachable or web-only sign in:', desktopErr);
             }
 
-            setStatus(`<strong>✓ Welcome, ${gamerTag}!</strong><br>Logged in successfully.`, 'success');
+            setStatus(`<strong>✓ Welcome, ${escapeHtml(gamerTag)}!</strong><br>Logged in successfully.`, 'success');
             return false;
         }
 
@@ -439,16 +460,20 @@
             const gamerTag = document.getElementById('gamerTagInput').value.trim() || email.split('@')[0];
 
             if (!email) return;
+            if (!supabaseClient) {
+                setStatus('⚠️ Cloud authentication SDK failed to load. Check your internet connection or use Offline Guest Mode in Planet Tweaks.', 'error');
+                return;
+            }
 
             if (currentMode === 'signin') {
                 setStatus('Signing in...', 'loading');
                 try {
-                    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+                    const { data, error } = await supabaseClient.auth.signInWithPassword({ email, password });
                     if (error) {
                         if (error.message.includes('Invalid login credentials')) {
                             setStatus('⚠️ Invalid email or password. If you don’t have an account yet, click "Create Account" above!', 'error');
                         } else {
-                            setStatus('⚠️ ' + error.message, 'error');
+                            setStatus('⚠️ ' + formatCloudError(error, 'Login error occurred.'), 'error');
                         }
                         return;
                     }
@@ -456,12 +481,12 @@
                         await syncSessionWithDesktop(data.user, data.session);
                     }
                 } catch (err) {
-                    setStatus('⚠️ ' + (err.message || 'Login error occurred.'), 'error');
+                    setStatus('⚠️ ' + formatCloudError(err, 'Login error occurred.'), 'error');
                 }
             } else if (currentMode === 'signup') {
                 setStatus('Creating account...', 'loading');
                 try {
-                    const { data, error } = await supabase.auth.signUp({
+                    const { data, error } = await supabaseClient.auth.signUp({
                         email,
                         password,
                         options: {
@@ -474,16 +499,16 @@
                             switchMode('signin');
                             return;
                         }
-                        setStatus('⚠️ ' + error.message, 'error');
+                        setStatus('⚠️ ' + formatCloudError(error, 'Signup failed.'), 'error');
                         return;
                     }
                     if (data?.session && data?.user) {
                         await syncSessionWithDesktop(data.user, data.session);
                     } else if (data?.user && !data?.session) {
-                        setStatus(`📩 Verification email sent to <strong>${email}</strong>! Please click the link in your email to confirm your account.`, 'success');
+                        setStatus(`📩 Verification email sent to <strong>${escapeHtml(email)}</strong>! Please click the link in your email to confirm your account.`, 'success');
                     }
                 } catch (err) {
-                    setStatus('⚠️ ' + (err.message || 'Signup failed.'), 'error');
+                    setStatus('⚠️ ' + formatCloudError(err, 'Signup failed.'), 'error');
                 }
             } else if (currentMode === 'magic') {
                 if (!callbackPortValid) {
@@ -496,14 +521,14 @@
                 setStatus('Sending 1-click magic link...', 'loading');
                 try {
                     const redirectUrl = window.location.origin + window.location.pathname + `?port=${EXPECTED_CALLBACK_PORT}` + (oauthState ? `&state=${encodeURIComponent(oauthState)}` : '');
-                    const { error } = await supabase.auth.signInWithOtp({
+                    const { error } = await supabaseClient.auth.signInWithOtp({
                         email,
                         options: { emailRedirectTo: redirectUrl }
                     });
                     if (error) throw error;
-                    setStatus(`✨ Magic Link sent to <strong>${email}</strong>! Check your inbox to log in instantly.`, 'success');
+                    setStatus(`✨ Magic Link sent to <strong>${escapeHtml(email)}</strong>! Check your inbox to log in instantly.`, 'success');
                 } catch (err) {
-                    setStatus('⚠️ ' + (err.message || 'Could not send magic link.'), 'error');
+                    setStatus('⚠️ ' + formatCloudError(err, 'Could not send magic link.'), 'error');
                 }
             }
         };
@@ -516,11 +541,15 @@
                 );
                 return;
             }
+            if (!supabaseClient) {
+                setStatus('⚠️ Cloud authentication SDK failed to load. Check your internet connection or use Offline Guest Mode in Planet Tweaks.', 'error');
+                return;
+            }
             setStatus('Connecting to Google...', 'loading');
             try {
                 const qs = `?port=${EXPECTED_CALLBACK_PORT}` + (oauthState ? `&state=${encodeURIComponent(oauthState)}` : '');
                 const redirectTo = window.location.origin + window.location.pathname + qs;
-                const { error } = await supabase.auth.signInWithOAuth({
+                const { error } = await supabaseClient.auth.signInWithOAuth({
                     provider: 'google',
                     options: {
                         redirectTo: redirectTo,
@@ -536,13 +565,14 @@
                 }
             } catch (err) {
                 console.error(err);
-                setStatus('⚠️ ' + (err.message || 'Google sign-in was cancelled or blocked.'), 'error');
+                setStatus('⚠️ ' + formatCloudError(err, 'Google sign-in was cancelled or blocked.'), 'error');
             }
         };
 
         window.addEventListener('load', async () => {
+            if (!supabaseClient) return;
             try {
-                const { data: { session } } = await supabase.auth.getSession();
+                const { data: { session } } = await supabaseClient.auth.getSession();
                 if (session && session.user) {
                     await syncSessionWithDesktop(session.user, session);
                 }

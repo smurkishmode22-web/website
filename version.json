@@ -1,11 +1,11 @@
 {
-    "version": "3.5.2",
-    "title": "Planet Tweaks V3.5.2 - IQON Bento Dashboard, Mouse Input Fix, Curated Themes & Full Overhaul",
-    "releaseDate": "2026-11-20",
-    "releaseNotes": "Planet Tweaks V3.5.2 (2026-11-20): (1) IQON Bento Dashboard: Redesigned 3-column bento layout with GPU sensor-aware N/A handling, real 28-sample purple network waveform, thermal zone stub rejection, and friendly power plan readout. (2) Mouse Input & Lifecycle Fixes: Fixed double MOUSEEVENTF_*UP injection and physical-click hold cancellation race in FastInputService, cleaned up Anti-Ghosting WH_MOUSE_LL hooks & Latency Lab timers on navigation/close, enforced single WndProc hook registration, and added ChronoBlock 0.500ms auto-lock persistence. (3) Curated 14-Theme Studio & Sidebar Polish: Kept Deep Solix Blue, Mocha Brown, Lagoon Blue, and Polar Daylight plus new Dark, Bright, and DarkxBright split-contrast themes with collapsible Custom Palette Studio, smooth 240<->48px sidebar fold animation, 3.5s tooltip delay, Windows Tools sub-tabs (Utilities | My PC | Health Center), parallel App Optimizer, and hardened SafetyPolicy & truthful offline/DNS cloud status.",
-    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.2_Latest.exe",
-    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.2_Nova_AI_Edition.exe",
+    "version": "3.5.3",
+    "title": "Planet Tweaks V3.5.3 - Zero-Alloc Keyboard Remapper Overhaul, Native Wi-Fi Channel Scanner, UI/Hit-Test Fixes & Tweak Catalog Hardening",
+    "releaseDate": "2026-11-22",
+    "releaseNotes": "Planet Tweaks V3.5.3 (2026-11-22): (1) Keyboard Manager Engine Overhaul: Rebuilt hook hot path with zero-allocation VK/scancode lookup, prebuilt Win32 INPUT buffers, per-VK ownership/dispatch serialization, fail-open SendInput error handling, bounded key-up retry + exhaustion visibility, fail-closed hook teardown gate, physical-held key awareness through recovery, per-VK serialized Snap Tap batching, and honest hook diagnostics. (2) Native Wi-Fi Channel Scanner & Unified Hubs: Added real Windows wlanapi.dll Wi-Fi Neighbor & Best Channel Scanner inside a unified Network Hub (Network Tweaks | Wi-Fi Channel Scanner | DNS Optimizer | GeForce NOW & Cloud), unified Debloat Hub, flat Esports & Media Hub (removed nested sidebar dropdown), safe Quick Safe Boost routing, and removed duplicate profile pill. (3) Full UI, Auth & Tweak Catalog Fixes: Fixed folded sidebar & fullscreen modal hit-testing (WindowChrome.IsHitTestVisibleInChrome), rounded pill button hover overlays, login.html Supabase script collision, Private edition data isolation, P0 AMD thermal protection removal, 13 removed fake/broken tweaks, /QH powercfg detectors, transactional snapshot-before-mutate Undo hardening, and stripped all stale branding & control-char mojibake.",
+    "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.3_Latest.exe",
+    "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.3_Nova_AI_Edition.exe",
     "mandatory": false,
-    "sha256": "46e0d7b30f49273413de86ef33f1174d9e87356381db6193e5c3867ac38dd955",
-    "novaSha256": "8f7f106117e4a9c11e2f241c6a3735584ac9016bb8e15d72faeb74f109520c45"
+    "sha256": "5540c59c46f3568bcf588144c7dbbdb1f00ac41f8acfaeee0386fa9672f3744a",
+    "novaSha256": "8067cdef01e72fa787d8272b5c25a9e46d3798ee0315fdc1055f3ed9ca568eec"
 }
