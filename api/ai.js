@@ -1,4 +1,4 @@
-﻿// Planet Tweaks Universal Cloud AI Endpoint (Vercel Serverless Function)
+// Planet Tweaks Universal Cloud AI Endpoint (Vercel Serverless Function)
 // OmniMend-Style Universal Master Engine - Zero API Key required by end users
 
 export default async function handler(req, res) {
@@ -134,12 +134,12 @@ export default async function handler(req, res) {
         `• Detected GPU: **${gpu || 'Dedicated GPU'}**.\n` +
         `• For Fortnite and competitive titles, use the latest WHQL Game Ready driver with Hardware-Accelerated GPU Scheduling (HAGS) enabled and clean DirectX cache.`;
     } else if (q.includes('ping') || q.includes('delay') || q.includes('latency')) {
-      reply += `⚡ **Zero Delay & Network Tuning**:\n` +
-        `• Apply **Mongraal 0-Ping Pack** in Ultra Pro Tweaks.\n` +
-        `• Set Windows Kernel Timer Resolution to **0.500ms** to eliminate input quantization jitter.`;
+      reply += `⚡ **Low-Latency & Network Tuning**:\n` +
+        `• Review **Network** and **Low Latency** tweaks in Planet Tweaks (such as **Network Throttling Index**, **Win32PrioritySeparation**, and **Native KeyEngine** remapping).\n` +
+        `• Optionally lock Windows Kernel Timer Resolution to **0.500ms** via ChronoBlock if you want finer thread sleep/wait wakeup precision (note: timer resolution affects thread wait precision, not hardware peripheral latency directly).`;
     } else {
       reply += `I analyzed your query: "${prompt}".\n` +
-        `To maximize competitive performance on your rig (${cpu || 'CPU'} + ${gpu || 'GPU'}), run the **Planet AI Deep System Diagnostic** and ensure Timer Resolution is locked to 0.500ms.`;
+        `To inspect and optimize your rig (${cpu || 'CPU'} + ${gpu || 'GPU'}), run the **Planet AI Deep System Diagnostic** and review the Low Latency, GPU, and Network sections.`;
     }
 
     return res.status(200).json({ response: reply, provider: 'planet-cloud-neural' });
