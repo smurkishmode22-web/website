@@ -6,6 +6,6 @@
   "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.5_Latest.exe",
   "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.5_Nova_AI_Edition.exe",
   "mandatory": false,
-  "sha256": "5cce7ba52daccde3433a2b5bde0d7ce33c19bdb274d596f3b0a4836d7a72e5bd",
-  "novaSha256": "c9502557e59fd62a61c6585b8428ef4817e99b2a9abb9a9a08355ec584dbf932"
+  "sha256": "439ba0dd28c1b7959e898d84e8b87269753c5829df37cd1628904af4757f6d8c",
+  "novaSha256": "4cde6b7cadf2c8d9104303c3804687a8a47c33d198cbbf2d9b4017808e9e90a0"
 }

@@ -719,9 +719,10 @@ export default async function handler(req, res) {
         interactionPayload.tools = SERVER_EXECUTE_TOOLS;
       }
 
+      const perModelTimeoutMs = model.startsWith('gemini-4-') ? 16_000 : (model === 'gemini-3.8-flash' ? 14_000 : 12_000);
       try {
         const controller = new AbortController();
-        const timeout = setTimeout(() => controller.abort(), 28_000);
+        const timeout = setTimeout(() => controller.abort(), perModelTimeoutMs);
         const upstreamRes = await fetch(GEMINI_INTERACTIONS_URL, {
           method: 'POST',
           headers: {
