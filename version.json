@@ -1,11 +1,11 @@
 {
-  "version": "3.5.4",
-  "title": "Planet Tweaks V3.5.4 - Native C++20 KeyEngine, Live AMD/NVIDIA GPU & Dynamic CPU Telemetry, Reconnected Supabase Google Sign-In",
-  "releaseDate": "2026-11-23",
-  "releaseNotes": "Planet Tweaks V3.5.4 (2026-11-23): (1) Native C++20 Keyboard Engine (PlanetTweaks.KeyEngine.exe): Zero-GC Win32 WH_KEYBOARD_LL sidecar compiled with pinned Zig 0.17.1, PowerToys-exact wVk+wScan SendInput injection, modifier-to-non-modifier state repair (LAlt->R without stuck Alt/WM_SYSKEYDOWN), gated native recovery ownership (zero split-brain), pause-while-held tombstones, SnapTap foreground-transition cleanup, and automatic managed fallback. (2) Live Hardware Telemetry Overhaul: Pure user-mode AMD ADL2 & NVIDIA NVML GPU temperature providers (Spec Switcher proof, trusted absolute System32/NVSMI DLL paths), 10-sample rolling dynamic CPU thermal zone selector rejecting frozen BIOS zones, non-blocking startup, 1s background PeriodicTimer polling, complete immutable HardwareSnapshot UI binding, and decimal utilization precision. (3) Reconnected Supabase & Google Sign-In: Migrated to live Supabase project with server-side /auth/v1/user token verification, live Privacy Policy & Terms of Service pages, and honest performance copy across app & website.",
-  "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.4_Latest.exe",
-  "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.4_Nova_AI_Edition.exe",
+  "version": "3.5.5",
+  "title": "Planet Tweaks V3.5.5 - Brand-New Planet AI (Gemini 4), Verified Execution Engine & KeyEngine Hook Reliability Fix",
+  "releaseDate": "2026-11-24",
+  "releaseNotes": "Planet Tweaks V3.5.5 (2026-11-24): (1) Ground-Up Planet AI Reboot Powered by Gemini 4 (gemini-4-hydrogen): Deleted the entire legacy multi-name AI tab, removed all silent Ollama auto-downloads, and built a sleek new 2-pane Planet AI workspace with collapsible threads rail, smooth scrolling across all 14 themes, built-in shared cloud Gemini 4 authenticated via your free Planet Tweaks account (zero user API keys), strict read-only Ask Mode, and verified Execute Mode with exact canonical tweak resolution, fail-closed user approval cards, SafetyPolicy enforcement, per-turn cancellation isolation, and 100% honest Windows OS reporting. (2) Native C++20 KeyEngine Hook Reliability Fix: Fixed unmatched VK_LMENU KEYUP events on LAlt->R remaps that could trigger Win32 SC_KEYMENU menu-bar focus traps and drop inputs in Fortnite, added PowerToys DUMMY_KEY (0xFF) + PLNT_SUPPRESS_EXTRA_INFO semantics, guarded against stale physical-key flag poisoning across overlapping LAlt->R + R->U chains, fixed repeat-failure fail-open recovery, and trimmed unmapped keystroke hook overhead. (3) Continuous Audit & Honesty Polish: Replaced non-enabling FilterKeys presets with genuine native Windows SystemParametersInfo repeat calibration (keeping FilterKeys safely OFF), restricted temp cleanup to explicitly disclosed safe cache locations (leaving CrashDumps & Prefetch untouched), updated Settings hook status banner to track both Native KeyEngine and Managed hooks independently, and removed remaining legacy 0ms marketing labels across app and website.",
+  "downloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.5_Latest.exe",
+  "novaDownloadUrl": "https://planettweaks.website/downloads/PlanetTweaks_Setup_v3.5.5_Nova_AI_Edition.exe",
   "mandatory": false,
-  "sha256": "a5099024ff8b47a7c508e0d0714451c5c7b85472da1fa16b5147e1df8693afb6",
-  "novaSha256": "2937f05374d6af1e89388ba9be347532b27c134a5e2b4ee564f52a4cac76e65c"
+  "sha256": "5cce7ba52daccde3433a2b5bde0d7ce33c19bdb274d596f3b0a4836d7a72e5bd",
+  "novaSha256": "c9502557e59fd62a61c6585b8428ef4817e99b2a9abb9a9a08355ec584dbf932"
 }
