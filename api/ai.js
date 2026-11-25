@@ -16,7 +16,7 @@ const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBh
 const GEMINI_INTERACTIONS_URL = 'https://generativelanguage.googleapis.com/v1beta/interactions';
 
 // Free-Tier ($0) verified stable models ONLY — never allow callers to pick paid or deprecated models
-const MODEL_CANDIDATES = ['gemini-4-hydrogen', 'gemini-3.5-flash-lite'];
+const MODEL_CANDIDATES = ['gemini-4-hydrogen', 'gemini-3.8-flash', 'gemini-3.5-flash-lite'];
 const MAX_BODY_BYTES = 64 * 1024;
 const MAX_STEPS = 24;
 const MAX_USER_TEXT_CHARS = 4000;
@@ -618,7 +618,8 @@ export default async function handler(req, res) {
       rateLimitStoreHealthy: sharedRedis ? sharedHealthy : false,
       sharedRateLimitRequired: isSharedRateLimitRequired(),
       primaryModel: MODEL_CANDIDATES[0],
-      fallbackModel: MODEL_CANDIDATES[1],
+      fallbackModels: MODEL_CANDIDATES.slice(1),
+      fallbackModel: MODEL_CANDIDATES[MODEL_CANDIDATES.length - 1],
       configured: apiKey.length >= 15,
       modes: ['ask', 'execute'],
       toolCount: SERVER_EXECUTE_TOOLS.length
@@ -694,16 +695,23 @@ export default async function handler(req, res) {
     const systemInstruction = (mode === 'execute' ? EXECUTE_SYSTEM_INSTRUCTION : ASK_SYSTEM_INSTRUCTION) + hardwareContext;
 
     let lastStatus = 502;
+    const modelAttempts = [];
     for (const model of MODEL_CANDIDATES) {
+      const generationConfig = {
+        temperature: mode === 'execute' ? 0.25 : 0.65,
+        max_output_tokens: MAX_OUTPUT_TOKENS
+      };
+      // Gemini 4 Hydrogen & 3.8 Flash default to high/medium thinking; use 'low' for fast responsive gaming chat & tool calls
+      if (model.startsWith('gemini-4-') || model === 'gemini-3.8-flash') {
+        generationConfig.thinking_level = 'low';
+      }
+
       const interactionPayload = {
         model,
         system_instruction: systemInstruction,
         input: steps,
         store: false,
-        generation_config: {
-          temperature: mode === 'execute' ? 0.25 : 0.65,
-          max_output_tokens: MAX_OUTPUT_TOKENS
-        }
+        generation_config: generationConfig
       };
 
       // Server strictly controls tools: ZERO tools in Ask Mode, fixed canonical registry in Execute Mode
@@ -718,26 +726,31 @@ export default async function handler(req, res) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'x-goog-api-key': apiKey
+            'x-goog-api-key': apiKey,
+            'Api-Revision': '2026-05-20'
           },
           body: JSON.stringify(interactionPayload),
           signal: controller.signal
         });
         clearTimeout(timeout);
 
+        modelAttempts.push({ model, status: upstreamRes.status });
+
         if (upstreamRes.ok) {
           const data = await upstreamRes.json();
           const normalized = parseInteractionResponse(data, mode, model);
+          normalized.modelAttempts = modelAttempts;
           return res.status(200).json(normalized);
         }
 
         lastStatus = upstreamRes.status;
-        // Fallback to secondary free model on quota/capacity/not-found
-        if (upstreamRes.status === 429 || upstreamRes.status === 503 || upstreamRes.status === 500 || upstreamRes.status === 404) {
+        // Fallback to next free-tier model on quota/capacity/not-found/permission
+        if (upstreamRes.status === 429 || upstreamRes.status === 503 || upstreamRes.status === 500 || upstreamRes.status === 404 || upstreamRes.status === 403) {
           continue;
         }
         break;
       } catch {
+        modelAttempts.push({ model, status: 504 });
         lastStatus = 504;
       }
     }
