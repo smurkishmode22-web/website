@@ -1,5 +1,5 @@
 /**
- * PLANET TWEAKS - v3.5.5 WEBSITE INTERACTIVITY
+ * PLANET TWEAKS - v3.5.6 WEBSITE INTERACTIVITY
  */
 
 // 1. Game FPS & Latency Benchmark Data
@@ -229,23 +229,19 @@ function toggleFaq(button) {
 }
 
 // 6. Download Modal & Dynamic Download Trigger
-let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.5.5_Latest.exe';
-let currentNovaDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.5.5_Nova_AI_Edition.exe';
+let currentDownloadUrl = 'downloads/PlanetTweaks_Setup_v3.5.6_Latest.exe';
 
 // Automatically sync download URL with version.json (cache-busted to prevent stale cached versions)
 if (typeof fetch === 'function') {
     fetch('version.json?_t=' + Date.now())
         .then(res => res.json())
         .then(data => {
-            if (data) {
-                if (data.downloadUrl) currentDownloadUrl = data.downloadUrl;
-                if (data.novaDownloadUrl) currentNovaDownloadUrl = data.novaDownloadUrl;
+            if (data && data.downloadUrl) {
+                currentDownloadUrl = data.downloadUrl;
                 const mainBtn = document.getElementById('mainDownloadBtn');
                 if (mainBtn) mainBtn.href = currentDownloadUrl;
                 const classicBtn = document.getElementById('modalClassicBtn');
                 if (classicBtn) classicBtn.href = currentDownloadUrl;
-                const novaBtn = document.getElementById('modalNovaBtn');
-                if (novaBtn) novaBtn.href = currentNovaDownloadUrl;
             }
         })
         .catch(() => {});
@@ -269,21 +265,7 @@ function onDownloadClicked(event) {
     if (event) event.preventDefault();
     const link = document.createElement('a');
     link.href = currentDownloadUrl;
-    link.setAttribute('download', currentDownloadUrl.split('/').pop() || 'planet-tweaks-setup.exe');
-    link.setAttribute('target', '_self');
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    setTimeout(() => {
-        closeDownloadModal();
-    }, 1500);
-}
-
-function onDownloadNovaClicked(event) {
-    if (event) event.preventDefault();
-    const link = document.createElement('a');
-    link.href = currentNovaDownloadUrl;
-    link.setAttribute('download', currentNovaDownloadUrl.split('/').pop() || 'planet-tweaks-nova-setup.exe');
+    link.setAttribute('download', currentDownloadUrl.split('/').pop() || 'PlanetTweaks_Setup_v3.5.6_Latest.exe');
     link.setAttribute('target', '_self');
     document.body.appendChild(link);
     link.click();
@@ -1119,7 +1101,7 @@ const legalTexts = {
     `,
     refund: `
         <h4>1. 100% Free Core Software</h4>
-        <p>Planet Tweaks Classic and Planet Tweaks Nova AI editions are distributed 100% free of charge. No payment details, credit cards, or subscription commitments are required to download and access all 275+ tweaks, DNS optimizations, and latency tools.</p>
+        <p>Planet Tweaks is distributed 100% free of charge. No payment details, credit cards, or subscription commitments are required to download and access all 280+ tweaks, DNS optimizations, Planet AI, and latency tools.</p>
 
         <h4>2. Optional Donations & VIP Passes</h4>
         <p>If you choose to voluntarily support the Planet Tweaks development team through donations, server boosts, or community VIP perks:</p>
@@ -1133,7 +1115,7 @@ const legalTexts = {
         <p>Our website utilizes local storage and minimal session cookies to enhance your browsing experience:</p>
         <ul>
             <li><strong>Essential Session Storage:</strong> Stores your cyber audio mute/unmute state, theme mode, and cookie banner consent choice.</li>
-            <li><strong>Download Preference:</strong> Remembers your preferred edition (Classic vs Nova AI Edition) for faster future visits.</li>
+            <li><strong>Interface Preferences:</strong> Remembers your sound effect toggle and site layout preferences for faster future visits.</li>
             <li><strong>Zero Third-Party Advertising:</strong> We do not deploy Facebook Pixel, Google AdSense, or invasive tracking beacons.</li>
         </ul>
 
